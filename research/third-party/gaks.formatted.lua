@@ -1,0 +1,6757 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+
+]] --
+
+local v0 = {}
+v0["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"))
+v0["1"]["Name"] = [[noufipopaz]]
+v0["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
+v0["1"]["ResetOnSpawn"] = false
+v0["2"] = Instance.new("Frame", v0["1"])
+v0["2"]["ZIndex"] = 3
+v0["2"]["BorderSizePixel"] = 2
+v0["2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["2"]["Size"] = UDim2.new(0.34972, 0, 0.43945, 0)
+v0["2"]["Position"] = UDim2.new(0.32823, 0, 0.29713, 0)
+v0["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["2"]["Name"] = [[LoadingHolder]]
+v0["3"] = Instance.new("LocalScript", v0["2"])
+v0["4"] = Instance.new("TextLabel", v0["2"])
+v0["4"]["TextWrapped"] = true
+v0["4"]["BorderSizePixel"] = 0
+v0["4"]["TextSize"] = 14
+v0["4"]["TextScaled"] = true
+v0["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["4"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["4"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["4"]["BackgroundTransparency"] = 1
+v0["4"]["Size"] = UDim2.new(0.3027, 0, 0.09091, 0)
+v0["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["4"]["Text"] = [[Gui Is Loading]]
+v0["4"]["Name"] = [[Text]]
+v0["4"]["Position"] = UDim2.new(0.34464, 0, 0.45344, 0)
+v0["5"] = Instance.new("LocalScript", v0["4"])
+v0["6"] = Instance.new("TextLabel", v0["2"])
+v0["6"]["TextWrapped"] = true
+v0["6"]["BorderSizePixel"] = 0
+v0["6"]["TextSize"] = 14
+v0["6"]["TextScaled"] = true
+v0["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["6"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["6"]["BackgroundTransparency"] = 1
+v0["6"]["Size"] = UDim2.new(0.35856, 0, 0.06818, 0)
+v0["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["6"]["Text"] = [[Please wait.]]
+v0["6"]["Name"] = [[Text]]
+v0["6"]["Position"] = UDim2.new(0.31729, 0, 0.56292, 0)
+v0["7"] = Instance.new("LocalScript", v0["6"])
+v0["8"] = Instance.new("LocalScript", v0["6"])
+v0["9"] = Instance.new("UIGradient", v0["2"])
+v0["9"]["Color"] =
+    ColorSequence.new(
+    {
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(14, 14, 14)),
+        ColorSequenceKeypoint.new(0.498, Color3.fromRGB(23, 23, 23)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(14, 14, 14))
+    }
+)
+v0["a"] = Instance.new("TextLabel", v0["2"])
+v0["a"]["TextWrapped"] = true
+v0["a"]["TextStrokeTransparency"] = 0
+v0["a"]["BorderSizePixel"] = 0
+v0["a"]["TextSize"] = 14
+v0["a"]["TextScaled"] = true
+v0["a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["a"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["a"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["a"]["BackgroundTransparency"] = 1
+v0["a"]["Size"] = UDim2.new(0.84675, 0, 0.09706, 0)
+v0["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["a"]["Text"] = [[Giant Simulator Reborn Hub 2.0]]
+v0["a"]["Position"] = UDim2.new(0.0757, 0, 0, 0)
+v0["b"] = Instance.new("TextLabel", v0["2"])
+v0["b"]["TextWrapped"] = true
+v0["b"]["BorderSizePixel"] = 0
+v0["b"]["TextSize"] = 14
+v0["b"]["TextXAlignment"] = Enum.TextXAlignment.Right
+v0["b"]["TextScaled"] = true
+v0["b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["b"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["b"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["b"]["BackgroundTransparency"] = 1
+v0["b"]["Size"] = UDim2.new(0.49077, 0, 0.06818, 0)
+v0["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["b"]["Text"] = [[Made By GaksP0wer]]
+v0["b"]["Name"] = [[Text]]
+v0["b"]["Position"] = UDim2.new(0.50923, 0, 0.9313, 0)
+v0["c"] = Instance.new("LocalScript", v0["b"])
+v0["d"] = Instance.new("Frame", v0["1"])
+v0["d"]["Visible"] = false
+v0["d"]["BorderSizePixel"] = 0
+v0["d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+v0["d"]["Size"] = UDim2.new(0, 556, 0, 43)
+v0["d"]["Position"] = UDim2.new(0, 522, 0, 237)
+v0["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["e"] = Instance.new("LocalScript", v0["d"])
+v0["e"]["Sandboxed"] = true
+v0["e"]["Name"] = [[DragScript]]
+v0["f"] = Instance.new("Frame", v0["d"])
+v0["f"]["Visible"] = false
+v0["f"]["BorderSizePixel"] = 0
+v0["f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["f"]["Size"] = UDim2.new(0, 556, 0, 317)
+v0["f"]["Position"] = UDim2.new(0, 0, 0.89, 0)
+v0["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["f"]["Name"] = [[lol]]
+v0["10"] = Instance.new("LocalScript", v0["f"])
+v0["11"] = Instance.new("UIGradient", v0["f"])
+v0["11"]["Color"] =
+    ColorSequence.new(
+    {
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(14, 14, 14)),
+        ColorSequenceKeypoint.new(0.498, Color3.fromRGB(23, 23, 23)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(14, 14, 14))
+    }
+)
+v0["12"] = Instance.new("ScrollingFrame", v0["f"])
+v0["12"]["Active"] = true
+v0["12"]["BorderSizePixel"] = 2
+v0["12"]["CanvasSize"] = UDim2.new(0, 0, 4, 0)
+v0["12"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["12"]["Size"] = UDim2.new(0, 457, 0, 293)
+v0["12"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0)
+v0["12"]["Position"] = UDim2.new(0.16007, 0, 0.04101, 0)
+v0["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["12"]["ScrollBarThickness"] = 3
+v0["13"] = Instance.new("UIGradient", v0["12"])
+v0["13"]["Color"] =
+    ColorSequence.new(
+    {
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(22, 22, 22)),
+        ColorSequenceKeypoint.new(0.498, Color3.fromRGB(0, 0, 0)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(22, 22, 22))
+    }
+)
+v0["14"] = Instance.new("TextButton", v0["12"])
+v0["14"]["TextStrokeTransparency"] = 0
+v0["14"]["BorderSizePixel"] = 2
+v0["14"]["TextSize"] = 14
+v0["14"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["14"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["14"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["14"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["14"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["14"]["Position"] = UDim2.new(0.80075, 0, 0.26008, 0)
+v0["15"] = Instance.new("LocalScript", v0["14"])
+v0["16"] = Instance.new("LocalScript", v0["14"])
+v0["16"]["Name"] = [[a]]
+v0["17"] = Instance.new("LocalScript", v0["14"])
+v0["17"]["Name"] = [[b]]
+v0["18"] = Instance.new("TextLabel", v0["12"])
+v0["18"]["TextWrapped"] = true
+v0["18"]["TextStrokeTransparency"] = 0
+v0["18"]["BorderSizePixel"] = 2
+v0["18"]["TextSize"] = 14
+v0["18"]["TextScaled"] = true
+v0["18"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["18"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["18"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["18"]["BackgroundTransparency"] = 0.4
+v0["18"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["18"]["Text"] = [[Auto Farm Event Cash]]
+v0["18"]["Position"] = UDim2.new(0.02188, 0, 0.03391, 0)
+v0["19"] = Instance.new("TextButton", v0["12"])
+v0["19"]["TextStrokeTransparency"] = 0
+v0["19"]["BorderSizePixel"] = 2
+v0["19"]["TextSize"] = 14
+v0["19"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["19"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["19"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["19"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["19"]["Position"] = UDim2.new(0.80075, 0, 0.29908, 0)
+v0["1a"] = Instance.new("LocalScript", v0["19"])
+v0["1b"] = Instance.new("LocalScript", v0["19"])
+v0["1b"]["Name"] = [[a]]
+v0["1c"] = Instance.new("LocalScript", v0["19"])
+v0["1c"]["Name"] = [[b]]
+v0["1d"] = Instance.new("TextLabel", v0["12"])
+v0["1d"]["TextWrapped"] = true
+v0["1d"]["TextStrokeTransparency"] = 0
+v0["1d"]["BorderSizePixel"] = 2
+v0["1d"]["TextSize"] = 14
+v0["1d"]["TextScaled"] = true
+v0["1d"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["1d"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["1d"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["1d"]["BackgroundTransparency"] = 0.4
+v0["1d"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["1d"]["Text"] = [[Auto XP (OP)]]
+v0["1d"]["Position"] = UDim2.new(0.02156, 0, 0.07282, 0)
+v0["1e"] = Instance.new("TextButton", v0["12"])
+v0["1e"]["TextStrokeTransparency"] = 0
+v0["1e"]["BorderSizePixel"] = 2
+v0["1e"]["TextSize"] = 14
+v0["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["1e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["1e"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["1e"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["1e"]["Position"] = UDim2.new(0.801, 0, 0.494, 0)
+v0["1f"] = Instance.new("LocalScript", v0["1e"])
+v0["1f"]["Name"] = [[a]]
+v0["20"] = Instance.new("LocalScript", v0["1e"])
+v0["20"]["Name"] = [[b]]
+v0["21"] = Instance.new("LocalScript", v0["1e"])
+v0["22"] = Instance.new("TextLabel", v0["12"])
+v0["22"]["TextWrapped"] = true
+v0["22"]["TextStrokeTransparency"] = 0
+v0["22"]["BorderSizePixel"] = 2
+v0["22"]["TextSize"] = 14
+v0["22"]["TextScaled"] = true
+v0["22"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["22"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["22"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["22"]["BackgroundTransparency"] = 0.4
+v0["22"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["22"]["Text"] = [[On Development]]
+v0["22"]["Position"] = UDim2.new(0.013, 0, 0.893, 0)
+v0["23"] = Instance.new("TextLabel", v0["12"])
+v0["23"]["TextWrapped"] = true
+v0["23"]["TextStrokeTransparency"] = 0
+v0["23"]["BorderSizePixel"] = 2
+v0["23"]["TextSize"] = 14
+v0["23"]["TextScaled"] = true
+v0["23"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["23"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["23"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["23"]["BackgroundTransparency"] = 0.4
+v0["23"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["23"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["23"]["Text"] = [[Auto Open Crates]]
+v0["23"]["Position"] = UDim2.new(0.02375, 0, 0.26008, 0)
+v0["24"] = Instance.new("TextButton", v0["12"])
+v0["24"]["TextStrokeTransparency"] = 0
+v0["24"]["BorderSizePixel"] = 2
+v0["24"]["TextSize"] = 14
+v0["24"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["24"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["24"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["24"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["24"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["24"]["Position"] = UDim2.new(0.801, 0, 0.533, 0)
+v0["25"] = Instance.new("LocalScript", v0["24"])
+v0["25"]["Name"] = [[a]]
+v0["26"] = Instance.new("LocalScript", v0["24"])
+v0["26"]["Name"] = [[b]]
+v0["27"] = Instance.new("LocalScript", v0["24"])
+v0["28"] = Instance.new("TextLabel", v0["12"])
+v0["28"]["TextWrapped"] = true
+v0["28"]["TextStrokeTransparency"] = 0
+v0["28"]["BorderSizePixel"] = 2
+v0["28"]["TextSize"] = 14
+v0["28"]["TextScaled"] = true
+v0["28"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["28"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["28"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["28"]["BackgroundTransparency"] = 0.4
+v0["28"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["28"]["Text"] = [[Auto Sell Basic Crates]]
+v0["28"]["Position"] = UDim2.new(0.02175, 0, 0.29908, 0)
+v0["29"] = Instance.new("TextLabel", v0["12"])
+v0["29"]["TextWrapped"] = true
+v0["29"]["TextStrokeTransparency"] = 0
+v0["29"]["BorderSizePixel"] = 2
+v0["29"]["TextSize"] = 14
+v0["29"]["TextScaled"] = true
+v0["29"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["29"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["29"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["29"]["BackgroundTransparency"] = 0.4
+v0["29"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["29"]["Text"] = [[Auto Open Mythic Pet]]
+v0["29"]["Position"] = UDim2.new(0.022, 0, 0.572, 0)
+v0["2a"] = Instance.new("TextLabel", v0["12"])
+v0["2a"]["TextWrapped"] = true
+v0["2a"]["TextStrokeTransparency"] = 0
+v0["2a"]["BorderSizePixel"] = 2
+v0["2a"]["TextSize"] = 14
+v0["2a"]["TextScaled"] = true
+v0["2a"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["2a"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["2a"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["2a"]["BackgroundTransparency"] = 0.4
+v0["2a"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["2a"]["Text"] = [[Auto Open Event Pet]]
+v0["2a"]["Position"] = UDim2.new(0.02375, 0, 0.33808, 0)
+v0["2b"] = Instance.new("TextButton", v0["12"])
+v0["2b"]["TextStrokeTransparency"] = 0
+v0["2b"]["BorderSizePixel"] = 2
+v0["2b"]["TextSize"] = 14
+v0["2b"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["2b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["2b"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["2b"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["2b"]["Position"] = UDim2.new(0.80075, 0, 0.37708, 0)
+v0["2c"] = Instance.new("LocalScript", v0["2b"])
+v0["2c"]["Name"] = [[a]]
+v0["2d"] = Instance.new("LocalScript", v0["2b"])
+v0["2d"]["Name"] = [[b]]
+v0["2e"] = Instance.new("LocalScript", v0["2b"])
+v0["2f"] = Instance.new("TextLabel", v0["12"])
+v0["2f"]["TextWrapped"] = true
+v0["2f"]["TextStrokeTransparency"] = 0
+v0["2f"]["BorderSizePixel"] = 2
+v0["2f"]["TextSize"] = 14
+v0["2f"]["TextScaled"] = true
+v0["2f"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["2f"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["2f"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["2f"]["BackgroundTransparency"] = 0.4
+v0["2f"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["2f"]["Text"] = [[Auto Open Legendary Weapon]]
+v0["2f"]["Position"] = UDim2.new(0.02375, 0, 0.37708, 0)
+v0["30"] = Instance.new("TextButton", v0["12"])
+v0["30"]["TextStrokeTransparency"] = 0
+v0["30"]["BorderSizePixel"] = 2
+v0["30"]["TextSize"] = 14
+v0["30"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["30"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["30"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["30"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["30"]["Position"] = UDim2.new(0.80075, 0, 0.41608, 0)
+v0["31"] = Instance.new("LocalScript", v0["30"])
+v0["32"] = Instance.new("LocalScript", v0["30"])
+v0["32"]["Name"] = [[a]]
+v0["33"] = Instance.new("LocalScript", v0["30"])
+v0["33"]["Name"] = [[b]]
+v0["34"] = Instance.new("TextLabel", v0["12"])
+v0["34"]["TextWrapped"] = true
+v0["34"]["TextStrokeTransparency"] = 0
+v0["34"]["BorderSizePixel"] = 2
+v0["34"]["TextSize"] = 14
+v0["34"]["TextScaled"] = true
+v0["34"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["34"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["34"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["34"]["BackgroundTransparency"] = 0.4
+v0["34"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["34"]["Text"] = [[Auto Open Legendary Skin]]
+v0["34"]["Position"] = UDim2.new(0.02375, 0, 0.41608, 0)
+v0["35"] = Instance.new("TextLabel", v0["12"])
+v0["35"]["TextWrapped"] = true
+v0["35"]["TextStrokeTransparency"] = 0
+v0["35"]["BorderSizePixel"] = 2
+v0["35"]["TextSize"] = 14
+v0["35"]["TextScaled"] = true
+v0["35"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["35"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["35"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["35"]["BackgroundTransparency"] = 0.4
+v0["35"]["Size"] = UDim2.new(0, 211, 0, 36)
+v0["35"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["35"]["Text"] = [[Auto Rebirth]]
+v0["35"]["Position"] = UDim2.new(0.015, 0, 0.815, 0)
+v0["36"] = Instance.new("TextButton", v0["12"])
+v0["36"]["TextStrokeTransparency"] = 0
+v0["36"]["BorderSizePixel"] = 2
+v0["36"]["TextSize"] = 14
+v0["36"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["36"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["36"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["36"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["36"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["36"]["Text"] = [[Closed]]
+v0["36"]["Name"] = [[rebi]]
+v0["36"]["Position"] = UDim2.new(0.783, 0, 0.815, 0)
+v0["37"] = Instance.new("LocalScript", v0["36"])
+v0["38"] = Instance.new("LocalScript", v0["36"])
+v0["38"]["Name"] = [[a]]
+v0["39"] = Instance.new("LocalScript", v0["36"])
+v0["39"]["Name"] = [[b]]
+v0["3a"] = Instance.new("TextBox", v0["12"])
+v0["3a"]["TextStrokeTransparency"] = 0
+v0["3a"]["Name"] = [[rebir]]
+v0["3a"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255)
+v0["3a"]["BorderSizePixel"] = 2
+v0["3a"]["TextWrapped"] = true
+v0["3a"]["TextSize"] = 14
+v0["3a"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["3a"]["TextScaled"] = true
+v0["3a"]["BackgroundColor3"] = Color3.fromRGB(113, 113, 113)
+v0["3a"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["3a"]["PlaceholderText"] = [[Level To Rebirth]]
+v0["3a"]["Size"] = UDim2.new(0, 123, 0, 36)
+v0["3a"]["Position"] = UDim2.new(0.498, 0, 0.815, 0)
+v0["3a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["3a"]["Text"] = [[]]
+v0["3a"]["BackgroundTransparency"] = 0.5
+v0["3b"] = Instance.new("TextButton", v0["12"])
+v0["3b"]["TextStrokeTransparency"] = 0
+v0["3b"]["BorderSizePixel"] = 2
+v0["3b"]["TextSize"] = 14
+v0["3b"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["3b"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["3b"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["3b"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["3b"]["Text"] = [[Closed]]
+v0["3b"]["Name"] = [[rebi]]
+v0["3b"]["Position"] = UDim2.new(0.792, 0, 0.112, 0)
+v0["3c"] = Instance.new("LocalScript", v0["3b"])
+v0["3c"]["Name"] = [[a]]
+v0["3d"] = Instance.new("LocalScript", v0["3b"])
+v0["3d"]["Name"] = [[b]]
+v0["3e"] = Instance.new("LocalScript", v0["3b"])
+v0["3f"] = Instance.new("TextLabel", v0["12"])
+v0["3f"]["TextWrapped"] = true
+v0["3f"]["TextStrokeTransparency"] = 0
+v0["3f"]["BorderSizePixel"] = 2
+v0["3f"]["TextSize"] = 14
+v0["3f"]["TextScaled"] = true
+v0["3f"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["3f"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["3f"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["3f"]["BackgroundTransparency"] = 0.4
+v0["3f"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["3f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["3f"]["Text"] = [[Auto Quest (On Development)]]
+v0["3f"]["Position"] = UDim2.new(0.01981, 0, 0.11232, 0)
+v0["40"] = Instance.new("TextLabel", v0["12"])
+v0["40"]["TextWrapped"] = true
+v0["40"]["TextStrokeTransparency"] = 0
+v0["40"]["BorderSizePixel"] = 0
+v0["40"]["TextSize"] = 14
+v0["40"]["TextScaled"] = true
+v0["40"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["40"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["40"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["40"]["BackgroundTransparency"] = 1
+v0["40"]["Size"] = UDim2.new(0, 379, 0, 35)
+v0["40"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["40"]["Text"] = [[Farm]]
+v0["40"]["Position"] = UDim2.new(0.08534, 0, 0.00079, 0)
+v0["41"] = Instance.new("TextLabel", v0["12"])
+v0["41"]["TextWrapped"] = true
+v0["41"]["TextStrokeTransparency"] = 0
+v0["41"]["BorderSizePixel"] = 0
+v0["41"]["TextSize"] = 14
+v0["41"]["TextScaled"] = true
+v0["41"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["41"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["41"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["41"]["BackgroundTransparency"] = 1
+v0["41"]["Size"] = UDim2.new(0, 379, 0, 35)
+v0["41"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["41"]["Text"] = [[Crates]]
+v0["41"]["Position"] = UDim2.new(0.09409, 0, 0.22555, 0)
+v0["42"] = Instance.new("TextLabel", v0["12"])
+v0["42"]["TextWrapped"] = true
+v0["42"]["TextStrokeTransparency"] = 0
+v0["42"]["BorderSizePixel"] = 0
+v0["42"]["TextSize"] = 14
+v0["42"]["TextScaled"] = true
+v0["42"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["42"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["42"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["42"]["BackgroundTransparency"] = 1
+v0["42"]["Size"] = UDim2.new(0, 379, 0, 35)
+v0["42"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["42"]["Text"] = [[Auto Sell]]
+v0["42"]["Position"] = UDim2.new(0.077, 0, 0.601, 0)
+v0["43"] = Instance.new("TextLabel", v0["12"])
+v0["43"]["TextWrapped"] = true
+v0["43"]["TextStrokeTransparency"] = 0
+v0["43"]["BorderSizePixel"] = 2
+v0["43"]["TextSize"] = 14
+v0["43"]["TextScaled"] = true
+v0["43"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["43"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["43"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["43"]["BackgroundTransparency"] = 0.4
+v0["43"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["43"]["Text"] = [[On Development]]
+v0["43"]["Position"] = UDim2.new(0.01281, 0, 0.67002, 0)
+v0["44"] = Instance.new("TextLabel", v0["12"])
+v0["44"]["TextWrapped"] = true
+v0["44"]["TextStrokeTransparency"] = 0
+v0["44"]["BorderSizePixel"] = 2
+v0["44"]["TextSize"] = 14
+v0["44"]["TextScaled"] = true
+v0["44"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["44"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["44"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["44"]["BackgroundTransparency"] = 0.4
+v0["44"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["44"]["Text"] = [[On Development]]
+v0["44"]["Position"] = UDim2.new(0.01325, 0, 0.70856, 0)
+v0["45"] = Instance.new("TextLabel", v0["12"])
+v0["45"]["TextWrapped"] = true
+v0["45"]["TextStrokeTransparency"] = 0
+v0["45"]["BorderSizePixel"] = 2
+v0["45"]["TextSize"] = 14
+v0["45"]["TextScaled"] = true
+v0["45"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["45"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["45"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["45"]["BackgroundTransparency"] = 0.4
+v0["45"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["45"]["Text"] = [[On Development]]
+v0["45"]["Position"] = UDim2.new(0.01325, 0, 0.74756, 0)
+v0["46"] = Instance.new("TextLabel", v0["12"])
+v0["46"]["TextWrapped"] = true
+v0["46"]["TextStrokeTransparency"] = 0
+v0["46"]["BorderSizePixel"] = 2
+v0["46"]["TextSize"] = 14
+v0["46"]["TextScaled"] = true
+v0["46"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["46"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["46"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["46"]["BackgroundTransparency"] = 0.4
+v0["46"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["46"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["46"]["Text"] = [[On Development]]
+v0["46"]["Position"] = UDim2.new(0.013, 0, 0.971, 0)
+v0["47"] = Instance.new("TextButton", v0["12"])
+v0["47"]["TextStrokeTransparency"] = 0
+v0["47"]["BorderSizePixel"] = 2
+v0["47"]["TextSize"] = 14
+v0["47"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["47"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["47"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["47"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["47"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["47"]["Name"] = [[rare]]
+v0["47"]["Position"] = UDim2.new(0.78325, 0, 0.66992, 0)
+v0["48"] = Instance.new("LocalScript", v0["47"])
+v0["48"]["Name"] = [[a]]
+v0["49"] = Instance.new("LocalScript", v0["47"])
+v0["49"]["Name"] = [[b]]
+v0["4a"] = Instance.new("LocalScript", v0["47"])
+v0["4b"] = Instance.new("TextButton", v0["12"])
+v0["4b"]["TextStrokeTransparency"] = 0
+v0["4b"]["BorderSizePixel"] = 2
+v0["4b"]["TextSize"] = 14
+v0["4b"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["4b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["4b"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["4b"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["4b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["4b"]["Name"] = [[epic]]
+v0["4b"]["Position"] = UDim2.new(0.78325, 0, 0.70892, 0)
+v0["4c"] = Instance.new("LocalScript", v0["4b"])
+v0["4c"]["Name"] = [[a]]
+v0["4d"] = Instance.new("LocalScript", v0["4b"])
+v0["4d"]["Name"] = [[b]]
+v0["4e"] = Instance.new("LocalScript", v0["4b"])
+v0["4f"] = Instance.new("TextButton", v0["12"])
+v0["4f"]["TextStrokeTransparency"] = 0
+v0["4f"]["BorderSizePixel"] = 2
+v0["4f"]["TextSize"] = 14
+v0["4f"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["4f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["4f"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["4f"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["4f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["4f"]["Name"] = [[legendary]]
+v0["4f"]["Position"] = UDim2.new(0.78325, 0, 0.74792, 0)
+v0["50"] = Instance.new("LocalScript", v0["4f"])
+v0["50"]["Name"] = [[a]]
+v0["51"] = Instance.new("LocalScript", v0["4f"])
+v0["51"]["Name"] = [[b]]
+v0["52"] = Instance.new("LocalScript", v0["4f"])
+v0["53"] = Instance.new("TextLabel", v0["12"])
+v0["53"]["TextWrapped"] = true
+v0["53"]["TextStrokeTransparency"] = 0
+v0["53"]["BorderSizePixel"] = 2
+v0["53"]["TextSize"] = 14
+v0["53"]["TextScaled"] = true
+v0["53"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["53"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["53"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["53"]["BackgroundTransparency"] = 0.4
+v0["53"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["53"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["53"]["Text"] = [[On Development]]
+v0["53"]["Position"] = UDim2.new(0.01325, 0, 0.63092, 0)
+v0["54"] = Instance.new("TextButton", v0["12"])
+v0["54"]["TextStrokeTransparency"] = 0
+v0["54"]["BorderSizePixel"] = 2
+v0["54"]["TextSize"] = 14
+v0["54"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["54"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["54"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["54"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["54"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["54"]["Name"] = [[common]]
+v0["54"]["Position"] = UDim2.new(0.78325, 0, 0.63127, 0)
+v0["55"] = Instance.new("LocalScript", v0["54"])
+v0["55"]["Name"] = [[a]]
+v0["56"] = Instance.new("LocalScript", v0["54"])
+v0["56"]["Name"] = [[b]]
+v0["57"] = Instance.new("LocalScript", v0["54"])
+v0["58"] = Instance.new("TextLabel", v0["12"])
+v0["58"]["TextWrapped"] = true
+v0["58"]["TextStrokeTransparency"] = 0
+v0["58"]["BorderSizePixel"] = 2
+v0["58"]["TextSize"] = 14
+v0["58"]["TextScaled"] = true
+v0["58"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["58"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["58"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["58"]["BackgroundTransparency"] = 0.4
+v0["58"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["58"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["58"]["Text"] = [[Auto Open Event Artifact]]
+v0["58"]["Position"] = UDim2.new(0.01975, 0, 0.45508, 0)
+v0["59"] = Instance.new("TextButton", v0["12"])
+v0["59"]["TextStrokeTransparency"] = 0
+v0["59"]["BorderSizePixel"] = 2
+v0["59"]["TextSize"] = 14
+v0["59"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["59"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["59"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["59"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["59"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["59"]["Position"] = UDim2.new(0.80075, 0, 0.45508, 0)
+v0["5a"] = Instance.new("LocalScript", v0["59"])
+v0["5b"] = Instance.new("LocalScript", v0["59"])
+v0["5b"]["Name"] = [[a]]
+v0["5c"] = Instance.new("LocalScript", v0["59"])
+v0["5c"]["Name"] = [[b]]
+v0["5d"] = Instance.new("TextLabel", v0["12"])
+v0["5d"]["TextWrapped"] = true
+v0["5d"]["TextStrokeTransparency"] = 0
+v0["5d"]["BorderSizePixel"] = 2
+v0["5d"]["TextSize"] = 14
+v0["5d"]["TextScaled"] = true
+v0["5d"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["5d"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["5d"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["5d"]["BackgroundTransparency"] = 0.4
+v0["5d"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["5d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["5d"]["Text"] = [[Auto Mine Race]]
+v0["5d"]["Position"] = UDim2.new(0.018, 0, 0.151, 0)
+v0["5e"] = Instance.new("TextButton", v0["12"])
+v0["5e"]["TextStrokeTransparency"] = 0
+v0["5e"]["BorderSizePixel"] = 2
+v0["5e"]["TextSize"] = 14
+v0["5e"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["5e"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["5e"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["5e"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["5e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["5e"]["Text"] = [[Closed]]
+v0["5e"]["Name"] = [[rebi]]
+v0["5e"]["Position"] = UDim2.new(0.792, 0, 0.151, 0)
+v0["5f"] = Instance.new("LocalScript", v0["5e"])
+v0["5f"]["Name"] = [[a]]
+v0["60"] = Instance.new("LocalScript", v0["5e"])
+v0["60"]["Name"] = [[b]]
+v0["61"] = Instance.new("LocalScript", v0["5e"])
+v0["62"] = Instance.new("TextLabel", v0["12"])
+v0["62"]["TextWrapped"] = true
+v0["62"]["TextStrokeTransparency"] = 0
+v0["62"]["BorderSizePixel"] = 2
+v0["62"]["TextSize"] = 14
+v0["62"]["TextScaled"] = true
+v0["62"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["62"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["62"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["62"]["BackgroundTransparency"] = 0.4
+v0["62"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["62"]["Text"] = [[Auto Goal (Dont Move)]]
+v0["62"]["Position"] = UDim2.new(0.018, 0, 0.19, 0)
+v0["63"] = Instance.new("TextButton", v0["12"])
+v0["63"]["TextStrokeTransparency"] = 0
+v0["63"]["BorderSizePixel"] = 2
+v0["63"]["TextSize"] = 14
+v0["63"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["63"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["63"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["63"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["63"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["63"]["Text"] = [[Closed]]
+v0["63"]["Name"] = [[rebi]]
+v0["63"]["Position"] = UDim2.new(0.792, 0, 0.19, 0)
+v0["64"] = Instance.new("LocalScript", v0["63"])
+v0["64"]["Name"] = [[a]]
+v0["65"] = Instance.new("LocalScript", v0["63"])
+v0["65"]["Name"] = [[b]]
+v0["66"] = Instance.new("LocalScript", v0["63"])
+v0["67"] = Instance.new("TextLabel", v0["12"])
+v0["67"]["TextWrapped"] = true
+v0["67"]["TextStrokeTransparency"] = 0
+v0["67"]["BorderSizePixel"] = 2
+v0["67"]["TextSize"] = 14
+v0["67"]["TextScaled"] = true
+v0["67"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["67"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["67"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["67"]["BackgroundTransparency"] = 0.4
+v0["67"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["67"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["67"]["Text"] = [[Auto Open Mythic Skin]]
+v0["67"]["Position"] = UDim2.new(0.02, 0, 0.494, 0)
+v0["68"] = Instance.new("TextLabel", v0["12"])
+v0["68"]["TextWrapped"] = true
+v0["68"]["TextStrokeTransparency"] = 0
+v0["68"]["BorderSizePixel"] = 2
+v0["68"]["TextSize"] = 14
+v0["68"]["TextScaled"] = true
+v0["68"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["68"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["68"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["68"]["BackgroundTransparency"] = 0.4
+v0["68"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["68"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["68"]["Text"] = [[On Development]]
+v0["68"]["Position"] = UDim2.new(0.013, 0, 0.932, 0)
+v0["69"] = Instance.new("TextButton", v0["12"])
+v0["69"]["TextStrokeTransparency"] = 0
+v0["69"]["BorderSizePixel"] = 2
+v0["69"]["TextSize"] = 14
+v0["69"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["69"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["69"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["69"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["69"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["69"]["Position"] = UDim2.new(0.799, 0, 0.572, 0)
+v0["6a"] = Instance.new("LocalScript", v0["69"])
+v0["6a"]["Name"] = [[a]]
+v0["6b"] = Instance.new("LocalScript", v0["69"])
+v0["6b"]["Name"] = [[b]]
+v0["6c"] = Instance.new("LocalScript", v0["69"])
+v0["6d"] = Instance.new("TextLabel", v0["12"])
+v0["6d"]["TextWrapped"] = true
+v0["6d"]["TextStrokeTransparency"] = 0
+v0["6d"]["BorderSizePixel"] = 2
+v0["6d"]["TextSize"] = 14
+v0["6d"]["TextScaled"] = true
+v0["6d"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["6d"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["6d"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["6d"]["BackgroundTransparency"] = 0.4
+v0["6d"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["6d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["6d"]["Text"] = [[Auto Open Mythic Sword]]
+v0["6d"]["Position"] = UDim2.new(0.02, 0, 0.533, 0)
+v0["6e"] = Instance.new("TextButton", v0["12"])
+v0["6e"]["TextStrokeTransparency"] = 0
+v0["6e"]["BorderSizePixel"] = 2
+v0["6e"]["TextSize"] = 14
+v0["6e"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["6e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["6e"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["6e"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["6e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["6e"]["Position"] = UDim2.new(0.80075, 0, 0.33808, 0)
+v0["6f"] = Instance.new("LocalScript", v0["6e"])
+v0["70"] = Instance.new("LocalScript", v0["6e"])
+v0["70"]["Name"] = [[a]]
+v0["71"] = Instance.new("LocalScript", v0["6e"])
+v0["71"]["Name"] = [[b]]
+v0["72"] = Instance.new("TextButton", v0["12"])
+v0["72"]["TextStrokeTransparency"] = 0
+v0["72"]["BorderSizePixel"] = 2
+v0["72"]["TextSize"] = 14
+v0["72"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["72"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["72"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["72"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["72"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["72"]["Position"] = UDim2.new(0.792, 0, 0.07282, 0)
+v0["73"] = Instance.new("LocalScript", v0["72"])
+v0["74"] = Instance.new("LocalScript", v0["72"])
+v0["74"]["Name"] = [[a]]
+v0["75"] = Instance.new("LocalScript", v0["72"])
+v0["75"]["Name"] = [[b]]
+v0["76"] = Instance.new("TextButton", v0["12"])
+v0["76"]["TextStrokeTransparency"] = 0
+v0["76"]["BorderSizePixel"] = 2
+v0["76"]["TextSize"] = 14
+v0["76"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["76"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["76"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["76"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["76"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["76"]["Position"] = UDim2.new(0.79212, 0, 0.03391, 0)
+v0["77"] = Instance.new("LocalScript", v0["76"])
+v0["78"] = Instance.new("LocalScript", v0["76"])
+v0["78"]["Name"] = [[a]]
+v0["79"] = Instance.new("LocalScript", v0["76"])
+v0["79"]["Name"] = [[b]]
+v0["7a"] = Instance.new("TextLabel", v0["12"])
+v0["7a"]["TextWrapped"] = true
+v0["7a"]["TextStrokeTransparency"] = 0
+v0["7a"]["BorderSizePixel"] = 0
+v0["7a"]["TextSize"] = 14
+v0["7a"]["TextScaled"] = true
+v0["7a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["7a"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["7a"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["7a"]["BackgroundTransparency"] = 1
+v0["7a"]["Size"] = UDim2.new(0, 379, 0, 35)
+v0["7a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["7a"]["Text"] = [[Rebirth]]
+v0["7a"]["Position"] = UDim2.new(0.077, 0, 0.78, 0)
+v0["7b"] = Instance.new("TextButton", v0["12"])
+v0["7b"]["TextStrokeTransparency"] = 0
+v0["7b"]["BorderSizePixel"] = 2
+v0["7b"]["TextSize"] = 14
+v0["7b"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["7b"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["7b"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["7b"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["7b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["7b"]["Text"] = [[Closed]]
+v0["7b"]["Name"] = [[rebi]]
+v0["7b"]["Position"] = UDim2.new(0.783, 0, 0.854, 0)
+v0["7c"] = Instance.new("LocalScript", v0["7b"])
+v0["7d"] = Instance.new("LocalScript", v0["7b"])
+v0["7d"]["Name"] = [[a]]
+v0["7e"] = Instance.new("LocalScript", v0["7b"])
+v0["7e"]["Name"] = [[b]]
+v0["7f"] = Instance.new("TextLabel", v0["12"])
+v0["7f"]["TextWrapped"] = true
+v0["7f"]["TextStrokeTransparency"] = 0
+v0["7f"]["BorderSizePixel"] = 2
+v0["7f"]["TextSize"] = 14
+v0["7f"]["TextScaled"] = true
+v0["7f"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["7f"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["7f"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["7f"]["BackgroundTransparency"] = 0.4
+v0["7f"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["7f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["7f"]["Text"] = [[Auto Mass Upgrade]]
+v0["7f"]["Position"] = UDim2.new(0.013, 0, 0.854, 0)
+v0["80"] = Instance.new("TextButton", v0["12"])
+v0["80"]["TextStrokeTransparency"] = 0
+v0["80"]["BorderSizePixel"] = 2
+v0["80"]["TextSize"] = 14
+v0["80"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["80"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["80"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["80"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["80"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["80"]["Text"] = [[Closed]]
+v0["80"]["Name"] = [[rebi]]
+v0["80"]["Position"] = UDim2.new(0.783, 0, 0.971, 0)
+v0["81"] = Instance.new("LocalScript", v0["80"])
+v0["82"] = Instance.new("LocalScript", v0["80"])
+v0["82"]["Name"] = [[a]]
+v0["83"] = Instance.new("LocalScript", v0["80"])
+v0["83"]["Name"] = [[b]]
+v0["84"] = Instance.new("TextButton", v0["12"])
+v0["84"]["TextStrokeTransparency"] = 0
+v0["84"]["BorderSizePixel"] = 2
+v0["84"]["TextSize"] = 14
+v0["84"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["84"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["84"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["84"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["84"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["84"]["Text"] = [[Closed]]
+v0["84"]["Name"] = [[rebi]]
+v0["84"]["Position"] = UDim2.new(0.783, 0, 0.932, 0)
+v0["85"] = Instance.new("LocalScript", v0["84"])
+v0["86"] = Instance.new("LocalScript", v0["84"])
+v0["86"]["Name"] = [[a]]
+v0["87"] = Instance.new("LocalScript", v0["84"])
+v0["87"]["Name"] = [[b]]
+v0["88"] = Instance.new("TextButton", v0["12"])
+v0["88"]["TextStrokeTransparency"] = 0
+v0["88"]["BorderSizePixel"] = 2
+v0["88"]["TextSize"] = 14
+v0["88"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["88"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["88"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["88"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["88"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["88"]["Text"] = [[Closed]]
+v0["88"]["Name"] = [[rebi]]
+v0["88"]["Position"] = UDim2.new(0.783, 0, 0.893, 0)
+v0["89"] = Instance.new("LocalScript", v0["88"])
+v0["8a"] = Instance.new("LocalScript", v0["88"])
+v0["8a"]["Name"] = [[a]]
+v0["8b"] = Instance.new("LocalScript", v0["88"])
+v0["8b"]["Name"] = [[b]]
+v0["8c"] = Instance.new("UICorner", v0["d"])
+v0["8d"] = Instance.new("Frame", v0["d"])
+v0["8d"]["ZIndex"] = 99
+v0["8d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["8d"]["Size"] = UDim2.new(0, 467, 0, 315)
+v0["8d"]["Position"] = UDim2.new(0.158, 0, 0.89, 0)
+v0["8d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["8d"]["Name"] = [[Main]]
+v0["8e"] = Instance.new("TextLabel", v0["8d"])
+v0["8e"]["TextWrapped"] = true
+v0["8e"]["TextStrokeTransparency"] = 0
+v0["8e"]["BorderSizePixel"] = 0
+v0["8e"]["TextSize"] = 14
+v0["8e"]["TextStrokeColor3"] = Color3.fromRGB(73, 73, 73)
+v0["8e"]["TextScaled"] = true
+v0["8e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["8e"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["8e"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["8e"]["BackgroundTransparency"] = 1
+v0["8e"]["Size"] = UDim2.new(0, 309, 0, 27)
+v0["8e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["8e"]["Text"] = [[Game: Giant Simulator Reborn]]
+v0["8e"]["Position"] = UDim2.new(0.28555, 0, 0.45918, 0)
+v0["8f"] = Instance.new("ImageLabel", v0["8d"])
+v0["8f"]["BorderSizePixel"] = 0
+v0["8f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["8f"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]]
+v0["8f"]["Size"] = UDim2.new(0, 106, 0, 101)
+v0["8f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["8f"]["BackgroundTransparency"] = 1
+v0["8f"]["Position"] = UDim2.new(0.04306, 0, 0.25097, 0)
+v0["90"] = Instance.new("LocalScript", v0["8f"])
+v0["91"] = Instance.new("TextLabel", v0["8d"])
+v0["91"]["TextWrapped"] = true
+v0["91"]["TextStrokeTransparency"] = 0
+v0["91"]["BorderSizePixel"] = 0
+v0["91"]["TextSize"] = 14
+v0["91"]["TextStrokeColor3"] = Color3.fromRGB(73, 73, 73)
+v0["91"]["TextScaled"] = true
+v0["91"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["91"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["91"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["91"]["BackgroundTransparency"] = 1
+v0["91"]["Size"] = UDim2.new(0, 303, 0, 33)
+v0["91"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["91"]["Text"] = [[Welcome:]]
+v0["91"]["Position"] = UDim2.new(0.29949, 0, 0.24853, 0)
+v0["92"] = Instance.new("LocalScript", v0["91"])
+v0["93"] = Instance.new("TextLabel", v0["8d"])
+v0["93"]["TextWrapped"] = true
+v0["93"]["TextStrokeTransparency"] = 0
+v0["93"]["BorderSizePixel"] = 0
+v0["93"]["TextSize"] = 14
+v0["93"]["TextStrokeColor3"] = Color3.fromRGB(73, 73, 73)
+v0["93"]["TextScaled"] = true
+v0["93"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["93"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["93"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["93"]["BackgroundTransparency"] = 1
+v0["93"]["Size"] = UDim2.new(0, 309, 0, 27)
+v0["93"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["93"]["Text"] = [[Time:]]
+v0["93"]["Position"] = UDim2.new(0.28555, 0, 0.35192, 0)
+v0["94"] = Instance.new("LocalScript", v0["93"])
+v0["94"]["Sandboxed"] = true
+v0["95"] = Instance.new("UIGradient", v0["8d"])
+v0["95"]["Color"] =
+    ColorSequence.new(
+    {
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(14, 14, 14)),
+        ColorSequenceKeypoint.new(0.498, Color3.fromRGB(23, 23, 23)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(14, 14, 14))
+    }
+)
+v0["96"] = Instance.new("Frame", v0["d"])
+v0["96"]["ZIndex"] = 999
+v0["96"]["BorderSizePixel"] = 0
+v0["96"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["96"]["Size"] = UDim2.new(0, 88, 0, 317)
+v0["96"]["Position"] = UDim2.new(0, 0, 0.89, 0)
+v0["96"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["96"]["Name"] = [[pages]]
+v0["97"] = Instance.new("UIGradient", v0["96"])
+v0["97"]["Color"] =
+    ColorSequence.new(
+    {
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(14, 14, 14)),
+        ColorSequenceKeypoint.new(0.498, Color3.fromRGB(23, 23, 23)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(14, 14, 14))
+    }
+)
+v0["98"] = Instance.new("TextButton", v0["96"])
+v0["98"]["TextWrapped"] = true
+v0["98"]["TextStrokeTransparency"] = 0
+v0["98"]["BorderSizePixel"] = 2
+v0["98"]["TextSize"] = 14
+v0["98"]["TextScaled"] = true
+v0["98"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["98"]["BackgroundColor3"] = Color3.fromRGB(137, 137, 137)
+v0["98"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["98"]["Size"] = UDim2.new(0, 76, 0, 36)
+v0["98"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["98"]["Text"] = [[Main]]
+v0["98"]["Name"] = [[ma]]
+v0["98"]["Position"] = UDim2.new(0.06485, 0, 0.04101, 0)
+v0["99"] = Instance.new("LocalScript", v0["98"])
+v0["9a"] = Instance.new("LocalScript", v0["98"])
+v0["9a"]["Name"] = [[a]]
+v0["9b"] = Instance.new("LocalScript", v0["98"])
+v0["9b"]["Name"] = [[b]]
+v0["9c"] = Instance.new("TextButton", v0["96"])
+v0["9c"]["TextWrapped"] = true
+v0["9c"]["TextStrokeTransparency"] = 0
+v0["9c"]["BorderSizePixel"] = 2
+v0["9c"]["TextSize"] = 14
+v0["9c"]["TextScaled"] = true
+v0["9c"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["9c"]["BackgroundColor3"] = Color3.fromRGB(137, 137, 137)
+v0["9c"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["9c"]["Size"] = UDim2.new(0, 76, 0, 36)
+v0["9c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["9c"]["Text"] = [[Game]]
+v0["9c"]["Name"] = [[ga]]
+v0["9c"]["Position"] = UDim2.new(0.06485, 0, 0.17666, 0)
+v0["9d"] = Instance.new("LocalScript", v0["9c"])
+v0["9e"] = Instance.new("LocalScript", v0["9c"])
+v0["9e"]["Name"] = [[a]]
+v0["9f"] = Instance.new("LocalScript", v0["9c"])
+v0["9f"]["Name"] = [[b]]
+v0["a0"] = Instance.new("TextButton", v0["96"])
+v0["a0"]["TextWrapped"] = true
+v0["a0"]["TextStrokeTransparency"] = 0
+v0["a0"]["BorderSizePixel"] = 2
+v0["a0"]["TextSize"] = 14
+v0["a0"]["TextScaled"] = true
+v0["a0"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["a0"]["BackgroundColor3"] = Color3.fromRGB(137, 137, 137)
+v0["a0"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["a0"]["Size"] = UDim2.new(0, 76, 0, 36)
+v0["a0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["a0"]["Text"] = [[Player]]
+v0["a0"]["Name"] = [[pl]]
+v0["a0"]["Position"] = UDim2.new(0.065, 0, 0.317, 0)
+v0["a1"] = Instance.new("LocalScript", v0["a0"])
+v0["a2"] = Instance.new("LocalScript", v0["a0"])
+v0["a2"]["Name"] = [[a]]
+v0["a3"] = Instance.new("LocalScript", v0["a0"])
+v0["a3"]["Name"] = [[b]]
+v0["a4"] = Instance.new("TextButton", v0["96"])
+v0["a4"]["TextWrapped"] = true
+v0["a4"]["TextStrokeTransparency"] = 0
+v0["a4"]["BorderSizePixel"] = 2
+v0["a4"]["TextSize"] = 14
+v0["a4"]["TextScaled"] = true
+v0["a4"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["a4"]["BackgroundColor3"] = Color3.fromRGB(137, 137, 137)
+v0["a4"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["a4"]["Size"] = UDim2.new(0, 76, 0, 36)
+v0["a4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["a4"]["Text"] = [[Visuals]]
+v0["a4"]["Name"] = [[vs]]
+v0["a4"]["Position"] = UDim2.new(0.065, 0, 0.453, 0)
+v0["a5"] = Instance.new("LocalScript", v0["a4"])
+v0["a6"] = Instance.new("LocalScript", v0["a4"])
+v0["a6"]["Name"] = [[a]]
+v0["a7"] = Instance.new("LocalScript", v0["a4"])
+v0["a7"]["Name"] = [[b]]
+v0["a8"] = Instance.new("TextButton", v0["96"])
+v0["a8"]["TextWrapped"] = true
+v0["a8"]["TextStrokeTransparency"] = 0
+v0["a8"]["BorderSizePixel"] = 2
+v0["a8"]["TextSize"] = 14
+v0["a8"]["TextScaled"] = true
+v0["a8"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["a8"]["BackgroundColor3"] = Color3.fromRGB(137, 137, 137)
+v0["a8"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["a8"]["Size"] = UDim2.new(0, 76, 0, 36)
+v0["a8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["a8"]["Text"] = [[Misc]]
+v0["a8"]["Name"] = [[mi]]
+v0["a8"]["Position"] = UDim2.new(0.065, 0, 0.589, 0)
+v0["a9"] = Instance.new("LocalScript", v0["a8"])
+v0["aa"] = Instance.new("LocalScript", v0["a8"])
+v0["aa"]["Name"] = [[a]]
+v0["ab"] = Instance.new("LocalScript", v0["a8"])
+v0["ab"]["Name"] = [[b]]
+v0["ac"] = Instance.new("TextLabel", v0["d"])
+v0["ac"]["TextWrapped"] = true
+v0["ac"]["TextStrokeTransparency"] = 0
+v0["ac"]["BorderSizePixel"] = 0
+v0["ac"]["TextSize"] = 14
+v0["ac"]["TextScaled"] = true
+v0["ac"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["ac"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["ac"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["ac"]["BackgroundTransparency"] = 1
+v0["ac"]["Size"] = UDim2.new(0, 379, 0, 35)
+v0["ac"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["ac"]["Text"] = [[Giant Simulator Reborn Hub 2.0]]
+v0["ac"]["Position"] = UDim2.new(0.15827, 0, 0, 0)
+v0["ad"] = Instance.new("Frame", v0["d"])
+v0["ad"]["Visible"] = false
+v0["ad"]["ZIndex"] = 4
+v0["ad"]["BorderSizePixel"] = 0
+v0["ad"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["ad"]["Size"] = UDim2.new(0, 556, 0, 317)
+v0["ad"]["Position"] = UDim2.new(0, 0, 0.89, 0)
+v0["ad"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["ad"]["Name"] = [[vis]]
+v0["ae"] = Instance.new("LocalScript", v0["ad"])
+v0["af"] = Instance.new("UIGradient", v0["ad"])
+v0["af"]["Color"] =
+    ColorSequence.new(
+    {
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(14, 14, 14)),
+        ColorSequenceKeypoint.new(0.498, Color3.fromRGB(23, 23, 23)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(14, 14, 14))
+    }
+)
+v0["b0"] = Instance.new("TextLabel", v0["ad"])
+v0["b0"]["TextWrapped"] = true
+v0["b0"]["TextStrokeTransparency"] = 0
+v0["b0"]["BorderSizePixel"] = 2
+v0["b0"]["TextSize"] = 14
+v0["b0"]["TextScaled"] = true
+v0["b0"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["b0"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["b0"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["b0"]["BackgroundTransparency"] = 0.4
+v0["b0"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["b0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["b0"]["Text"] = [[Player Esp]]
+v0["b0"]["Position"] = UDim2.new(0.17148, 0, 0.17569, 0)
+v0["b1"] = Instance.new("TextLabel", v0["ad"])
+v0["b1"]["TextWrapped"] = true
+v0["b1"]["TextStrokeTransparency"] = 0
+v0["b1"]["BorderSizePixel"] = 2
+v0["b1"]["TextSize"] = 14
+v0["b1"]["TextScaled"] = true
+v0["b1"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["b1"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["b1"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["b1"]["BackgroundTransparency"] = 0.4
+v0["b1"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["b1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["b1"]["Text"] = [[Egg Esp]]
+v0["b1"]["Position"] = UDim2.new(0.17148, 0, 0.32711, 0)
+v0["b2"] = Instance.new("TextLabel", v0["ad"])
+v0["b2"]["TextWrapped"] = true
+v0["b2"]["TextStrokeTransparency"] = 0
+v0["b2"]["BorderSizePixel"] = 2
+v0["b2"]["TextSize"] = 14
+v0["b2"]["TextScaled"] = true
+v0["b2"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["b2"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["b2"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["b2"]["BackgroundTransparency"] = 0.4
+v0["b2"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["b2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["b2"]["Text"] = [[Orb Esp]]
+v0["b2"]["Position"] = UDim2.new(0.17148, 0, 0.02427, 0)
+v0["b3"] = Instance.new("TextButton", v0["ad"])
+v0["b3"]["TextStrokeTransparency"] = 0
+v0["b3"]["BorderSizePixel"] = 2
+v0["b3"]["TextSize"] = 14
+v0["b3"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["b3"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["b3"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["b3"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["b3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["b3"]["Text"] = [[Closed]]
+v0["b3"]["Position"] = UDim2.new(0.83529, 0, 0.32492, 0)
+v0["b4"] = Instance.new("LocalScript", v0["b3"])
+v0["b5"] = Instance.new("LocalScript", v0["b3"])
+v0["b5"]["Name"] = [[a]]
+v0["b6"] = Instance.new("LocalScript", v0["b3"])
+v0["b6"]["Name"] = [[b]]
+v0["b7"] = Instance.new("TextButton", v0["ad"])
+v0["b7"]["TextStrokeTransparency"] = 0
+v0["b7"]["BorderSizePixel"] = 2
+v0["b7"]["TextSize"] = 14
+v0["b7"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["b7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["b7"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["b7"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["b7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["b7"]["Position"] = UDim2.new(0.83529, 0, 0.17666, 0)
+v0["b8"] = Instance.new("LocalScript", v0["b7"])
+v0["b9"] = Instance.new("LocalScript", v0["b7"])
+v0["b9"]["Name"] = [[a]]
+v0["ba"] = Instance.new("LocalScript", v0["b7"])
+v0["ba"]["Name"] = [[b]]
+v0["bb"] = Instance.new("TextButton", v0["ad"])
+v0["bb"]["TextStrokeTransparency"] = 0
+v0["bb"]["BorderSizePixel"] = 2
+v0["bb"]["TextSize"] = 14
+v0["bb"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["bb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["bb"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["bb"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["bb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["bb"]["Position"] = UDim2.new(0.83529, 0, 0.02208, 0)
+v0["bc"] = Instance.new("LocalScript", v0["bb"])
+v0["bc"]["Name"] = [[b]]
+v0["bd"] = Instance.new("LocalScript", v0["bb"])
+v0["bd"]["Name"] = [[a]]
+v0["be"] = Instance.new("LocalScript", v0["bb"])
+v0["bf"] = Instance.new("TextLabel", v0["ad"])
+v0["bf"]["TextWrapped"] = true
+v0["bf"]["TextStrokeTransparency"] = 0
+v0["bf"]["BorderSizePixel"] = 2
+v0["bf"]["TextSize"] = 14
+v0["bf"]["TextScaled"] = true
+v0["bf"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["bf"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["bf"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["bf"]["BackgroundTransparency"] = 0.4
+v0["bf"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["bf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["bf"]["Text"] = [[Cool View]]
+v0["bf"]["Position"] = UDim2.new(0.171, 0, 0.478, 0)
+v0["c0"] = Instance.new("TextButton", v0["ad"])
+v0["c0"]["TextStrokeTransparency"] = 0
+v0["c0"]["BorderSizePixel"] = 2
+v0["c0"]["TextSize"] = 14
+v0["c0"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["c0"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["c0"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["c0"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["c0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["c0"]["Text"] = [[Closed]]
+v0["c0"]["Position"] = UDim2.new(0.835, 0, 0.478, 0)
+v0["c1"] = Instance.new("LocalScript", v0["c0"])
+v0["c1"]["Name"] = [[a]]
+v0["c2"] = Instance.new("LocalScript", v0["c0"])
+v0["c2"]["Name"] = [[b]]
+v0["c3"] = Instance.new("LocalScript", v0["c0"])
+v0["c4"] = Instance.new("Frame", v0["d"])
+v0["c4"]["Visible"] = false
+v0["c4"]["ZIndex"] = 5
+v0["c4"]["BorderSizePixel"] = 0
+v0["c4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["c4"]["Size"] = UDim2.new(0, 556, 0, 317)
+v0["c4"]["Position"] = UDim2.new(0, 0, 0.89, 0)
+v0["c4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["c4"]["Name"] = [[pl]]
+v0["c5"] = Instance.new("LocalScript", v0["c4"])
+v0["c6"] = Instance.new("UIGradient", v0["c4"])
+v0["c6"]["Color"] =
+    ColorSequence.new(
+    {
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(14, 14, 14)),
+        ColorSequenceKeypoint.new(0.498, Color3.fromRGB(23, 23, 23)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(14, 14, 14))
+    }
+)
+v0["c7"] = Instance.new("TextBox", v0["c4"])
+v0["c7"]["TextStrokeTransparency"] = 0
+v0["c7"]["Name"] = [[wsp2]]
+v0["c7"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255)
+v0["c7"]["BorderSizePixel"] = 2
+v0["c7"]["TextWrapped"] = true
+v0["c7"]["TextSize"] = 14
+v0["c7"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["c7"]["TextScaled"] = true
+v0["c7"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["c7"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["c7"]["PlaceholderText"] = [[JumpPower]]
+v0["c7"]["Size"] = UDim2.new(0, 326, 0, 36)
+v0["c7"]["Position"] = UDim2.new(0.18323, 0, 0.17504, 0)
+v0["c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["c7"]["Text"] = [[]]
+v0["c7"]["BackgroundTransparency"] = 0.5
+v0["c8"] = Instance.new("TextButton", v0["c4"])
+v0["c8"]["TextStrokeTransparency"] = 0
+v0["c8"]["BorderSizePixel"] = 2
+v0["c8"]["TextSize"] = 14
+v0["c8"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["c8"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["c8"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["c8"]["Size"] = UDim2.new(0, 99, 0, 36)
+v0["c8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["c8"]["Text"] = [[Closed]]
+v0["c8"]["Name"] = [[rebi]]
+v0["c8"]["Position"] = UDim2.new(0.7956, 0, 0.17506, 0)
+v0["c9"] = Instance.new("LocalScript", v0["c8"])
+v0["c9"]["Name"] = [[a]]
+v0["ca"] = Instance.new("LocalScript", v0["c8"])
+v0["ca"]["Name"] = [[b]]
+v0["cb"] = Instance.new("LocalScript", v0["c8"])
+v0["cc"] = Instance.new("TextButton", v0["c4"])
+v0["cc"]["TextStrokeTransparency"] = 0
+v0["cc"]["BorderSizePixel"] = 2
+v0["cc"]["TextSize"] = 14
+v0["cc"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["cc"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["cc"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["cc"]["Size"] = UDim2.new(0, 99, 0, 36)
+v0["cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["cc"]["Text"] = [[Closed]]
+v0["cc"]["Name"] = [[rebi]]
+v0["cc"]["Position"] = UDim2.new(0.7956, 0, 0.03941, 0)
+v0["cd"] = Instance.new("LocalScript", v0["cc"])
+v0["cd"]["Name"] = [[a]]
+v0["ce"] = Instance.new("LocalScript", v0["cc"])
+v0["ce"]["Name"] = [[b]]
+v0["cf"] = Instance.new("LocalScript", v0["cc"])
+v0["d0"] = Instance.new("TextBox", v0["c4"])
+v0["d0"]["TextStrokeTransparency"] = 0
+v0["d0"]["Name"] = [[wsp]]
+v0["d0"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255)
+v0["d0"]["BorderSizePixel"] = 2
+v0["d0"]["TextWrapped"] = true
+v0["d0"]["TextSize"] = 14
+v0["d0"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["d0"]["TextScaled"] = true
+v0["d0"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["d0"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["d0"]["PlaceholderText"] = [[Walkspeed]]
+v0["d0"]["Size"] = UDim2.new(0, 327, 0, 36)
+v0["d0"]["Position"] = UDim2.new(0.18323, 0, 0.03939, 0)
+v0["d0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["d0"]["Text"] = [[]]
+v0["d0"]["BackgroundTransparency"] = 0.5
+v0["d1"] = Instance.new("TextLabel", v0["c4"])
+v0["d1"]["TextWrapped"] = true
+v0["d1"]["TextStrokeTransparency"] = 0
+v0["d1"]["BorderSizePixel"] = 2
+v0["d1"]["TextSize"] = 14
+v0["d1"]["TextScaled"] = true
+v0["d1"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["d1"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["d1"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["d1"]["BackgroundTransparency"] = 0.4
+v0["d1"]["Size"] = UDim2.new(0, 326, 0, 36)
+v0["d1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["d1"]["Text"] = [[Random Name]]
+v0["d1"]["Position"] = UDim2.new(0.182, 0, 0.447, 0)
+v0["d2"] = Instance.new("TextButton", v0["c4"])
+v0["d2"]["TextStrokeTransparency"] = 0
+v0["d2"]["BorderSizePixel"] = 2
+v0["d2"]["TextSize"] = 14
+v0["d2"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["d2"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["d2"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["d2"]["Size"] = UDim2.new(0, 99, 0, 36)
+v0["d2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["d2"]["Text"] = [[Closed]]
+v0["d2"]["Name"] = [[rebi]]
+v0["d2"]["Position"] = UDim2.new(0.7956, 0, 0.31071, 0)
+v0["d3"] = Instance.new("LocalScript", v0["d2"])
+v0["d3"]["Name"] = [[a]]
+v0["d4"] = Instance.new("LocalScript", v0["d2"])
+v0["d4"]["Name"] = [[b]]
+v0["d5"] = Instance.new("LocalScript", v0["d2"])
+v0["d6"] = Instance.new("TextBox", v0["c4"])
+v0["d6"]["TextStrokeTransparency"] = 0
+v0["d6"]["Name"] = [[aaaaa]]
+v0["d6"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255)
+v0["d6"]["BorderSizePixel"] = 2
+v0["d6"]["TextWrapped"] = true
+v0["d6"]["TextSize"] = 14
+v0["d6"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["d6"]["TextScaled"] = true
+v0["d6"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["d6"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["d6"]["PlaceholderText"] = [[Name]]
+v0["d6"]["Size"] = UDim2.new(0, 326, 0, 36)
+v0["d6"]["Position"] = UDim2.new(0.18143, 0, 0.31069, 0)
+v0["d6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["d6"]["Text"] = [[]]
+v0["d6"]["BackgroundTransparency"] = 0.5
+v0["d7"] = Instance.new("TextButton", v0["c4"])
+v0["d7"]["TextStrokeTransparency"] = 0
+v0["d7"]["BorderSizePixel"] = 2
+v0["d7"]["TextSize"] = 14
+v0["d7"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["d7"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["d7"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["d7"]["Size"] = UDim2.new(0, 99, 0, 36)
+v0["d7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["d7"]["Text"] = [[Closed]]
+v0["d7"]["Name"] = [[rebi]]
+v0["d7"]["Position"] = UDim2.new(0.7942, 0, 0.447, 0)
+v0["d8"] = Instance.new("LocalScript", v0["d7"])
+v0["d8"]["Name"] = [[a]]
+v0["d9"] = Instance.new("LocalScript", v0["d7"])
+v0["d9"]["Name"] = [[b]]
+v0["da"] = Instance.new("LocalScript", v0["d7"])
+v0["db"] = Instance.new("TextLabel", v0["c4"])
+v0["db"]["TextWrapped"] = true
+v0["db"]["TextStrokeTransparency"] = 0
+v0["db"]["BorderSizePixel"] = 2
+v0["db"]["TextSize"] = 14
+v0["db"]["TextScaled"] = true
+v0["db"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["db"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["db"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["db"]["BackgroundTransparency"] = 0.4
+v0["db"]["Size"] = UDim2.new(0, 326, 0, 36)
+v0["db"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["db"]["Text"] = [[Rainbow Healt Bar]]
+v0["db"]["Position"] = UDim2.new(0.182, 0, 0.583, 0)
+v0["dc"] = Instance.new("TextButton", v0["c4"])
+v0["dc"]["TextStrokeTransparency"] = 0
+v0["dc"]["BorderSizePixel"] = 2
+v0["dc"]["TextSize"] = 14
+v0["dc"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["dc"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["dc"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["dc"]["Size"] = UDim2.new(0, 99, 0, 36)
+v0["dc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["dc"]["Text"] = [[Closed]]
+v0["dc"]["Name"] = [[rebi]]
+v0["dc"]["Position"] = UDim2.new(0.794, 0, 0.583, 0)
+v0["dd"] = Instance.new("LocalScript", v0["dc"])
+v0["dd"]["Name"] = [[a]]
+v0["de"] = Instance.new("LocalScript", v0["dc"])
+v0["de"]["Name"] = [[b]]
+v0["df"] = Instance.new("LocalScript", v0["dc"])
+v0["e0"] = Instance.new("TextLabel", v0["c4"])
+v0["e0"]["TextWrapped"] = true
+v0["e0"]["TextStrokeTransparency"] = 0
+v0["e0"]["BorderSizePixel"] = 2
+v0["e0"]["TextSize"] = 14
+v0["e0"]["TextScaled"] = true
+v0["e0"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["e0"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["e0"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["e0"]["BackgroundTransparency"] = 0.4
+v0["e0"]["Size"] = UDim2.new(0, 326, 0, 36)
+v0["e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["e0"]["Text"] = [[Rainbow Player]]
+v0["e0"]["Position"] = UDim2.new(0.182, 0, 0.719, 0)
+v0["e1"] = Instance.new("TextButton", v0["c4"])
+v0["e1"]["TextStrokeTransparency"] = 0
+v0["e1"]["BorderSizePixel"] = 2
+v0["e1"]["TextSize"] = 14
+v0["e1"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["e1"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["e1"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["e1"]["Size"] = UDim2.new(0, 99, 0, 36)
+v0["e1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["e1"]["Text"] = [[Closed]]
+v0["e1"]["Name"] = [[rebi]]
+v0["e1"]["Position"] = UDim2.new(0.794, 0, 0.719, 0)
+v0["e2"] = Instance.new("LocalScript", v0["e1"])
+v0["e2"]["Name"] = [[a]]
+v0["e3"] = Instance.new("LocalScript", v0["e1"])
+v0["e3"]["Name"] = [[b]]
+v0["e4"] = Instance.new("LocalScript", v0["e1"])
+v0["e5"] = Instance.new("TextLabel", v0["c4"])
+v0["e5"]["TextWrapped"] = true
+v0["e5"]["TextStrokeTransparency"] = 0
+v0["e5"]["BorderSizePixel"] = 2
+v0["e5"]["TextSize"] = 14
+v0["e5"]["TextScaled"] = true
+v0["e5"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["e5"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["e5"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["e5"]["BackgroundTransparency"] = 0.4
+v0["e5"]["Size"] = UDim2.new(0, 326, 0, 36)
+v0["e5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["e5"]["Text"] = [[Spin]]
+v0["e5"]["Position"] = UDim2.new(0.182, 0, 0.855, 0)
+v0["e6"] = Instance.new("TextButton", v0["c4"])
+v0["e6"]["TextStrokeTransparency"] = 0
+v0["e6"]["BorderSizePixel"] = 2
+v0["e6"]["TextSize"] = 14
+v0["e6"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["e6"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46)
+v0["e6"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["e6"]["Size"] = UDim2.new(0, 99, 0, 36)
+v0["e6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["e6"]["Text"] = [[Closed]]
+v0["e6"]["Name"] = [[rebi]]
+v0["e6"]["Position"] = UDim2.new(0.794, 0, 0.855, 0)
+v0["e7"] = Instance.new("LocalScript", v0["e6"])
+v0["e7"]["Name"] = [[a]]
+v0["e8"] = Instance.new("LocalScript", v0["e6"])
+v0["e8"]["Name"] = [[b]]
+v0["e9"] = Instance.new("LocalScript", v0["e6"])
+v0["ea"] = Instance.new("TextButton", v0["d"])
+v0["ea"]["TextWrapped"] = true
+v0["ea"]["TextStrokeTransparency"] = 0
+v0["ea"]["BorderSizePixel"] = 2
+v0["ea"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255)
+v0["ea"]["TextSize"] = 14
+v0["ea"]["TextScaled"] = true
+v0["ea"]["TextColor3"] = Color3.fromRGB(72, 72, 72)
+v0["ea"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36)
+v0["ea"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["ea"]["Size"] = UDim2.new(0, 31, 0, 30)
+v0["ea"]["BorderColor3"] = Color3.fromRGB(84, 84, 84)
+v0["ea"]["Text"] = [[-]]
+v0["ea"]["Position"] = UDim2.new(0.85687, 0, 0.11511, 0)
+v0["eb"] = Instance.new("LocalScript", v0["ea"])
+v0["ec"] = Instance.new("LocalScript", v0["ea"])
+v0["ec"]["Name"] = [[a]]
+v0["ed"] = Instance.new("LocalScript", v0["ea"])
+v0["ed"]["Name"] = [[b]]
+v0["ee"] = Instance.new("TextButton", v0["d"])
+v0["ee"]["TextWrapped"] = true
+v0["ee"]["TextStrokeTransparency"] = 0
+v0["ee"]["BorderSizePixel"] = 2
+v0["ee"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255)
+v0["ee"]["TextSize"] = 14
+v0["ee"]["TextScaled"] = true
+v0["ee"]["TextColor3"] = Color3.fromRGB(72, 72, 72)
+v0["ee"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36)
+v0["ee"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["ee"]["Size"] = UDim2.new(0, 31, 0, 30)
+v0["ee"]["BorderColor3"] = Color3.fromRGB(84, 84, 84)
+v0["ee"]["Text"] = [[X]]
+v0["ee"]["Position"] = UDim2.new(0.92881, 0, 0.11511, 0)
+v0["ef"] = Instance.new("LocalScript", v0["ee"])
+v0["ef"]["Name"] = [[a]]
+v0["f0"] = Instance.new("LocalScript", v0["ee"])
+v0["f0"]["Name"] = [[b]]
+v0["f1"] = Instance.new("LocalScript", v0["ee"])
+v0["f2"] = Instance.new("Frame", v0["d"])
+v0["f2"]["Visible"] = false
+v0["f2"]["ZIndex"] = 8
+v0["f2"]["BorderSizePixel"] = 0
+v0["f2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["f2"]["Size"] = UDim2.new(0, 556, 0, 317)
+v0["f2"]["Position"] = UDim2.new(0, 0, 0.89, 0)
+v0["f2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["f2"]["Name"] = [[mis]]
+v0["f3"] = Instance.new("LocalScript", v0["f2"])
+v0["f4"] = Instance.new("LocalScript", v0["f2"])
+v0["f5"] = Instance.new("UIGradient", v0["f2"])
+v0["f5"]["Color"] =
+    ColorSequence.new(
+    {
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(14, 14, 14)),
+        ColorSequenceKeypoint.new(0.498, Color3.fromRGB(23, 23, 23)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(14, 14, 14))
+    }
+)
+v0["f6"] = Instance.new("TextButton", v0["f2"])
+v0["f6"]["TextStrokeTransparency"] = 0
+v0["f6"]["BorderSizePixel"] = 2
+v0["f6"]["TextSize"] = 14
+v0["f6"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["f6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["f6"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["f6"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["f6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["f6"]["Position"] = UDim2.new(0.82773, 0, 0.0361, 0)
+v0["f7"] = Instance.new("LocalScript", v0["f6"])
+v0["f8"] = Instance.new("LocalScript", v0["f6"])
+v0["f8"]["Name"] = [[a]]
+v0["f9"] = Instance.new("LocalScript", v0["f6"])
+v0["f9"]["Name"] = [[b]]
+v0["fa"] = Instance.new("TextLabel", v0["f2"])
+v0["fa"]["TextWrapped"] = true
+v0["fa"]["TextStrokeTransparency"] = 0
+v0["fa"]["BorderSizePixel"] = 2
+v0["fa"]["TextSize"] = 14
+v0["fa"]["TextScaled"] = true
+v0["fa"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["fa"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["fa"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["fa"]["BackgroundTransparency"] = 0.4
+v0["fa"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["fa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["fa"]["Text"] = [[Anti Afk]]
+v0["fa"]["Position"] = UDim2.new(0.17264, 0, 0.03812, 0)
+v0["fb"] = Instance.new("TextLabel", v0["f2"])
+v0["fb"]["TextWrapped"] = true
+v0["fb"]["TextStrokeTransparency"] = 0
+v0["fb"]["BorderSizePixel"] = 2
+v0["fb"]["TextSize"] = 14
+v0["fb"]["TextScaled"] = true
+v0["fb"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["fb"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["fb"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["fb"]["BackgroundTransparency"] = 0.4
+v0["fb"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["fb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["fb"]["Text"] = [[Fps Boost]]
+v0["fb"]["Position"] = UDim2.new(0.17264, 0, 0.19269, 0)
+v0["fc"] = Instance.new("TextButton", v0["f2"])
+v0["fc"]["TextStrokeTransparency"] = 0
+v0["fc"]["BorderSizePixel"] = 2
+v0["fc"]["TextSize"] = 14
+v0["fc"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["fc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["fc"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["fc"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["fc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["fc"]["Position"] = UDim2.new(0.82773, 0, 0.19068, 0)
+v0["fd"] = Instance.new("LocalScript", v0["fc"])
+v0["fe"] = Instance.new("LocalScript", v0["fc"])
+v0["fe"]["Name"] = [[a]]
+v0["ff"] = Instance.new("LocalScript", v0["fc"])
+v0["ff"]["Name"] = [[b]]
+v0["100"] = Instance.new("TextLabel", v0["f2"])
+v0["100"]["TextWrapped"] = true
+v0["100"]["TextStrokeTransparency"] = 0
+v0["100"]["BorderSizePixel"] = 2
+v0["100"]["TextSize"] = 14
+v0["100"]["TextScaled"] = true
+v0["100"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48)
+v0["100"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["100"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["100"]["BackgroundTransparency"] = 0.4
+v0["100"]["Size"] = UDim2.new(0, 344, 0, 36)
+v0["100"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["100"]["Text"] = [[See The Peoples That Uses Same Script]]
+v0["100"]["Position"] = UDim2.new(0.173, 0, 0.348, 0)
+v0["101"] = Instance.new("TextButton", v0["f2"])
+v0["101"]["TextStrokeTransparency"] = 0
+v0["101"]["BorderSizePixel"] = 2
+v0["101"]["TextSize"] = 14
+v0["101"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["101"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["101"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["101"]["Size"] = UDim2.new(0, 81, 0, 36)
+v0["101"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["101"]["Position"] = UDim2.new(0.828, 0, 0.348, 0)
+v0["102"] = Instance.new("LocalScript", v0["101"])
+v0["103"] = Instance.new("LocalScript", v0["101"])
+v0["103"]["Name"] = [[a]]
+v0["104"] = Instance.new("LocalScript", v0["101"])
+v0["104"]["Name"] = [[b]]
+v0["105"] = Instance.new("TextButton", v0["1"])
+v0["105"]["TextWrapped"] = true
+v0["105"]["TextStrokeTransparency"] = 0
+v0["105"]["BorderSizePixel"] = 0
+v0["105"]["TextSize"] = 14
+v0["105"]["TextScaled"] = true
+v0["105"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["105"]["BackgroundColor3"] = Color3.fromRGB(55, 55, 55)
+v0["105"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["105"]["BackgroundTransparency"] = 0.4
+v0["105"]["Size"] = UDim2.new(0.03258, 0, 0.06492, 0)
+v0["105"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["105"]["Text"] = [[Hub]]
+v0["105"]["Name"] = [[opeb]]
+v0["105"]["Visible"] = false
+v0["105"]["Position"] = UDim2.new(0.48557, 0, 0.15106, 0)
+v0["106"] = Instance.new("LocalScript", v0["105"])
+v0["107"] = Instance.new("LocalScript", v0["105"])
+v0["107"]["Name"] = [[a]]
+v0["108"] = Instance.new("LocalScript", v0["105"])
+v0["108"]["Name"] = [[b]]
+v0["109"] = Instance.new("UICorner", v0["105"])
+v0["109"]["CornerRadius"] = UDim.new(1, 0)
+v0["10a"] = Instance.new("UIAspectRatioConstraint", v0["105"])
+v0["10b"] = Instance.new("Frame", v0["1"])
+v0["10b"]["BorderSizePixel"] = 2
+v0["10b"]["BackgroundColor3"] = Color3.fromRGB(22, 22, 22)
+v0["10b"]["Size"] = UDim2.new(0.19287, 0, 0.12484, 0)
+v0["10b"]["Position"] = UDim2.new(0.79099, 0, 0.85349, 0)
+v0["10b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["10b"]["Name"] = [[lol]]
+v0["10b"]["BackgroundTransparency"] = 0.5
+v0["10c"] = Instance.new("LocalScript", v0["10b"])
+v0["10d"] = Instance.new("LocalScript", v0["10b"])
+v0["10e"] = Instance.new("Sound", v0["10b"])
+v0["10e"]["RollOffMode"] = Enum.RollOffMode.InverseTapered
+v0["10e"]["SoundId"] = [[rbxassetid://136994329700115]]
+v0["10f"] = Instance.new("ImageLabel", v0["10b"])
+v0["10f"]["BorderSizePixel"] = 0
+v0["10f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["10f"]["Image"] = [[rbxassetid://131078662708277]]
+v0["10f"]["Size"] = UDim2.new(0.33003, 0, 1, 0)
+v0["10f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["10f"]["BackgroundTransparency"] = 1
+v0["10f"]["Position"] = UDim2.new(-0.007, 0, -0.00744, 0)
+v0["110"] = Instance.new("UICorner", v0["10f"])
+v0["110"]["CornerRadius"] = UDim.new(1, 0)
+v0["111"] = Instance.new("TextLabel", v0["10b"])
+v0["111"]["TextWrapped"] = true
+v0["111"]["TextStrokeTransparency"] = 0
+v0["111"]["BorderSizePixel"] = 0
+v0["111"]["TextSize"] = 14
+v0["111"]["TextScaled"] = true
+v0["111"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+v0["111"]["FontFace"] =
+    Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+v0["111"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+v0["111"]["BackgroundTransparency"] = 1
+v0["111"]["Size"] = UDim2.new(0.67987, 0, 0.99, 0)
+v0["111"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+v0["111"]["Text"] = [[This Script Developed By GaksP0wer. Have Fun While Using It And Destroying Games.]]
+v0["111"]["Position"] = UDim2.new(0.32013, 0, 0, 0)
+local function v1626()
+    local v1777 = v0["3"]
+    wait(5)
+    v1777.Parent.Parent.Frame.Visible = true
+    v1777.Parent.Visible = false
+end
+task.spawn(v1626)
+local function v1627()
+    local v1780 = v0["5"]
+    wait(4)
+    v1780.Parent.Text = "Loaded!"
+end
+task.spawn(v1627)
+local function v1628()
+    local v1782 = v0["7"]
+    v1782.Parent.Text = "Please Wait."
+    wait(0.5)
+    v1782.Parent.Text = "Please Wait.."
+    wait(0.5)
+    v1782.Parent.Text = "Please Wait..."
+    wait(0.5)
+    v1782.Parent.Text = "Please Wait."
+    wait(0.5)
+    v1782.Parent.Text = "Please Wait.."
+    wait(0.5)
+    v1782.Parent.Text = "Please Wait..."
+    wait(0.5)
+    v1782.Parent.Text = "Please Wait."
+    wait(0.5)
+    v1782.Parent.Text = "Please Wait.."
+    wait(0.5)
+    v1782.Parent.Text = "Opening Gui..."
+end
+task.spawn(v1628)
+local function v1629()
+    local v1784 = v0["8"]
+    wait(4)
+    v1784.Parent.Text = "Opening The Script!"
+end
+task.spawn(v1629)
+local function v1630()
+    local v1786 = v0["c"]
+    v1786.Parent.Text = "M"
+    wait(0.1)
+    v1786.Parent.Text = "Ma"
+    wait(0.1)
+    v1786.Parent.Text = "Mad"
+    wait(0.1)
+    v1786.Parent.Text = "Made"
+    wait(0.1)
+    v1786.Parent.Text = "Made "
+    wait(0.1)
+    v1786.Parent.Text = "Made B"
+    wait(0.1)
+    v1786.Parent.Text = "Made By"
+    wait(0.1)
+    v1786.Parent.Text = "Made By "
+    wait(0.1)
+    v1786.Parent.Text = "Made By G"
+    wait(0.1)
+    v1786.Parent.Text = "Made By Ga"
+    wait(0.1)
+    v1786.Parent.Text = "Made By Gak"
+    wait(0.1)
+    v1786.Parent.Text = "Made By Gaks"
+    wait(0.1)
+    v1786.Parent.Text = "Made By GaksP"
+    wait(0.1)
+    v1786.Parent.Text = "Made By GaksP0"
+    wait(0.1)
+    v1786.Parent.Text = "Made By GaksP0w"
+    wait(0.1)
+    v1786.Parent.Text = "Made By GaksP0we"
+    wait(0.1)
+    v1786.Parent.Text = "Made By GaksP0wer"
+end
+task.spawn(v1630)
+local function v1631()
+    local v1788 = v0["e"]
+    local v1789 = game:GetService("UserInputService")
+    local v1790 = v1788.Parent
+    local v1791 = nil
+    local v1792 = 0.25
+    local v1793 = nil
+    local v1794 = nil
+    local function v1795(v2927)
+        local v2928 = v2927.Position - v1793
+        local v2929 = UDim2.new(v1794.X.Scale, v1794.X.Offset + v2928.X, v1794.Y.Scale, v1794.Y.Offset + v2928.Y)
+        game:GetService("TweenService"):Create(v1790, TweenInfo.new(v1792), {Position = v2929}):Play()
+    end
+    v1790.InputBegan:Connect(
+        function(v2930)
+            if
+                ((v2930.UserInputType == Enum.UserInputType.MouseButton1) or
+                    (v2930.UserInputType == Enum.UserInputType.Touch))
+             then
+                v1791 = true
+                v1793 = v2930.Position
+                v1794 = v1790.Position
+                v2930.Changed:Connect(
+                    function()
+                        if (v2930.UserInputState == Enum.UserInputState.End) then
+                            v1791 = false
+                        end
+                    end
+                )
+            end
+        end
+    )
+    v1789.InputChanged:Connect(
+        function(v2931)
+            if
+                ((v2931.UserInputType == Enum.UserInputType.MouseMovement) or
+                    (v2931.UserInputType == Enum.UserInputType.Touch))
+             then
+                if v1791 then
+                    v1795(v2931)
+                end
+            end
+        end
+    )
+end
+task.spawn(v1631)
+local function v1632()
+    local v1796 = v0["10"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v1797 = game:GetService("Players")
+    local v1798 = v1797.LocalPlayer
+    local function v1799(v2932)
+        local v2933 = v1798.Character
+        if not v2933 then
+            return
+        end
+        for v3135, v3136 in ipairs(v2933:GetDescendants()) do
+            if v3136:IsA("BasePart") then
+                v3136.CanCollide = v2932
+            end
+        end
+    end
+    task.spawn(
+        function()
+            while true do
+                v1799(false)
+                task.wait(0.1)
+            end
+        end
+    )
+end
+task.spawn(v1632)
+local function v1633()
+    local v1800 = v0["15"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v1801 = game:GetService("Players")
+    local v1802 = game:GetService("ReplicatedStorage")
+    local v1803 = v1801.LocalPlayer
+    local v1804 = v1802:WaitForChild("ZAP"):WaitForChild("ZAP_RELIABLE")
+    local v1805 = false
+    local v1806 = v1800.Parent
+    v1806.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v1806.Text = "Closed"
+    local function v1809(v2934)
+        local v2935 = v1803.Character
+        if not v2935 then
+            return
+        end
+        for v3137, v3138 in ipairs(v2935:GetDescendants()) do
+            if v3138:IsA("BasePart") then
+                v3138.CanCollide = v2934
+            end
+        end
+    end
+    local function v1810()
+        task.spawn(
+            function()
+                while v1805 do
+                    v1809(false)
+                    v1804:FireServer(buffer.fromstring("\f\x04\x00\x03"), {})
+                    task.wait(0.1)
+                end
+            end
+        )
+    end
+    v1806.MouseButton1Click:Connect(
+        function()
+            v1805 = not v1805
+            if v1805 then
+                v1806.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v1806.Text = "Open"
+                v1810()
+            else
+                v1806.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v1806.Text = "Closed"
+                task.wait(0.05)
+                v1809(true)
+            end
+        end
+    )
+end
+task.spawn(v1633)
+local function v1634()
+    local v1811 = v0["16"]
+    local v1812 = game:GetService("SoundService")
+    local v1813 = v1811.Parent
+    local v1814 = "rbxassetid://179235828"
+    local v1815 = Instance.new("Sound")
+    v1815.SoundId = v1814
+    v1815.Volume = 0.5
+    v1815.Parent = v1812
+    v1813.MouseEnter:Connect(
+        function()
+            if v1815.IsLoaded then
+                v1815:Play()
+            else
+                v1815.Loaded:Wait()
+                v1815:Play()
+            end
+        end
+    )
+end
+task.spawn(v1634)
+local function v1635()
+    local v1819 = v0["17"]
+    local v1820 = game:GetService("SoundService")
+    local v1821 = v1819.Parent
+    local v1822 = "rbxassetid://140207837688369"
+    local v1823 = Instance.new("Sound")
+    v1823.SoundId = v1822
+    v1823.Volume = 0.8
+    v1823.Parent = v1820
+    v1821.MouseButton1Click:Connect(
+        function()
+            if v1823.IsLoaded then
+                v1823:Play()
+            else
+                v1823.Loaded:Wait()
+                v1823:Play()
+            end
+        end
+    )
+end
+task.spawn(v1635)
+local function v1636()
+    local v1827 = v0["1a"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v1828 = game:GetService("Players")
+    local v1829 = game:GetService("ReplicatedStorage")
+    local v1830 = v1828.LocalPlayer
+    local v1831 =
+        v1829:WaitForChild("Aero"):WaitForChild("AeroRemoteServices"):WaitForChild("GameService"):WaitForChild(
+        "SellAllCratesRequest"
+    )
+    local v1832 = false
+    local v1833 = v1827.Parent
+    v1833.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v1833.Text = "Closed"
+    local function v1836(v2936)
+        local v2937 = v1830.Character
+        if not v2937 then
+            return
+        end
+        for v3139, v3140 in ipairs(v2937:GetDescendants()) do
+            if v3140:IsA("BasePart") then
+                v3140.CanCollide = v2936
+            end
+        end
+    end
+    local function v1837()
+        task.spawn(
+            function()
+                while v1832 do
+                    v1836(false)
+                    v1831:InvokeServer(table.unpack({"t1_skin_crate"}))
+                    task.wait(0.5)
+                    v1831:InvokeServer(table.unpack({"t1_wpn_crate"}))
+                    task.wait(1)
+                end
+            end
+        )
+    end
+    v1833.MouseButton1Click:Connect(
+        function()
+            v1832 = not v1832
+            if v1832 then
+                v1833.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v1833.Text = "Open"
+                v1837()
+            else
+                v1833.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v1833.Text = "Closed"
+                task.wait(0.05)
+                v1836(true)
+            end
+        end
+    )
+end
+task.spawn(v1636)
+local function v1637()
+    local v1838 = v0["1b"]
+    local v1839 = game:GetService("SoundService")
+    local v1840 = v1838.Parent
+    local v1841 = "rbxassetid://179235828"
+    local v1842 = Instance.new("Sound")
+    v1842.SoundId = v1841
+    v1842.Volume = 0.5
+    v1842.Parent = v1839
+    v1840.MouseEnter:Connect(
+        function()
+            if v1842.IsLoaded then
+                v1842:Play()
+            else
+                v1842.Loaded:Wait()
+                v1842:Play()
+            end
+        end
+    )
+end
+task.spawn(v1637)
+local function v1638()
+    local v1846 = v0["1c"]
+    local v1847 = game:GetService("SoundService")
+    local v1848 = v1846.Parent
+    local v1849 = "rbxassetid://140207837688369"
+    local v1850 = Instance.new("Sound")
+    v1850.SoundId = v1849
+    v1850.Volume = 0.8
+    v1850.Parent = v1847
+    v1848.MouseButton1Click:Connect(
+        function()
+            if v1850.IsLoaded then
+                v1850:Play()
+            else
+                v1850.Loaded:Wait()
+                v1850:Play()
+            end
+        end
+    )
+end
+task.spawn(v1638)
+local function v1639()
+    local v1854 = v0["1f"]
+    local v1855 = game:GetService("SoundService")
+    local v1856 = v1854.Parent
+    local v1857 = "rbxassetid://179235828"
+    local v1858 = Instance.new("Sound")
+    v1858.SoundId = v1857
+    v1858.Volume = 0.5
+    v1858.Parent = v1855
+    v1856.MouseEnter:Connect(
+        function()
+            if v1858.IsLoaded then
+                v1858:Play()
+            else
+                v1858.Loaded:Wait()
+                v1858:Play()
+            end
+        end
+    )
+end
+task.spawn(v1639)
+local function v1640()
+    local v1862 = v0["20"]
+    local v1863 = game:GetService("SoundService")
+    local v1864 = v1862.Parent
+    local v1865 = "rbxassetid://140207837688369"
+    local v1866 = Instance.new("Sound")
+    v1866.SoundId = v1865
+    v1866.Volume = 0.8
+    v1866.Parent = v1863
+    v1864.MouseButton1Click:Connect(
+        function()
+            if v1866.IsLoaded then
+                v1866:Play()
+            else
+                v1866.Loaded:Wait()
+                v1866:Play()
+            end
+        end
+    )
+end
+task.spawn(v1640)
+local function v1641()
+    local v1870 = v0["21"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v1871 = game:GetService("Players")
+    local v1872 = game:GetService("ReplicatedStorage")
+    local v1873 = v1871.LocalPlayer
+    local v1874 = v1872:WaitForChild("ZAP"):WaitForChild("ZAP_RELIABLE")
+    local v1875 = false
+    local v1876 = v1870.Parent
+    v1876.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v1876.Text = "Closed"
+    local function v1879(v2938)
+        local v2939 = v1873.Character
+        if not v2939 then
+            return
+        end
+        for v3141, v3142 in ipairs(v2939:GetDescendants()) do
+            if v3142:IsA("BasePart") then
+                v3142.CanCollide = v2938
+            end
+        end
+    end
+    local function v1880()
+        task.spawn(
+            function()
+                while v1875 do
+                    v1879(false)
+                    v1874:FireServer(buffer.fromstring("\r\x0E\b\x00\x00\x01\x01"), {})
+                    task.wait(0.1)
+                end
+            end
+        )
+    end
+    v1876.MouseButton1Click:Connect(
+        function()
+            v1875 = not v1875
+            if v1875 then
+                v1876.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v1876.Text = "Open"
+                v1880()
+            else
+                v1876.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v1876.Text = "Closed"
+                task.wait(0.05)
+                v1879(true)
+            end
+        end
+    )
+end
+task.spawn(v1641)
+local function v1642()
+    local v1881 = v0["25"]
+    local v1882 = game:GetService("SoundService")
+    local v1883 = v1881.Parent
+    local v1884 = "rbxassetid://179235828"
+    local v1885 = Instance.new("Sound")
+    v1885.SoundId = v1884
+    v1885.Volume = 0.5
+    v1885.Parent = v1882
+    v1883.MouseEnter:Connect(
+        function()
+            if v1885.IsLoaded then
+                v1885:Play()
+            else
+                v1885.Loaded:Wait()
+                v1885:Play()
+            end
+        end
+    )
+end
+task.spawn(v1642)
+local function v1643()
+    local v1889 = v0["26"]
+    local v1890 = game:GetService("SoundService")
+    local v1891 = v1889.Parent
+    local v1892 = "rbxassetid://140207837688369"
+    local v1893 = Instance.new("Sound")
+    v1893.SoundId = v1892
+    v1893.Volume = 0.8
+    v1893.Parent = v1890
+    v1891.MouseButton1Click:Connect(
+        function()
+            if v1893.IsLoaded then
+                v1893:Play()
+            else
+                v1893.Loaded:Wait()
+                v1893:Play()
+            end
+        end
+    )
+end
+task.spawn(v1643)
+local function v1644()
+    local v1897 = v0["27"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v1898 = game:GetService("Players")
+    local v1899 = game:GetService("ReplicatedStorage")
+    local v1900 = v1898.LocalPlayer
+    local v1901 = v1899:WaitForChild("ZAP"):WaitForChild("ZAP_RELIABLE")
+    local v1902 = false
+    local v1903 = v1897.Parent
+    v1903.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v1903.Text = "Closed"
+    local function v1906(v2940)
+        local v2941 = v1900.Character
+        if not v2941 then
+            return
+        end
+        for v3143, v3144 in ipairs(v2941:GetDescendants()) do
+            if v3144:IsA("BasePart") then
+                v3144.CanCollide = v2940
+            end
+        end
+    end
+    local function v1907()
+        task.spawn(
+            function()
+                while v1902 do
+                    v1906(false)
+                    v1901:FireServer(buffer.fromstring("\r\x0F\x02\x00\x00\x01\x01"), {})
+                    task.wait(0.1)
+                end
+            end
+        )
+    end
+    v1903.MouseButton1Click:Connect(
+        function()
+            v1902 = not v1902
+            if v1902 then
+                v1903.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v1903.Text = "Open"
+                v1907()
+            else
+                v1903.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v1903.Text = "Closed"
+                task.wait(0.05)
+                v1906(true)
+            end
+        end
+    )
+end
+task.spawn(v1644)
+local function v1645()
+    local v1908 = v0["2c"]
+    local v1909 = game:GetService("SoundService")
+    local v1910 = v1908.Parent
+    local v1911 = "rbxassetid://179235828"
+    local v1912 = Instance.new("Sound")
+    v1912.SoundId = v1911
+    v1912.Volume = 0.5
+    v1912.Parent = v1909
+    v1910.MouseEnter:Connect(
+        function()
+            if v1912.IsLoaded then
+                v1912:Play()
+            else
+                v1912.Loaded:Wait()
+                v1912:Play()
+            end
+        end
+    )
+end
+task.spawn(v1645)
+local function v1646()
+    local v1916 = v0["2d"]
+    local v1917 = game:GetService("SoundService")
+    local v1918 = v1916.Parent
+    local v1919 = "rbxassetid://140207837688369"
+    local v1920 = Instance.new("Sound")
+    v1920.SoundId = v1919
+    v1920.Volume = 0.8
+    v1920.Parent = v1917
+    v1918.MouseButton1Click:Connect(
+        function()
+            if v1920.IsLoaded then
+                v1920:Play()
+            else
+                v1920.Loaded:Wait()
+                v1920:Play()
+            end
+        end
+    )
+end
+task.spawn(v1646)
+local function v1647()
+    local v1924 = v0["2e"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v1925 = game:GetService("Players")
+    local v1926 = game:GetService("ReplicatedStorage")
+    local v1927 = v1925.LocalPlayer
+    local v1928 = v1926:WaitForChild("ZAP"):WaitForChild("ZAP_RELIABLE")
+    local v1929 = false
+    local v1930 = v1924.Parent
+    v1930.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v1930.Text = "Closed"
+    local function v1933(v2942)
+        local v2943 = v1927.Character
+        if not v2943 then
+            return
+        end
+        for v3145, v3146 in ipairs(v2943:GetDescendants()) do
+            if v3146:IsA("BasePart") then
+                v3146.CanCollide = v2942
+            end
+        end
+    end
+    local function v1934()
+        task.spawn(
+            function()
+                while v1929 do
+                    v1933(false)
+                    v1928:FireServer(buffer.fromstring("\r\x06\x01\x00\x00\x01\x01"), {})
+                    task.wait(0.1)
+                end
+            end
+        )
+    end
+    v1930.MouseButton1Click:Connect(
+        function()
+            v1929 = not v1929
+            if v1929 then
+                v1930.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v1930.Text = "Open"
+                v1934()
+            else
+                v1930.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v1930.Text = "Closed"
+                task.wait(0.05)
+                v1933(true)
+            end
+        end
+    )
+end
+task.spawn(v1647)
+local function v1648()
+    local v1935 = v0["31"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v1936 = game:GetService("Players")
+    local v1937 = game:GetService("ReplicatedStorage")
+    local v1938 = v1936.LocalPlayer
+    local v1939 = v1937:WaitForChild("ZAP"):WaitForChild("ZAP_RELIABLE")
+    local v1940 = false
+    local v1941 = v1935.Parent
+    v1941.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v1941.Text = "Closed"
+    local function v1944(v2944)
+        local v2945 = v1938.Character
+        if not v2945 then
+            return
+        end
+        for v3147, v3148 in ipairs(v2945:GetDescendants()) do
+            if v3148:IsA("BasePart") then
+                v3148.CanCollide = v2944
+            end
+        end
+    end
+    local function v1945()
+        task.spawn(
+            function()
+                while v1940 do
+                    v1944(false)
+                    v1939:FireServer(buffer.fromstring("\r\a\x04\x00\x00\x01\x01"), {})
+                    task.wait(0.1)
+                end
+            end
+        )
+    end
+    v1941.MouseButton1Click:Connect(
+        function()
+            v1940 = not v1940
+            if v1940 then
+                v1941.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v1941.Text = "Open"
+                v1945()
+            else
+                v1941.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v1941.Text = "Closed"
+                task.wait(0.05)
+                v1944(true)
+            end
+        end
+    )
+end
+task.spawn(v1648)
+local function v1649()
+    local v1946 = v0["32"]
+    local v1947 = game:GetService("SoundService")
+    local v1948 = v1946.Parent
+    local v1949 = "rbxassetid://179235828"
+    local v1950 = Instance.new("Sound")
+    v1950.SoundId = v1949
+    v1950.Volume = 0.5
+    v1950.Parent = v1947
+    v1948.MouseEnter:Connect(
+        function()
+            if v1950.IsLoaded then
+                v1950:Play()
+            else
+                v1950.Loaded:Wait()
+                v1950:Play()
+            end
+        end
+    )
+end
+task.spawn(v1649)
+local function v1650()
+    local v1954 = v0["33"]
+    local v1955 = game:GetService("SoundService")
+    local v1956 = v1954.Parent
+    local v1957 = "rbxassetid://140207837688369"
+    local v1958 = Instance.new("Sound")
+    v1958.SoundId = v1957
+    v1958.Volume = 0.8
+    v1958.Parent = v1955
+    v1956.MouseButton1Click:Connect(
+        function()
+            if v1958.IsLoaded then
+                v1958:Play()
+            else
+                v1958.Loaded:Wait()
+                v1958:Play()
+            end
+        end
+    )
+end
+task.spawn(v1650)
+local function v1651()
+    local v1962 = v0["37"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v1963 = game:GetService("Players")
+    local v1964 = game:GetService("ReplicatedStorage")
+    local v1965 = v1963.LocalPlayer
+    local v1966 =
+        v1964:WaitForChild("Aero"):WaitForChild("AeroRemoteServices"):WaitForChild("GameService"):WaitForChild(
+        "RebirthRequest"
+    )
+    local v1967 = v1962.Parent
+    local v1968 = v1967.Parent
+    local v1969 = v1968:WaitForChild("rebir")
+    local v1970 = false
+    local function v1971(v2946)
+        local v2947 = v1965.Character
+        if not v2947 then
+            return
+        end
+        for v3149, v3150 in ipairs(v2947:GetDescendants()) do
+            if v3150:IsA("BasePart") then
+                v3150.CanCollide = v2946
+            end
+        end
+    end
+    local function v1972()
+        local v2948 = v1965:FindFirstChild("leaderstats")
+        if not v2948 then
+            return nil
+        end
+        for v3151, v3152 in ipairs(v2948:GetChildren()) do
+            if string.find(string.lower(v3152.Name), "level") then
+                return v3152
+            end
+        end
+        return nil
+    end
+    local function v1973()
+        task.spawn(
+            function()
+                while v1970 do
+                    v1971(false)
+                    local v3255 = v1972()
+                    local v3256 = tonumber(v1969.Text)
+                    if (v3255 and v3256 and (v3255.Value >= v3256)) then
+                        v1966:InvokeServer(table.unpack({}))
+                    end
+                    task.wait(0.1)
+                end
+            end
+        )
+    end
+    v1967.MouseButton1Click:Connect(
+        function()
+            v1970 = not v1970
+            if v1970 then
+                v1967.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v1967.Text = "Open"
+                v1973()
+            else
+                v1967.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v1967.Text = "Closed"
+                task.wait(0.05)
+                v1971(true)
+            end
+        end
+    )
+end
+task.spawn(v1651)
+local function v1652()
+    local v1974 = v0["38"]
+    local v1975 = game:GetService("SoundService")
+    local v1976 = v1974.Parent
+    local v1977 = "rbxassetid://179235828"
+    local v1978 = Instance.new("Sound")
+    v1978.SoundId = v1977
+    v1978.Volume = 0.5
+    v1978.Parent = v1975
+    v1976.MouseEnter:Connect(
+        function()
+            if v1978.IsLoaded then
+                v1978:Play()
+            else
+                v1978.Loaded:Wait()
+                v1978:Play()
+            end
+        end
+    )
+end
+task.spawn(v1652)
+local function v1653()
+    local v1982 = v0["39"]
+    local v1983 = game:GetService("SoundService")
+    local v1984 = v1982.Parent
+    local v1985 = "rbxassetid://140207837688369"
+    local v1986 = Instance.new("Sound")
+    v1986.SoundId = v1985
+    v1986.Volume = 0.8
+    v1986.Parent = v1983
+    v1984.MouseButton1Click:Connect(
+        function()
+            if v1986.IsLoaded then
+                v1986:Play()
+            else
+                v1986.Loaded:Wait()
+                v1986:Play()
+            end
+        end
+    )
+end
+task.spawn(v1653)
+local function v1654()
+    local v1990 = v0["3c"]
+    local v1991 = game:GetService("SoundService")
+    local v1992 = v1990.Parent
+    local v1993 = "rbxassetid://179235828"
+    local v1994 = Instance.new("Sound")
+    v1994.SoundId = v1993
+    v1994.Volume = 0.5
+    v1994.Parent = v1991
+    v1992.MouseEnter:Connect(
+        function()
+            if v1994.IsLoaded then
+                v1994:Play()
+            else
+                v1994.Loaded:Wait()
+                v1994:Play()
+            end
+        end
+    )
+end
+task.spawn(v1654)
+local function v1655()
+    local v1998 = v0["3d"]
+    local v1999 = game:GetService("SoundService")
+    local v2000 = v1998.Parent
+    local v2001 = "rbxassetid://140207837688369"
+    local v2002 = Instance.new("Sound")
+    v2002.SoundId = v2001
+    v2002.Volume = 0.8
+    v2002.Parent = v1999
+    v2000.MouseButton1Click:Connect(
+        function()
+            if v2002.IsLoaded then
+                v2002:Play()
+            else
+                v2002.Loaded:Wait()
+                v2002:Play()
+            end
+        end
+    )
+end
+task.spawn(v1655)
+local function v1656()
+    local v2006 = v0["3e"]
+end
+task.spawn(v1656)
+local function v1657()
+    local v2007 = v0["48"]
+    local v2008 = game:GetService("SoundService")
+    local v2009 = v2007.Parent
+    local v2010 = "rbxassetid://179235828"
+    local v2011 = Instance.new("Sound")
+    v2011.SoundId = v2010
+    v2011.Volume = 0.5
+    v2011.Parent = v2008
+    v2009.MouseEnter:Connect(
+        function()
+            if v2011.IsLoaded then
+                v2011:Play()
+            else
+                v2011.Loaded:Wait()
+                v2011:Play()
+            end
+        end
+    )
+end
+task.spawn(v1657)
+local function v1658()
+    local v2015 = v0["49"]
+    local v2016 = game:GetService("SoundService")
+    local v2017 = v2015.Parent
+    local v2018 = "rbxassetid://140207837688369"
+    local v2019 = Instance.new("Sound")
+    v2019.SoundId = v2018
+    v2019.Volume = 0.8
+    v2019.Parent = v2016
+    v2017.MouseButton1Click:Connect(
+        function()
+            if v2019.IsLoaded then
+                v2019:Play()
+            else
+                v2019.Loaded:Wait()
+                v2019:Play()
+            end
+        end
+    )
+end
+task.spawn(v1658)
+local function v1659()
+    local v2023 = v0["4a"]
+    local v2024 = v2023.Parent
+    local v2025 = false
+    v2024.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2024.Text = "Closed"
+    v2024:SetAttribute("IsOpen", false)
+    v2024.MouseButton1Click:Connect(
+        function()
+            v2025 = not v2025
+            v2024:SetAttribute("IsOpen", v2025)
+            if v2025 then
+                v2024.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2024.Text = "Open"
+            else
+                v2024.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2024.Text = "Closed"
+            end
+        end
+    )
+end
+task.spawn(v1659)
+local function v1660()
+    local v2028 = v0["4c"]
+    local v2029 = game:GetService("SoundService")
+    local v2030 = v2028.Parent
+    local v2031 = "rbxassetid://179235828"
+    local v2032 = Instance.new("Sound")
+    v2032.SoundId = v2031
+    v2032.Volume = 0.5
+    v2032.Parent = v2029
+    v2030.MouseEnter:Connect(
+        function()
+            if v2032.IsLoaded then
+                v2032:Play()
+            else
+                v2032.Loaded:Wait()
+                v2032:Play()
+            end
+        end
+    )
+end
+task.spawn(v1660)
+local function v1661()
+    local v2036 = v0["4d"]
+    local v2037 = game:GetService("SoundService")
+    local v2038 = v2036.Parent
+    local v2039 = "rbxassetid://140207837688369"
+    local v2040 = Instance.new("Sound")
+    v2040.SoundId = v2039
+    v2040.Volume = 0.8
+    v2040.Parent = v2037
+    v2038.MouseButton1Click:Connect(
+        function()
+            if v2040.IsLoaded then
+                v2040:Play()
+            else
+                v2040.Loaded:Wait()
+                v2040:Play()
+            end
+        end
+    )
+end
+task.spawn(v1661)
+local function v1662()
+    local v2044 = v0["4e"]
+    local v2045 = v2044.Parent
+    local v2046 = false
+    v2045.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2045.Text = "Closed"
+    v2045:SetAttribute("IsOpen", false)
+    v2045.MouseButton1Click:Connect(
+        function()
+            v2046 = not v2046
+            v2045:SetAttribute("IsOpen", v2046)
+            if v2046 then
+                v2045.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2045.Text = "Open"
+            else
+                v2045.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2045.Text = "Closed"
+            end
+        end
+    )
+end
+task.spawn(v1662)
+local function v1663()
+    local v2049 = v0["50"]
+    local v2050 = game:GetService("SoundService")
+    local v2051 = v2049.Parent
+    local v2052 = "rbxassetid://179235828"
+    local v2053 = Instance.new("Sound")
+    v2053.SoundId = v2052
+    v2053.Volume = 0.5
+    v2053.Parent = v2050
+    v2051.MouseEnter:Connect(
+        function()
+            if v2053.IsLoaded then
+                v2053:Play()
+            else
+                v2053.Loaded:Wait()
+                v2053:Play()
+            end
+        end
+    )
+end
+task.spawn(v1663)
+local function v1664()
+    local v2057 = v0["51"]
+    local v2058 = game:GetService("SoundService")
+    local v2059 = v2057.Parent
+    local v2060 = "rbxassetid://140207837688369"
+    local v2061 = Instance.new("Sound")
+    v2061.SoundId = v2060
+    v2061.Volume = 0.8
+    v2061.Parent = v2058
+    v2059.MouseButton1Click:Connect(
+        function()
+            if v2061.IsLoaded then
+                v2061:Play()
+            else
+                v2061.Loaded:Wait()
+                v2061:Play()
+            end
+        end
+    )
+end
+task.spawn(v1664)
+local function v1665()
+    local v2065 = v0["52"]
+    local v2066 = v2065.Parent
+    local v2067 = false
+    v2066.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2066.Text = "Closed"
+    v2066:SetAttribute("IsOpen", false)
+    v2066.MouseButton1Click:Connect(
+        function()
+            v2067 = not v2067
+            v2066:SetAttribute("IsOpen", v2067)
+            if v2067 then
+                v2066.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2066.Text = "Open"
+            else
+                v2066.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2066.Text = "Closed"
+            end
+        end
+    )
+end
+task.spawn(v1665)
+local function v1666()
+    local v2070 = v0["55"]
+    local v2071 = game:GetService("SoundService")
+    local v2072 = v2070.Parent
+    local v2073 = "rbxassetid://179235828"
+    local v2074 = Instance.new("Sound")
+    v2074.SoundId = v2073
+    v2074.Volume = 0.5
+    v2074.Parent = v2071
+    v2072.MouseEnter:Connect(
+        function()
+            if v2074.IsLoaded then
+                v2074:Play()
+            else
+                v2074.Loaded:Wait()
+                v2074:Play()
+            end
+        end
+    )
+end
+task.spawn(v1666)
+local function v1667()
+    local v2078 = v0["56"]
+    local v2079 = game:GetService("SoundService")
+    local v2080 = v2078.Parent
+    local v2081 = "rbxassetid://140207837688369"
+    local v2082 = Instance.new("Sound")
+    v2082.SoundId = v2081
+    v2082.Volume = 0.8
+    v2082.Parent = v2079
+    v2080.MouseButton1Click:Connect(
+        function()
+            if v2082.IsLoaded then
+                v2082:Play()
+            else
+                v2082.Loaded:Wait()
+                v2082:Play()
+            end
+        end
+    )
+end
+task.spawn(v1667)
+local function v1668()
+    local v2086 = v0["57"]
+    local v2087 = v2086.Parent
+    local v2088 = false
+    v2087.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2087.Text = "Closed"
+    v2087:SetAttribute("IsOpen", false)
+    v2087.MouseButton1Click:Connect(
+        function()
+            v2088 = not v2088
+            v2087:SetAttribute("IsOpen", v2088)
+            if v2088 then
+                v2087.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2087.Text = "Open"
+            else
+                v2087.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2087.Text = "Closed"
+            end
+        end
+    )
+end
+task.spawn(v1668)
+local function v1669()
+    local v2091 = v0["5a"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v2092 = game:GetService("Players")
+    local v2093 = game:GetService("ReplicatedStorage")
+    local v2094 = v2092.LocalPlayer
+    local v2095 = v2093:WaitForChild("ZAP"):WaitForChild("ZAP_RELIABLE")
+    local v2096 = false
+    local v2097 = v2091.Parent
+    v2097.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2097.Text = "Closed"
+    local function v2100(v2949)
+        local v2950 = v2094.Character
+        if not v2950 then
+            return
+        end
+        for v3153, v3154 in ipairs(v2950:GetDescendants()) do
+            if v3154:IsA("BasePart") then
+                v3154.CanCollide = v2949
+            end
+        end
+    end
+    local function v2101()
+        task.spawn(
+            function()
+                while v2096 do
+                    v2100(false)
+                    v2095:FireServer(buffer.fromstring("\r\f \x04\x00\x01\x01"), {})
+                    task.wait(0.1)
+                end
+            end
+        )
+    end
+    v2097.MouseButton1Click:Connect(
+        function()
+            v2096 = not v2096
+            if v2096 then
+                v2097.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2097.Text = "Open"
+                v2101()
+            else
+                v2097.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2097.Text = "Closed"
+                task.wait(0.05)
+                v2100(true)
+            end
+        end
+    )
+end
+task.spawn(v1669)
+local function v1670()
+    local v2102 = v0["5b"]
+    local v2103 = game:GetService("SoundService")
+    local v2104 = v2102.Parent
+    local v2105 = "rbxassetid://179235828"
+    local v2106 = Instance.new("Sound")
+    v2106.SoundId = v2105
+    v2106.Volume = 0.5
+    v2106.Parent = v2103
+    v2104.MouseEnter:Connect(
+        function()
+            if v2106.IsLoaded then
+                v2106:Play()
+            else
+                v2106.Loaded:Wait()
+                v2106:Play()
+            end
+        end
+    )
+end
+task.spawn(v1670)
+local function v1671()
+    local v2110 = v0["5c"]
+    local v2111 = game:GetService("SoundService")
+    local v2112 = v2110.Parent
+    local v2113 = "rbxassetid://140207837688369"
+    local v2114 = Instance.new("Sound")
+    v2114.SoundId = v2113
+    v2114.Volume = 0.8
+    v2114.Parent = v2111
+    v2112.MouseButton1Click:Connect(
+        function()
+            if v2114.IsLoaded then
+                v2114:Play()
+            else
+                v2114.Loaded:Wait()
+                v2114:Play()
+            end
+        end
+    )
+end
+task.spawn(v1671)
+local function v1672()
+    local v2118 = v0["5f"]
+    local v2119 = game:GetService("SoundService")
+    local v2120 = v2118.Parent
+    local v2121 = "rbxassetid://179235828"
+    local v2122 = Instance.new("Sound")
+    v2122.SoundId = v2121
+    v2122.Volume = 0.5
+    v2122.Parent = v2119
+    v2120.MouseEnter:Connect(
+        function()
+            if v2122.IsLoaded then
+                v2122:Play()
+            else
+                v2122.Loaded:Wait()
+                v2122:Play()
+            end
+        end
+    )
+end
+task.spawn(v1672)
+local function v1673()
+    local v2126 = v0["60"]
+    local v2127 = game:GetService("SoundService")
+    local v2128 = v2126.Parent
+    local v2129 = "rbxassetid://140207837688369"
+    local v2130 = Instance.new("Sound")
+    v2130.SoundId = v2129
+    v2130.Volume = 0.8
+    v2130.Parent = v2127
+    v2128.MouseButton1Click:Connect(
+        function()
+            if v2130.IsLoaded then
+                v2130:Play()
+            else
+                v2130.Loaded:Wait()
+                v2130:Play()
+            end
+        end
+    )
+end
+task.spawn(v1673)
+local function v1674()
+    local v2134 = v0["61"]
+    local v2135 = game:GetService("TweenService")
+    local v2136 = game:GetService("Players")
+    local v2137 = v2136.LocalPlayer
+    local v2138 = v2134.Parent
+    local v2139 = 100
+    local v2140 = Vector3.new(20433.5, 702.222, -1688.27)
+    local v2141 = false
+    local v2142 = 0
+    local v2143 = {}
+    local v2144 = {}
+    local function v2145(v2951, v2952, v2953, v2954)
+        local v2955 = math.round(v2951.R * 255)
+        local v2956 = math.round(v2951.G * 255)
+        local v2957 = math.round(v2951.B * 255)
+        return (math.abs(v2955 - v2952) <= 20) and (math.abs(v2956 - v2953) <= 20) and (math.abs(v2957 - v2954) <= 20)
+    end
+    local v2146 = nil
+    local function v2147(v2958, v2959, v2960, v2961)
+        local v2962 = v2137.Character
+        local v2963 = v2962 and v2962:FindFirstChild("HumanoidRootPart")
+        if not v2963 then
+            return false
+        end
+        local v2964 = ((typeof(v2958) == "CFrame") and v2958) or v2958.CFrame
+        v2964 = v2964 * CFrame.new(0, 2.5, 0)
+        local v2965 = (v2964.Position - v2963.Position).Magnitude
+        local v2966 = v2965 / v2139
+        if (v2966 > 0) then
+            local v3281 = TweenInfo.new(v2966, Enum.EasingStyle.Linear)
+            if v2146 then
+                v2146:Cancel()
+            end
+            v2146 = v2135:Create(v2963, v3281, {CFrame = v2964})
+            v2146:Play()
+            local v3282 = false
+            local v3283
+            v3283 =
+                v2146.Completed:Connect(
+                function()
+                    v3282 = true
+                end
+            )
+            local v3284 = os.clock()
+            while not v3282 and ((os.clock() - v3284) < (v2966 + 0.2)) do
+                local v3412 = false
+                if v2959 then
+                    local v3499 = v2959:FindFirstChild("Button")
+                    if (v3499 and v2145(v3499.Color, 255, 99, 99)) then
+                        v3412 = true
+                    end
+                end
+                if (not v3412 and v2960 and v2961) then
+                    for v3542 = math.max(1, v2961 - 1), math.min(20, v2961 + 1) do
+                        local v3543 = v2960:FindFirstChild("Row" .. v3542)
+                        if v3543 then
+                            for v3654, v3655 in ipairs(v3543:GetChildren()) do
+                                if (v3655.Name == "MineCell") then
+                                    local v3671 = v3655:FindFirstChild("Button")
+                                    if (v3671 and v2145(v3671.Color, 255, 99, 99)) then
+                                        local v3698 =
+                                            (v3655:IsA("Model") and v3655:GetPivot().Position) or v3655.Position
+                                        if ((v3698 - v2963.Position).Magnitude < 5) then
+                                            v3412 = true
+                                            break
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                        if v3412 then
+                            break
+                        end
+                    end
+                end
+                if v3412 then
+                    if v2146 then
+                        v2146:Cancel()
+                    end
+                    v2963.Anchored = true
+                    v2963.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+                    v2963.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+                    return false
+                end
+                task.wait(0.02)
+            end
+            if v3283 then
+                v3283:Disconnect()
+            end
+            v2146 = nil
+        end
+        return true
+    end
+    local function v2148(v2967)
+        local v2968 = v2137.Character
+        local v2969 = v2968 and v2968:FindFirstChild("HumanoidRootPart")
+        if not v2969 then
+            return
+        end
+        local v2970 = ((typeof(v2967) == "CFrame") and v2967) or v2967.CFrame
+        if v2146 then
+            v2146:Cancel()
+        end
+        local v2971 =
+            v2135:Create(
+            v2969,
+            TweenInfo.new(0.15, Enum.EasingStyle.Linear),
+            {CFrame = v2969.CFrame * CFrame.new(0, 8, 0)}
+        )
+        v2971:Play()
+        v2971.Completed:Wait()
+        local v2972 = (v2970.Position - v2969.Position).Magnitude
+        local v2973 = v2972 / (v2139 * 1.5)
+        local v2974 =
+            v2135:Create(v2969, TweenInfo.new(v2973, Enum.EasingStyle.Linear), {CFrame = v2970 * CFrame.new(0, 8, 0)})
+        v2974:Play()
+        v2974.Completed:Wait()
+        local v2975 =
+            v2135:Create(v2969, TweenInfo.new(0.15, Enum.EasingStyle.Linear), {CFrame = v2970 * CFrame.new(0, 2.5, 0)})
+        v2975:Play()
+        v2975.Completed:Wait()
+    end
+    local function v2149(v2976)
+        local v2977 = workspace:FindFirstChild("Scene") and workspace.Scene:FindFirstChild("Minefield")
+        local v2978 = v2977 and v2977:FindFirstChild("Cells")
+        if not v2978 then
+            v2141 = false
+            v2138.Text = "Failed To Load"
+            return
+        end
+        while v2141 and (v2142 == v2976) do
+            local v3155 = false
+            for v3286, v3287 in pairs(v2144) do
+                if (v3287 and v3287:FindFirstChild("Button")) then
+                    if v2145(v3287.Button.Color, 60, 61, 74) then
+                        v3155 = true
+                        break
+                    end
+                end
+            end
+            if v3155 then
+                v2143 = {}
+                v2144 = {}
+                v2138.Text = "Open"
+                task.wait(1)
+                continue
+            end
+            local v3156 = false
+            local v3157 = 1
+            while v3157 <= 20 do
+                if (not v2141 or (v2142 ~= v2976)) then
+                    break
+                end
+                local v3288 = "Row" .. v3157
+                local v3289 = v2978:FindFirstChild(v3288)
+                if (v3289 and v3289:IsA("Folder")) then
+                    for v3503, v3504 in ipairs(v3289:GetChildren()) do
+                        if ((v3504.Name == "MineCell") and not v2143[v3504]) then
+                            local v3560 = v3504:FindFirstChild("Button")
+                            if (v3560 and v2145(v3560.Color, 255, 99, 99)) then
+                                v2143[v3504] = true
+                            end
+                        end
+                    end
+                    if (v2144[v3157] and v2144[v3157]:FindFirstChild("Button")) then
+                        local v3544 = v2144[v3157]
+                        local v3545 = v3544.Button
+                        if v2145(v3545.Color, 255, 99, 99) then
+                            v2143[v3544] = true
+                            v3156 = true
+                            break
+                        end
+                        if not v2147(v3545.CFrame, v3544, v2978, v3157) then
+                            v3156 = true
+                            break
+                        end
+                        task.wait(0.1)
+                        if v2145(v3545.Color, 255, 99, 99) then
+                            v2143[v3544] = true
+                            v3156 = true
+                            break
+                        end
+                        v3157 = v3157 + 1
+                    else
+                        local v3546 = {}
+                        local v3547 = v2137.Character
+                        local v3548 = v3547 and v3547:FindFirstChild("HumanoidRootPart")
+                        if not v3548 then
+                            v3156 = true
+                            break
+                        end
+                        local v3549 = math.huge
+                        for v3561, v3562 in ipairs(v3289:GetChildren()) do
+                            if (v3562.Name == "MineCell") then
+                                local v3657 = (v3562:IsA("Model") and v3562:GetPivot().Position) or v3562.Position
+                                local v3658 = (v3657 - v3548.Position).Magnitude
+                                if (v3658 < v3549) then
+                                    v3549 = v3658
+                                end
+                            end
+                        end
+                        local v3550 = (v3549 * 1.8) + 2
+                        for v3563, v3564 in ipairs(v3289:GetChildren()) do
+                            if ((v3564.Name == "MineCell") and not v2143[v3564]) then
+                                local v3659 = v3564:FindFirstChild("Button")
+                                if v3659 then
+                                    if (v2145(v3659.Color, 60, 61, 74) or v2145(v3659.Color, 109, 193, 0)) then
+                                        local v3699 =
+                                            (v3564:IsA("Model") and v3564:GetPivot().Position) or v3564.Position
+                                        local v3700 = (v3699 - v3548.Position).Magnitude
+                                        if (v3700 <= v3550) then
+                                            table.insert(v3546, v3564)
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                        table.sort(
+                            v3546,
+                            function(v3565, v3566)
+                                local v3567 = v3565:FindFirstChild("Button")
+                                local v3568 = v3566:FindFirstChild("Button")
+                                local v3569 = v3567 and v2145(v3567.Color, 109, 193, 0)
+                                local v3570 = v3568 and v2145(v3568.Color, 109, 193, 0)
+                                if (v3569 and not v3570) then
+                                    return true
+                                end
+                                if (v3570 and not v3569) then
+                                    return false
+                                end
+                                local v3571 = (v3565:IsA("Model") and v3565:GetPivot().Position) or v3565.Position
+                                local v3572 = (v3566:IsA("Model") and v3566:GetPivot().Position) or v3566.Position
+                                return (v3571 - v3548.Position).Magnitude < (v3572 - v3548.Position).Magnitude
+                            end
+                        )
+                        local v3551 = v3546[1]
+                        if v3551 then
+                            local v3645 = v3551.Button
+                            if not v2147(v3645.CFrame, v3551, v2978, v3157) then
+                                v3156 = true
+                                break
+                            end
+                            task.wait(0.15)
+                            local v3646 = os.clock()
+                            while (os.clock() - v3646) < 3 do
+                                if (v2145(v3645.Color, 255, 99, 99) or v2145(v3645.Color, 109, 193, 0)) then
+                                    break
+                                end
+                                task.wait(0.05)
+                            end
+                            if v2145(v3645.Color, 255, 99, 99) then
+                                v2143[v3551] = true
+                                v3156 = true
+                                v2144[v3157] = nil
+                                break
+                            elseif v2145(v3645.Color, 109, 193, 0) then
+                                v2144[v3157] = v3551
+                                task.wait(0.02)
+                                v3157 = v3157 + 1
+                            else
+                                break
+                            end
+                        else
+                            if (v3157 == 1) then
+                                v3156 = true
+                                break
+                            end
+                            if v2144[v3157 - 1] then
+                                v2143[v2144[v3157 - 1]] = true
+                                v2144[v3157 - 1] = nil
+                            end
+                            local v3647 = v3157 - 2
+                            local v3648 = ((v3647 > 0) and v2144[v3647]) or nil
+                            if v3648 then
+                                v2148(v3648.Button.CFrame)
+                                task.wait(0.1)
+                            else
+                                if v3548 then
+                                    v3548.CFrame = CFrame.new(v2140) + Vector3.new(0, 50, 0)
+                                    task.wait(0.05)
+                                    v3548.CFrame = CFrame.new(v2140)
+                                end
+                                task.wait(0.2)
+                            end
+                            v3157 = math.max(1, v3157 - 1)
+                            continue
+                        end
+                    end
+                else
+                    v3156 = true
+                    break
+                end
+            end
+            if (v3156 and v2141 and (v2142 == v2976)) then
+                v2138.Text = "Waiting: 3.5s"
+                local v3415 = v2137.Character
+                local v3416 = v3415 and v3415:FindFirstChild("HumanoidRootPart")
+                if v3416 then
+                    v3416.Anchored = true
+                    v3416.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+                    v3416.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+                end
+                task.wait(3.5)
+                if v3416 then
+                    v3416.CFrame = CFrame.new(v2140) + Vector3.new(0, 50, 0)
+                    task.wait(0.05)
+                    v3416.CFrame = CFrame.new(v2140)
+                    v3416.Anchored = false
+                end
+                v2138.Text = "Open"
+                task.wait(0.5)
+            end
+            if (not v3156 and v2141 and v2144[20] and (v2142 == v2976)) then
+                local v3417 = v2137.Character
+                local v3418 = v3417 and v3417:FindFirstChild("HumanoidRootPart")
+                if v3418 then
+                    local v3510 = v3418.CFrame.LookVector
+                    if (v2144[19] and v2144[20]) then
+                        v3510 = (v2144[20].Button.Position - v2144[19].Button.Position).Unit
+                    end
+                    local v3511 = CFrame.new(v3418.Position + (v3510 * 5)) * v3418.CFrame.Rotation
+                    v2147(v3511, nil, v2978, 20)
+                    task.wait(0.15)
+                end
+                local v3419 = v2977:FindFirstChild("EndRace")
+                if v3419 then
+                    local v3512 = (v3419:IsA("Model") and v3419:GetPivot()) or v3419.CFrame
+                    v2147(v3512, nil, v2978, 20)
+                    v2138.Text = "Done"
+                    task.wait(10.5)
+                    if (v2141 and (v2142 == v2976)) then
+                        v2143 = {}
+                        v2144 = {}
+                        v2138.Text = "Open"
+                    end
+                else
+                    v2141 = false
+                    v2138.Text = "Failed!"
+                end
+            else
+                task.wait(0.2)
+            end
+        end
+    end
+    v2138.MouseButton1Click:Connect(
+        function()
+            v2141 = not v2141
+            if v2141 then
+                v2142 = v2142 + 1
+                v2138.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2138.Text = "Open"
+                task.spawn(v2149, v2142)
+            else
+                v2142 = v2142 + 1
+                if v2146 then
+                    v2146:Cancel()
+                end
+                local v3292 = v2137.Character
+                local v3293 = v3292 and v3292:FindFirstChild("HumanoidRootPart")
+                if v3293 then
+                    v3293.Anchored = false
+                end
+                v2138.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2138.Text = "Closed"
+            end
+        end
+    )
+end
+task.spawn(v1674)
+local function v1675()
+    local v2150 = v0["64"]
+    local v2151 = game:GetService("SoundService")
+    local v2152 = v2150.Parent
+    local v2153 = "rbxassetid://179235828"
+    local v2154 = Instance.new("Sound")
+    v2154.SoundId = v2153
+    v2154.Volume = 0.5
+    v2154.Parent = v2151
+    v2152.MouseEnter:Connect(
+        function()
+            if v2154.IsLoaded then
+                v2154:Play()
+            else
+                v2154.Loaded:Wait()
+                v2154:Play()
+            end
+        end
+    )
+end
+task.spawn(v1675)
+local function v1676()
+    local v2158 = v0["65"]
+    local v2159 = game:GetService("SoundService")
+    local v2160 = v2158.Parent
+    local v2161 = "rbxassetid://140207837688369"
+    local v2162 = Instance.new("Sound")
+    v2162.SoundId = v2161
+    v2162.Volume = 0.8
+    v2162.Parent = v2159
+    v2160.MouseButton1Click:Connect(
+        function()
+            if v2162.IsLoaded then
+                v2162:Play()
+            else
+                v2162.Loaded:Wait()
+                v2162:Play()
+            end
+        end
+    )
+end
+task.spawn(v1676)
+local function v1677()
+    local v2166 = v0["66"]
+    local v2167 = game:GetService("ReplicatedStorage")
+    local v2168 = game:GetService("Players")
+    local v2169 = v2168.LocalPlayer
+    local v2170 = v2166.Parent
+    local v2171 = false
+    v2170.MouseButton1Click:Connect(
+        function()
+            if not v2171 then
+                local v3296 = v2169.Character
+                if (v3296 and v3296:FindFirstChild("HumanoidRootPart")) then
+                    v3296.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(19380, 691.52, -1985.6))
+                end
+                v2170.Text = "Open"
+                v2170.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                task.wait(0.5)
+                v2171 = true
+            else
+                v2171 = false
+                v2170.Text = "Closed"
+                v2170.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+            end
+        end
+    )
+    task.spawn(
+        function()
+            while task.wait(0.05) do
+                if v2171 then
+                    local v3420 = workspace:FindFirstChild("Scene")
+                    if v3420 then
+                        local v3515 = v3420:FindFirstChild("Beach")
+                        if v3515 then
+                            local v3575 = v3515:FindFirstChild("Beachballs")
+                            local v3576 = v3515:FindFirstChild("Goals")
+                            if (v3575 and v3576) then
+                                local v3660 = v3576:FindFirstChild("Goal_1")
+                                if v3660 then
+                                    local v3672 = v3660:FindFirstChild("Score")
+                                    if v3672 then
+                                        for v3703, v3704 in ipairs(v3575:GetChildren()) do
+                                            if v3704:IsA("BasePart") then
+                                                v3704.CFrame = v3672.CFrame
+                                            elseif (v3704:IsA("Model") and v3704.PrimaryPart) then
+                                                v3704:SetPrimaryPartCFrame(v3672.CFrame)
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                    local v3421 = v2167:FindFirstChild("ZAP")
+                    if v3421 then
+                        local v3516 = v3421:FindFirstChild("ZAP_RELIABLE")
+                        if v3516 then
+                            v3516:FireServer(buffer.fromstring("\x00\x01"), {})
+                            v3516:FireServer(buffer.fromstring("\x00\x02"), {})
+                            v3516:FireServer(buffer.fromstring("\x00\x03"), {})
+                        end
+                    end
+                end
+            end
+        end
+    )
+end
+task.spawn(v1677)
+local function v1678()
+    local v2172 = v0["6a"]
+    local v2173 = game:GetService("SoundService")
+    local v2174 = v2172.Parent
+    local v2175 = "rbxassetid://179235828"
+    local v2176 = Instance.new("Sound")
+    v2176.SoundId = v2175
+    v2176.Volume = 0.5
+    v2176.Parent = v2173
+    v2174.MouseEnter:Connect(
+        function()
+            if v2176.IsLoaded then
+                v2176:Play()
+            else
+                v2176.Loaded:Wait()
+                v2176:Play()
+            end
+        end
+    )
+end
+task.spawn(v1678)
+local function v1679()
+    local v2180 = v0["6b"]
+    local v2181 = game:GetService("SoundService")
+    local v2182 = v2180.Parent
+    local v2183 = "rbxassetid://140207837688369"
+    local v2184 = Instance.new("Sound")
+    v2184.SoundId = v2183
+    v2184.Volume = 0.8
+    v2184.Parent = v2181
+    v2182.MouseButton1Click:Connect(
+        function()
+            if v2184.IsLoaded then
+                v2184:Play()
+            else
+                v2184.Loaded:Wait()
+                v2184:Play()
+            end
+        end
+    )
+end
+task.spawn(v1679)
+local function v1680()
+    local v2188 = v0["6c"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v2189 = game:GetService("Players")
+    local v2190 = game:GetService("ReplicatedStorage")
+    local v2191 = v2189.LocalPlayer
+    local v2192 = v2190:WaitForChild("ZAP"):WaitForChild("ZAP_RELIABLE")
+    local v2193 = false
+    local v2194 = v2188.Parent
+    v2194.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2194.Text = "Closed"
+    local function v2197(v2979)
+        local v2980 = v2191.Character
+        if not v2980 then
+            return
+        end
+        for v3158, v3159 in ipairs(v2980:GetDescendants()) do
+            if v3159:IsA("BasePart") then
+                v3159.CanCollide = v2979
+            end
+        end
+    end
+    local function v2198()
+        task.spawn(
+            function()
+                while v2193 do
+                    v2197(false)
+                    v2192:FireServer(buffer.fromstring("\r\x06\x10\x05\x00\x01\x01"), {})
+                    task.wait(0.1)
+                end
+            end
+        )
+    end
+    v2194.MouseButton1Click:Connect(
+        function()
+            v2193 = not v2193
+            if v2193 then
+                v2194.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2194.Text = "Open"
+                v2198()
+            else
+                v2194.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2194.Text = "Closed"
+                task.wait(0.05)
+                v2197(true)
+            end
+        end
+    )
+end
+task.spawn(v1680)
+local function v1681()
+    local v2199 = v0["6f"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v2200 = game:GetService("Players")
+    local v2201 = game:GetService("ReplicatedStorage")
+    local v2202 = v2200.LocalPlayer
+    local v2203 = v2201:WaitForChild("ZAP"):WaitForChild("ZAP_RELIABLE")
+    local v2204 = false
+    local v2205 = v2199.Parent
+    v2205.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2205.Text = "Closed"
+    local function v2208(v2981)
+        local v2982 = v2202.Character
+        if not v2982 then
+            return
+        end
+        for v3160, v3161 in ipairs(v2982:GetDescendants()) do
+            if v3161:IsA("BasePart") then
+                v3161.CanCollide = v2981
+            end
+        end
+    end
+    local function v2209()
+        task.spawn(
+            function()
+                while v2204 do
+                    v2208(false)
+                    v2203:FireServer(buffer.fromstring("\r\n\x10\x06\x00\x01\x01"), {})
+                    task.wait(0.1)
+                end
+            end
+        )
+    end
+    v2205.MouseButton1Click:Connect(
+        function()
+            v2204 = not v2204
+            if v2204 then
+                v2205.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2205.Text = "Open"
+                v2209()
+            else
+                v2205.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2205.Text = "Closed"
+                task.wait(0.05)
+                v2208(true)
+            end
+        end
+    )
+end
+task.spawn(v1681)
+local function v1682()
+    local v2210 = v0["70"]
+    local v2211 = game:GetService("SoundService")
+    local v2212 = v2210.Parent
+    local v2213 = "rbxassetid://179235828"
+    local v2214 = Instance.new("Sound")
+    v2214.SoundId = v2213
+    v2214.Volume = 0.5
+    v2214.Parent = v2211
+    v2212.MouseEnter:Connect(
+        function()
+            if v2214.IsLoaded then
+                v2214:Play()
+            else
+                v2214.Loaded:Wait()
+                v2214:Play()
+            end
+        end
+    )
+end
+task.spawn(v1682)
+local function v1683()
+    local v2218 = v0["71"]
+    local v2219 = game:GetService("SoundService")
+    local v2220 = v2218.Parent
+    local v2221 = "rbxassetid://140207837688369"
+    local v2222 = Instance.new("Sound")
+    v2222.SoundId = v2221
+    v2222.Volume = 0.8
+    v2222.Parent = v2219
+    v2220.MouseButton1Click:Connect(
+        function()
+            if v2222.IsLoaded then
+                v2222:Play()
+            else
+                v2222.Loaded:Wait()
+                v2222:Play()
+            end
+        end
+    )
+end
+task.spawn(v1683)
+local function v1684()
+    local v2226 = v0["73"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v2227 = game:GetService("Players")
+    local v2228 = game:GetService("ReplicatedStorage")
+    local v2229 = v2227.LocalPlayer
+    local v2230 = v2228:WaitForChild("ZAP"):WaitForChild("ZAP_RELIABLE")
+    local v2231 = false
+    local v2232 = v2226.Parent
+    v2232.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2232.Text = "Closed"
+    local function v2235(v2983)
+        local v2984 = v2229.Character
+        if not v2984 then
+            return
+        end
+        for v3162, v3163 in ipairs(v2984:GetDescendants()) do
+            if v3163:IsA("BasePart") then
+                v3163.CanCollide = v2983
+            end
+        end
+    end
+    local function v2236()
+        task.spawn(
+            function()
+                while v2231 do
+                    v2235(false)
+                    v2230:FireServer(buffer.fromstring("\n"), {})
+                    task.wait(0.02)
+                end
+            end
+        )
+    end
+    v2232.MouseButton1Click:Connect(
+        function()
+            v2231 = not v2231
+            if v2231 then
+                v2232.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2232.Text = "Open"
+                v2236()
+            else
+                v2232.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2232.Text = "Closed"
+                v2235(true)
+            end
+        end
+    )
+end
+task.spawn(v1684)
+local function v1685()
+    local v2237 = v0["74"]
+    local v2238 = game:GetService("SoundService")
+    local v2239 = v2237.Parent
+    local v2240 = "rbxassetid://179235828"
+    local v2241 = Instance.new("Sound")
+    v2241.SoundId = v2240
+    v2241.Volume = 0.5
+    v2241.Parent = v2238
+    v2239.MouseEnter:Connect(
+        function()
+            if v2241.IsLoaded then
+                v2241:Play()
+            else
+                v2241.Loaded:Wait()
+                v2241:Play()
+            end
+        end
+    )
+end
+task.spawn(v1685)
+local function v1686()
+    local v2245 = v0["75"]
+    local v2246 = game:GetService("SoundService")
+    local v2247 = v2245.Parent
+    local v2248 = "rbxassetid://140207837688369"
+    local v2249 = Instance.new("Sound")
+    v2249.SoundId = v2248
+    v2249.Volume = 0.8
+    v2249.Parent = v2246
+    v2247.MouseButton1Click:Connect(
+        function()
+            if v2249.IsLoaded then
+                v2249:Play()
+            else
+                v2249.Loaded:Wait()
+                v2249:Play()
+            end
+        end
+    )
+end
+task.spawn(v1686)
+local function v1687()
+    local v2253 = v0["77"]
+    local v2254 = game:GetService("Players")
+    local v2255 = game:GetService("TweenService")
+    local v2256 = v2254.LocalPlayer
+    local v2257 = false
+    local v2258 = "7036884767"
+    local v2259 = 325
+    local v2260 = v2253.Parent
+    v2260.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2260.Text = "Closed"
+    local function v2263(v2985)
+        if not v2985 then
+            return false
+        end
+        if (v2985:IsA("MeshPart") and string.find(v2985.MeshId, v2258)) then
+            return true
+        elseif
+            (v2985:FindFirstChildOfClass("SpecialMesh") and
+                string.find(v2985:FindFirstChildOfClass("SpecialMesh").MeshId, v2258))
+         then
+            return true
+        end
+        return false
+    end
+    local function v2264()
+        local v2986 = v2256.Character
+        local v2987 = v2986 and v2986:FindFirstChild("HumanoidRootPart")
+        if not v2987 then
+            return nil
+        end
+        local v2988 = workspace:FindFirstChild("Scene")
+        if not v2988 then
+            return nil
+        end
+        local v2989 = v2988:FindFirstChild("ResourceNodes1")
+        if not v2989 then
+            return nil
+        end
+        local v2990 = nil
+        local v2991 = math.huge
+        for v3164, v3165 in ipairs(v2989:GetChildren()) do
+            if ((v3165.Name == "ResourceNode") and v3165:IsA("BasePart")) then
+                local v3425 = v3165:FindFirstChild("Prefab")
+                if (v3425 and v2263(v3425)) then
+                    local v3517 = (v2987.Position - v3165.Position).Magnitude
+                    if (v3517 < v2991) then
+                        v2991 = v3517
+                        v2990 = v3165
+                    end
+                end
+            end
+        end
+        return v2990
+    end
+    local function v2265(v2992)
+        local v2993 = v2256.Character
+        if not v2993 then
+            return
+        end
+        for v3166, v3167 in ipairs(v2993:GetDescendants()) do
+            if v3167:IsA("BasePart") then
+                v3167.CanCollide = v2992
+            end
+        end
+    end
+    local function v2266(v2994)
+        local v2995 = v2256.Character
+        local v2996 = v2995 and v2995:FindFirstChild("HumanoidRootPart")
+        if not v2996 then
+            return
+        end
+        local v2997 = v2996.Position
+        local v2998 = v2994.Position
+        if (math.abs(v2997.Y - v2998.Y) > 2) then
+            local v3313 = Vector3.new(v2997.X, v2998.Y, v2997.Z)
+            local v3314 = math.abs(v2997.Y - v2998.Y)
+            local v3315 = v3314 / v2259
+            local v3316 = CFrame.new(v3313) * (v2996.CFrame - v2996.Position)
+            local v3317 = TweenInfo.new(v3315, Enum.EasingStyle.Linear)
+            local v3318 = v2255:Create(v2996, v3317, {CFrame = v3316})
+            v3318:Play()
+            while (v3318.PlaybackState == Enum.PlaybackState.Playing) and v2257 do
+                task.wait()
+            end
+            if not v2257 then
+                v3318:Cancel()
+                return
+            end
+            v2997 = v2996.Position
+        end
+        local v2999 = Vector3.new(v2998.X, v2997.Y, v2998.Z)
+        local v3000 = (v2997 - v2999).Magnitude
+        local v3001 = v3000 / v2259
+        local v3002 = CFrame.new(v2999) * (v2996.CFrame - v2996.Position)
+        local v3003 = TweenInfo.new(v3001, Enum.EasingStyle.Linear)
+        local v3004 = v2255:Create(v2996, v3003, {CFrame = v3002})
+        v3004:Play()
+        while (v3004.PlaybackState == Enum.PlaybackState.Playing) and v2257 do
+            task.wait()
+        end
+        if not v2257 then
+            v3004:Cancel()
+        end
+    end
+    local function v2267()
+        task.spawn(
+            function()
+                while v2257 do
+                    v2265(false)
+                    local v3320 = v2264()
+                    if v3320 then
+                        v2266(v3320)
+                        if v2257 then
+                            task.wait(0.5)
+                        end
+                    else
+                        task.wait(0.5)
+                    end
+                    task.wait(0.1)
+                end
+            end
+        )
+    end
+    v2260.MouseButton1Click:Connect(
+        function()
+            v2257 = not v2257
+            if v2257 then
+                v2260.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2260.Text = "Open"
+                v2267()
+            else
+                v2260.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2260.Text = "Closed"
+                task.wait(0.05)
+                v2265(true)
+            end
+        end
+    )
+end
+task.spawn(v1687)
+local function v1688()
+    local v2268 = v0["78"]
+    local v2269 = game:GetService("SoundService")
+    local v2270 = v2268.Parent
+    local v2271 = "rbxassetid://179235828"
+    local v2272 = Instance.new("Sound")
+    v2272.SoundId = v2271
+    v2272.Volume = 0.5
+    v2272.Parent = v2269
+    v2270.MouseEnter:Connect(
+        function()
+            if v2272.IsLoaded then
+                v2272:Play()
+            else
+                v2272.Loaded:Wait()
+                v2272:Play()
+            end
+        end
+    )
+end
+task.spawn(v1688)
+local function v1689()
+    local v2276 = v0["79"]
+    local v2277 = game:GetService("SoundService")
+    local v2278 = v2276.Parent
+    local v2279 = "rbxassetid://140207837688369"
+    local v2280 = Instance.new("Sound")
+    v2280.SoundId = v2279
+    v2280.Volume = 0.8
+    v2280.Parent = v2277
+    v2278.MouseButton1Click:Connect(
+        function()
+            if v2280.IsLoaded then
+                v2280:Play()
+            else
+                v2280.Loaded:Wait()
+                v2280:Play()
+            end
+        end
+    )
+end
+task.spawn(v1689)
+local function v1690()
+    local v2284 = v0["7c"]
+    local v2285 = v2284.Parent
+    local v2286 =
+        game:GetService("ReplicatedStorage"):WaitForChild("Aero"):WaitForChild("AeroRemoteServices"):WaitForChild(
+        "GameService"
+    ):WaitForChild("MassUpgradeSkills")
+    local v2287 = false
+    v2285.MouseButton1Click:Connect(
+        function()
+            v2287 = not v2287
+            if v2287 then
+                v2285.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2285.Text = "Open"
+                task.spawn(
+                    function()
+                        while v2287 do
+                            v2286:InvokeServer()
+                            task.wait(0.1)
+                        end
+                    end
+                )
+            else
+                v2285.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2285.Text = "Closed"
+            end
+        end
+    )
+end
+task.spawn(v1690)
+local function v1691()
+    local v2288 = v0["7d"]
+    local v2289 = game:GetService("SoundService")
+    local v2290 = v2288.Parent
+    local v2291 = "rbxassetid://179235828"
+    local v2292 = Instance.new("Sound")
+    v2292.SoundId = v2291
+    v2292.Volume = 0.5
+    v2292.Parent = v2289
+    v2290.MouseEnter:Connect(
+        function()
+            if v2292.IsLoaded then
+                v2292:Play()
+            else
+                v2292.Loaded:Wait()
+                v2292:Play()
+            end
+        end
+    )
+end
+task.spawn(v1691)
+local function v1692()
+    local v2296 = v0["7e"]
+    local v2297 = game:GetService("SoundService")
+    local v2298 = v2296.Parent
+    local v2299 = "rbxassetid://140207837688369"
+    local v2300 = Instance.new("Sound")
+    v2300.SoundId = v2299
+    v2300.Volume = 0.8
+    v2300.Parent = v2297
+    v2298.MouseButton1Click:Connect(
+        function()
+            if v2300.IsLoaded then
+                v2300:Play()
+            else
+                v2300.Loaded:Wait()
+                v2300:Play()
+            end
+        end
+    )
+end
+task.spawn(v1692)
+local function v1693()
+    local v2304 = v0["81"]
+    local v2305 = game:GetService("ReplicatedStorage")
+    local v2306 = v2305:WaitForChild("Aero"):WaitForChild("AeroRemoteServices"):WaitForChild("GameService")
+    local v2307 = v2306:WaitForChild("RequestMaxUpgradeItem")
+    local v2308 = v2304.Parent
+    local v2309 = game.Players.LocalPlayer
+    local v2310 = v2309.PlayerGui:WaitForChild("Inventory")
+    local v2311 =
+        v2310:WaitForChild("Main"):WaitForChild("InventoryBG"):WaitForChild("InventoryClipFrame"):WaitForChild(
+        "InventoryMainFrame"
+    ):WaitForChild("WpnInventoryFrame"):WaitForChild("WpnInvDataFrame"):WaitForChild("WpnSelectionPanel"):WaitForChild(
+        "WpnSelectionFrame"
+    )
+    local v2312 = false
+    local function v2313(v3005)
+        if not v3005 then
+            return 0
+        end
+        v3005 = string.lower(v3005)
+        local v3006, v3007 = string.match(v3005, "(%d+%.?%d*)%s*([km]?)")
+        if v3006 then
+            local v3329 = tonumber(v3006)
+            if (v3007 == "k") then
+                v3329 = v3329 * 1000
+            elseif (v3007 == "m") then
+                v3329 = v3329 * 1000000
+            end
+            return v3329
+        end
+        return 0
+    end
+    local function v2314()
+        local v3008 = {}
+        for v3168, v3169 in ipairs(v2311:GetChildren()) do
+            if v3169:IsA("ImageLabel") then
+                table.insert(v3008, v3169)
+            end
+        end
+        table.sort(
+            v3008,
+            function(v3170, v3171)
+                return v3170.LayoutOrder > v3171.LayoutOrder
+            end
+        )
+        local v3009 = {}
+        for v3172, v3173 in ipairs(v3008) do
+            if v3173:FindFirstChild("Level") then
+                table.insert(
+                    v3009,
+                    {Index = tostring(v3172), Level = v2313(v3173.Level.Text), LayoutOrder = v3173.LayoutOrder}
+                )
+            end
+        end
+        table.sort(
+            v3009,
+            function(v3174, v3175)
+                if (v3174.Level == v3175.Level) then
+                    return v3174.LayoutOrder > v3175.LayoutOrder
+                end
+                return v3174.Level > v3175.Level
+            end
+        )
+        return v3009
+    end
+    v2308.MouseButton1Click:Connect(
+        function()
+            v2312 = not v2312
+            if v2312 then
+                v2308.Text = "Open"
+                v2308.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                task.spawn(
+                    function()
+                        while v2312 do
+                            task.wait(2)
+                            if not v2312 then
+                                break
+                            end
+                            local v3470 = v2314()
+                            if v3470[1] then
+                                local v3552 = {[1] = "weapon", [2] = v3470[1].Index}
+                                v2307:InvokeServer(table.unpack(v3552))
+                            end
+                            task.wait(2)
+                            if not v2312 then
+                                break
+                            end
+                            local v3471 = v2314()
+                            if v3471[2] then
+                                local v3553 = {[1] = "weapon", [2] = v3471[2].Index}
+                                v2307:InvokeServer(table.unpack(v3553))
+                            end
+                            task.wait(5)
+                        end
+                    end
+                )
+            else
+                v2308.Text = "Closed"
+                v2308.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+            end
+        end
+    )
+end
+task.spawn(v1693)
+local function v1694()
+    local v2315 = v0["82"]
+    local v2316 = game:GetService("SoundService")
+    local v2317 = v2315.Parent
+    local v2318 = "rbxassetid://179235828"
+    local v2319 = Instance.new("Sound")
+    v2319.SoundId = v2318
+    v2319.Volume = 0.5
+    v2319.Parent = v2316
+    v2317.MouseEnter:Connect(
+        function()
+            if v2319.IsLoaded then
+                v2319:Play()
+            else
+                v2319.Loaded:Wait()
+                v2319:Play()
+            end
+        end
+    )
+end
+task.spawn(v1694)
+local function v1695()
+    local v2323 = v0["83"]
+    local v2324 = game:GetService("SoundService")
+    local v2325 = v2323.Parent
+    local v2326 = "rbxassetid://140207837688369"
+    local v2327 = Instance.new("Sound")
+    v2327.SoundId = v2326
+    v2327.Volume = 0.8
+    v2327.Parent = v2324
+    v2325.MouseButton1Click:Connect(
+        function()
+            if v2327.IsLoaded then
+                v2327:Play()
+            else
+                v2327.Loaded:Wait()
+                v2327:Play()
+            end
+        end
+    )
+end
+task.spawn(v1695)
+local function v1696()
+    local v2331 = v0["85"]
+    local v2332 = game:GetService("ReplicatedStorage")
+    local v2333 = v2332:WaitForChild("Aero"):WaitForChild("AeroRemoteServices"):WaitForChild("GameService")
+    local v2334 = v2333:WaitForChild("EquipSkin")
+    local v2335 = v2331.Parent
+    local v2336 = game.Players.LocalPlayer
+    local v2337 = v2336.PlayerGui:WaitForChild("Inventory")
+    local v2338 =
+        v2337:WaitForChild("Main"):WaitForChild("InventoryBG"):WaitForChild("InventoryClipFrame"):WaitForChild(
+        "InventoryMainFrame"
+    ):WaitForChild("SkinInventoryFrame"):WaitForChild("SkinInvDataFrame"):WaitForChild("SkinSelectionPanel"):WaitForChild(
+        "SkinSelectionFrame"
+    )
+    local v2339 = false
+    local function v2340(v3010)
+        if not v3010 then
+            return 0
+        end
+        v3010 = string.lower(v3010)
+        local v3011, v3012 = string.match(v3010, "(%d+%.?%d*)%s*([km]?)")
+        if v3011 then
+            local v3334 = tonumber(v3011)
+            if (v3012 == "k") then
+                v3334 = v3334 * 1000
+            elseif (v3012 == "m") then
+                v3334 = v3334 * 1000000
+            end
+            return v3334
+        end
+        return 0
+    end
+    local function v2341()
+        local v3013 = {}
+        for v3176, v3177 in ipairs(v2338:GetChildren()) do
+            if v3177:IsA("ImageLabel") then
+                table.insert(v3013, v3177)
+            end
+        end
+        table.sort(
+            v3013,
+            function(v3178, v3179)
+                return v3178.LayoutOrder > v3179.LayoutOrder
+            end
+        )
+        local v3014 = {}
+        for v3180, v3181 in ipairs(v3013) do
+            if v3181:FindFirstChild("Level") then
+                table.insert(
+                    v3014,
+                    {Index = tostring(v3180), Level = v2340(v3181.Level.Text), LayoutOrder = v3181.LayoutOrder}
+                )
+            end
+        end
+        table.sort(
+            v3014,
+            function(v3182, v3183)
+                if (v3182.Level == v3183.Level) then
+                    return v3182.LayoutOrder > v3183.LayoutOrder
+                end
+                return v3182.Level > v3183.Level
+            end
+        )
+        return v3014
+    end
+    v2335.MouseButton1Click:Connect(
+        function()
+            v2339 = not v2339
+            if v2339 then
+                v2335.Text = "Open"
+                v2335.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                task.spawn(
+                    function()
+                        while v2339 do
+                            task.wait(2)
+                            if not v2339 then
+                                break
+                            end
+                            local v3472 = v2341()
+                            if v3472[1] then
+                                v2334:FireServer(v3472[1].Index)
+                            end
+                            task.wait(5)
+                        end
+                    end
+                )
+            else
+                v2335.Text = "Closed"
+                v2335.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+            end
+        end
+    )
+end
+task.spawn(v1696)
+local function v1697()
+    local v2342 = v0["86"]
+    local v2343 = game:GetService("SoundService")
+    local v2344 = v2342.Parent
+    local v2345 = "rbxassetid://179235828"
+    local v2346 = Instance.new("Sound")
+    v2346.SoundId = v2345
+    v2346.Volume = 0.5
+    v2346.Parent = v2343
+    v2344.MouseEnter:Connect(
+        function()
+            if v2346.IsLoaded then
+                v2346:Play()
+            else
+                v2346.Loaded:Wait()
+                v2346:Play()
+            end
+        end
+    )
+end
+task.spawn(v1697)
+local function v1698()
+    local v2350 = v0["87"]
+    local v2351 = game:GetService("SoundService")
+    local v2352 = v2350.Parent
+    local v2353 = "rbxassetid://140207837688369"
+    local v2354 = Instance.new("Sound")
+    v2354.SoundId = v2353
+    v2354.Volume = 0.8
+    v2354.Parent = v2351
+    v2352.MouseButton1Click:Connect(
+        function()
+            if v2354.IsLoaded then
+                v2354:Play()
+            else
+                v2354.Loaded:Wait()
+                v2354:Play()
+            end
+        end
+    )
+end
+task.spawn(v1698)
+local function v1699()
+    local v2358 = v0["89"]
+    local v2359 = game:GetService("ReplicatedStorage")
+    local v2360 = v2359:WaitForChild("Aero"):WaitForChild("AeroRemoteServices"):WaitForChild("GameService")
+    local v2361 = v2360:WaitForChild("EquipWeapon")
+    local v2362 = v2360:WaitForChild("EquipOffhand")
+    local v2363 = v2358.Parent
+    local v2364 = game.Players.LocalPlayer
+    local v2365 = v2364.PlayerGui:WaitForChild("Inventory")
+    local v2366 =
+        v2365:WaitForChild("Main"):WaitForChild("InventoryBG"):WaitForChild("InventoryClipFrame"):WaitForChild(
+        "InventoryMainFrame"
+    ):WaitForChild("WpnInventoryFrame"):WaitForChild("WpnInvDataFrame"):WaitForChild("WpnSelectionPanel"):WaitForChild(
+        "WpnSelectionFrame"
+    )
+    local v2367 = false
+    local function v2368(v3015)
+        if not v3015 then
+            return 0
+        end
+        v3015 = string.lower(v3015)
+        local v3016, v3017 = string.match(v3015, "(%d+%.?%d*)%s*([km]?)")
+        if v3016 then
+            local v3339 = tonumber(v3016)
+            if (v3017 == "k") then
+                v3339 = v3339 * 1000
+            elseif (v3017 == "m") then
+                v3339 = v3339 * 1000000
+            end
+            return v3339
+        end
+        return 0
+    end
+    local function v2369()
+        local v3018 = {}
+        for v3184, v3185 in ipairs(v2366:GetChildren()) do
+            if (v3185:IsA("ImageLabel") and v3185:FindFirstChild("Level")) then
+                table.insert(v3018, v3185)
+            end
+        end
+        table.sort(
+            v3018,
+            function(v3186, v3187)
+                return v3186.LayoutOrder > v3187.LayoutOrder
+            end
+        )
+        local v3019 = {}
+        for v3188, v3189 in ipairs(v3018) do
+            table.insert(
+                v3019,
+                {Index = tostring(v3188), Level = v2368(v3189.Level.Text), LayoutOrder = v3189.LayoutOrder}
+            )
+        end
+        table.sort(
+            v3019,
+            function(v3190, v3191)
+                if (v3190.Level == v3191.Level) then
+                    return v3190.LayoutOrder > v3191.LayoutOrder
+                end
+                return v3190.Level > v3191.Level
+            end
+        )
+        return v3019
+    end
+    v2363.MouseButton1Click:Connect(
+        function()
+            v2367 = not v2367
+            if v2367 then
+                v2363.Text = "Open"
+                v2363.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                task.spawn(
+                    function()
+                        while v2367 do
+                            task.wait(2)
+                            if not v2367 then
+                                break
+                            end
+                            local v3473 = v2369()
+                            if v3473[1] then
+                                v2361:FireServer(v3473[1].Index)
+                            end
+                            task.wait(2)
+                            if not v2367 then
+                                break
+                            end
+                            local v3474 = v2369()
+                            if v3474[2] then
+                                v2362:FireServer(v3474[2].Index)
+                            end
+                            task.wait(5)
+                        end
+                    end
+                )
+            else
+                v2363.Text = "Closed"
+                v2363.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+            end
+        end
+    )
+end
+task.spawn(v1699)
+local function v1700()
+    local v2370 = v0["8a"]
+    local v2371 = game:GetService("SoundService")
+    local v2372 = v2370.Parent
+    local v2373 = "rbxassetid://179235828"
+    local v2374 = Instance.new("Sound")
+    v2374.SoundId = v2373
+    v2374.Volume = 0.5
+    v2374.Parent = v2371
+    v2372.MouseEnter:Connect(
+        function()
+            if v2374.IsLoaded then
+                v2374:Play()
+            else
+                v2374.Loaded:Wait()
+                v2374:Play()
+            end
+        end
+    )
+end
+task.spawn(v1700)
+local function v1701()
+    local v2378 = v0["8b"]
+    local v2379 = game:GetService("SoundService")
+    local v2380 = v2378.Parent
+    local v2381 = "rbxassetid://140207837688369"
+    local v2382 = Instance.new("Sound")
+    v2382.SoundId = v2381
+    v2382.Volume = 0.8
+    v2382.Parent = v2379
+    v2380.MouseButton1Click:Connect(
+        function()
+            if v2382.IsLoaded then
+                v2382:Play()
+            else
+                v2382.Loaded:Wait()
+                v2382:Play()
+            end
+        end
+    )
+end
+task.spawn(v1701)
+local function v1702()
+    local v2386 = v0["90"]
+    local v2387 = game:GetService("Players")
+    local v2388 = v2387.LocalPlayer
+    local v2389 = v2386.Parent
+    local v2390 = Enum.ThumbnailType.HeadShot
+    local v2391 = Enum.ThumbnailSize.Size420x420
+    local v2392, v2393 = v2387:GetUserThumbnailAsync(v2388.UserId, v2390, v2391)
+    if v2393 then
+        v2389.Image = v2392
+    end
+    v2389.BorderColor3 = Color3.fromRGB(255, 0, 0)
+    v2389.BorderSizePixel = 3
+end
+task.spawn(v1702)
+local function v1703()
+    local v2396 = v0["92"]
+    v2396.Parent.Text = "Welcome: " .. game.Players.LocalPlayer.Name
+end
+task.spawn(v1703)
+local function v1704()
+    local v2398 = v0["94"]
+    local v2399 = v2398.Parent
+    local function v2400()
+        while true do
+            local v3193 = os.date("%H:%M:%S")
+            v2399.Text = "Time: " .. v3193
+            wait(1)
+        end
+    end
+    v2400()
+end
+task.spawn(v1704)
+local function v1705()
+    local v2401 = v0["99"]
+    v2401.Parent.MouseButton1Down:Connect(
+        function()
+            v2401.Parent.Parent.Parent.Main.Visible = true
+            v2401.Parent.Parent.Parent.vis.Visible = false
+            v2401.Parent.Parent.Parent.pl.Visible = false
+            v2401.Parent.Parent.Parent.lol.Visible = false
+            v2401.Parent.Parent.Parent.mis.Visible = false
+        end
+    )
+end
+task.spawn(v1705)
+local function v1706()
+    local v2402 = v0["9a"]
+    local v2403 = game:GetService("SoundService")
+    local v2404 = v2402.Parent
+    local v2405 = "rbxassetid://179235828"
+    local v2406 = Instance.new("Sound")
+    v2406.SoundId = v2405
+    v2406.Volume = 0.5
+    v2406.Parent = v2403
+    v2404.MouseEnter:Connect(
+        function()
+            if v2406.IsLoaded then
+                v2406:Play()
+            else
+                v2406.Loaded:Wait()
+                v2406:Play()
+            end
+        end
+    )
+end
+task.spawn(v1706)
+local function v1707()
+    local v2410 = v0["9b"]
+    local v2411 = game:GetService("SoundService")
+    local v2412 = v2410.Parent
+    local v2413 = "rbxassetid://140207837688369"
+    local v2414 = Instance.new("Sound")
+    v2414.SoundId = v2413
+    v2414.Volume = 0.8
+    v2414.Parent = v2411
+    v2412.MouseButton1Click:Connect(
+        function()
+            if v2414.IsLoaded then
+                v2414:Play()
+            else
+                v2414.Loaded:Wait()
+                v2414:Play()
+            end
+        end
+    )
+end
+task.spawn(v1707)
+local function v1708()
+    local v2418 = v0["9d"]
+    v2418.Parent.MouseButton1Down:Connect(
+        function()
+            v2418.Parent.Parent.Parent.Main.Visible = false
+            v2418.Parent.Parent.Parent.vis.Visible = false
+            v2418.Parent.Parent.Parent.pl.Visible = false
+            v2418.Parent.Parent.Parent.lol.Visible = true
+            v2418.Parent.Parent.Parent.mis.Visible = false
+        end
+    )
+end
+task.spawn(v1708)
+local function v1709()
+    local v2419 = v0["9e"]
+    local v2420 = game:GetService("SoundService")
+    local v2421 = v2419.Parent
+    local v2422 = "rbxassetid://179235828"
+    local v2423 = Instance.new("Sound")
+    v2423.SoundId = v2422
+    v2423.Volume = 0.5
+    v2423.Parent = v2420
+    v2421.MouseEnter:Connect(
+        function()
+            if v2423.IsLoaded then
+                v2423:Play()
+            else
+                v2423.Loaded:Wait()
+                v2423:Play()
+            end
+        end
+    )
+end
+task.spawn(v1709)
+local function v1710()
+    local v2427 = v0["9f"]
+    local v2428 = game:GetService("SoundService")
+    local v2429 = v2427.Parent
+    local v2430 = "rbxassetid://140207837688369"
+    local v2431 = Instance.new("Sound")
+    v2431.SoundId = v2430
+    v2431.Volume = 0.8
+    v2431.Parent = v2428
+    v2429.MouseButton1Click:Connect(
+        function()
+            if v2431.IsLoaded then
+                v2431:Play()
+            else
+                v2431.Loaded:Wait()
+                v2431:Play()
+            end
+        end
+    )
+end
+task.spawn(v1710)
+local function v1711()
+    local v2435 = v0["a1"]
+    v2435.Parent.MouseButton1Down:Connect(
+        function()
+            v2435.Parent.Parent.Parent.Main.Visible = false
+            v2435.Parent.Parent.Parent.pl.Visible = true
+            v2435.Parent.Parent.Parent.vis.Visible = false
+            v2435.Parent.Parent.Parent.lol.Visible = false
+            v2435.Parent.Parent.Parent.mis.Visible = false
+        end
+    )
+end
+task.spawn(v1711)
+local function v1712()
+    local v2436 = v0["a2"]
+    local v2437 = game:GetService("SoundService")
+    local v2438 = v2436.Parent
+    local v2439 = "rbxassetid://179235828"
+    local v2440 = Instance.new("Sound")
+    v2440.SoundId = v2439
+    v2440.Volume = 0.5
+    v2440.Parent = v2437
+    v2438.MouseEnter:Connect(
+        function()
+            if v2440.IsLoaded then
+                v2440:Play()
+            else
+                v2440.Loaded:Wait()
+                v2440:Play()
+            end
+        end
+    )
+end
+task.spawn(v1712)
+local function v1713()
+    local v2444 = v0["a3"]
+    local v2445 = game:GetService("SoundService")
+    local v2446 = v2444.Parent
+    local v2447 = "rbxassetid://140207837688369"
+    local v2448 = Instance.new("Sound")
+    v2448.SoundId = v2447
+    v2448.Volume = 0.8
+    v2448.Parent = v2445
+    v2446.MouseButton1Click:Connect(
+        function()
+            if v2448.IsLoaded then
+                v2448:Play()
+            else
+                v2448.Loaded:Wait()
+                v2448:Play()
+            end
+        end
+    )
+end
+task.spawn(v1713)
+local function v1714()
+    local v2452 = v0["a5"]
+    v2452.Parent.MouseButton1Down:Connect(
+        function()
+            v2452.Parent.Parent.Parent.Main.Visible = false
+            v2452.Parent.Parent.Parent.vis.Visible = true
+            v2452.Parent.Parent.Parent.pl.Visible = false
+            v2452.Parent.Parent.Parent.lol.Visible = false
+            v2452.Parent.Parent.Parent.mis.Visible = false
+        end
+    )
+end
+task.spawn(v1714)
+local function v1715()
+    local v2453 = v0["a6"]
+    local v2454 = game:GetService("SoundService")
+    local v2455 = v2453.Parent
+    local v2456 = "rbxassetid://179235828"
+    local v2457 = Instance.new("Sound")
+    v2457.SoundId = v2456
+    v2457.Volume = 0.5
+    v2457.Parent = v2454
+    v2455.MouseEnter:Connect(
+        function()
+            if v2457.IsLoaded then
+                v2457:Play()
+            else
+                v2457.Loaded:Wait()
+                v2457:Play()
+            end
+        end
+    )
+end
+task.spawn(v1715)
+local function v1716()
+    local v2461 = v0["a7"]
+    local v2462 = game:GetService("SoundService")
+    local v2463 = v2461.Parent
+    local v2464 = "rbxassetid://140207837688369"
+    local v2465 = Instance.new("Sound")
+    v2465.SoundId = v2464
+    v2465.Volume = 0.8
+    v2465.Parent = v2462
+    v2463.MouseButton1Click:Connect(
+        function()
+            if v2465.IsLoaded then
+                v2465:Play()
+            else
+                v2465.Loaded:Wait()
+                v2465:Play()
+            end
+        end
+    )
+end
+task.spawn(v1716)
+local function v1717()
+    local v2469 = v0["a9"]
+    v2469.Parent.MouseButton1Down:Connect(
+        function()
+            v2469.Parent.Parent.Parent.Main.Visible = false
+            v2469.Parent.Parent.Parent.vis.Visible = false
+            v2469.Parent.Parent.Parent.pl.Visible = false
+            v2469.Parent.Parent.Parent.lol.Visible = false
+            v2469.Parent.Parent.Parent.mis.Visible = true
+        end
+    )
+end
+task.spawn(v1717)
+local function v1718()
+    local v2470 = v0["aa"]
+    local v2471 = game:GetService("SoundService")
+    local v2472 = v2470.Parent
+    local v2473 = "rbxassetid://179235828"
+    local v2474 = Instance.new("Sound")
+    v2474.SoundId = v2473
+    v2474.Volume = 0.5
+    v2474.Parent = v2471
+    v2472.MouseEnter:Connect(
+        function()
+            if v2474.IsLoaded then
+                v2474:Play()
+            else
+                v2474.Loaded:Wait()
+                v2474:Play()
+            end
+        end
+    )
+end
+task.spawn(v1718)
+local function v1719()
+    local v2478 = v0["ab"]
+    local v2479 = game:GetService("SoundService")
+    local v2480 = v2478.Parent
+    local v2481 = "rbxassetid://140207837688369"
+    local v2482 = Instance.new("Sound")
+    v2482.SoundId = v2481
+    v2482.Volume = 0.8
+    v2482.Parent = v2479
+    v2480.MouseButton1Click:Connect(
+        function()
+            if v2482.IsLoaded then
+                v2482:Play()
+            else
+                v2482.Loaded:Wait()
+                v2482:Play()
+            end
+        end
+    )
+end
+task.spawn(v1719)
+local function v1720()
+    local v2486 = v0["ae"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v2487 = game:GetService("Players")
+    local v2488 = v2487.LocalPlayer
+    local function v2489(v3045)
+        local v3046 = v2488.Character
+        if not v3046 then
+            return
+        end
+        for v3195, v3196 in ipairs(v3046:GetDescendants()) do
+            if v3196:IsA("BasePart") then
+                v3196.CanCollide = v3045
+            end
+        end
+    end
+    task.spawn(
+        function()
+            while true do
+                v2489(false)
+                task.wait(0.1)
+            end
+        end
+    )
+end
+task.spawn(v1720)
+local function v1721()
+    local v2490 = v0["b4"]
+    local v2491 = game:GetService("Players")
+    local v2492 = v2490.Parent
+    local v2493 = v2491.LocalPlayer
+    local v2494 = false
+    v2492.MouseButton1Click:Connect(
+        function()
+            v2494 = not v2494
+            v2492.Text = (v2494 and "Open") or "Closed"
+            v2492.BackgroundColor3 = (v2494 and Color3.fromRGB(95, 95, 95)) or Color3.fromRGB(45, 45, 45)
+            if v2494 then
+                task.spawn(
+                    function()
+                        while v2494 do
+                            local v3475 = v2493.Character
+                            local v3476 = v3475 and v3475:FindFirstChild("HumanoidRootPart")
+                            if v3476 then
+                                local v3554 =
+                                    v3476:FindFirstChild("PlayerESPAttach") or Instance.new("Attachment", v3476)
+                                v3554.Name = "PlayerESPAttach"
+                                for v3577, v3578 in ipairs(workspace:GetDescendants()) do
+                                    if (v3578.Name == "Egg") then
+                                        local v3661 =
+                                            ((v3578:IsA("BasePart") or v3578:IsA("MeshPart")) and v3578) or v3578.Parent
+                                        if (v3661 and v3661:IsA("BasePart") and not v3661:FindFirstChild("EggESP")) then
+                                            local v3673 = Instance.new("Highlight", v3661)
+                                            v3673.Name = "EggESP"
+                                            v3673.FillColor = Color3.fromRGB(255, 215, 0)
+                                            v3673.OutlineColor = Color3.fromRGB(255, 255, 255)
+                                            v3673.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                                            local v3679 = Instance.new("Attachment", v3661)
+                                            v3679.Name = "EggESPAttach"
+                                            local v3681 = Instance.new("Beam", v3661)
+                                            v3681.Name = "EggESPBeam"
+                                            v3681.Color = ColorSequence.new(Color3.fromRGB(255, 215, 0))
+                                            v3681.Width0, v3681.Width1 = 0.1, 0.1
+                                            v3681.FaceCamera = true
+                                            v3681.Attachment0 = v3554
+                                            v3681.Attachment1 = v3679
+                                        end
+                                    end
+                                end
+                            end
+                            task.wait(1)
+                        end
+                    end
+                )
+            else
+                for v3428, v3429 in ipairs(workspace:GetDescendants()) do
+                    if ((v3429.Name == "EggESP") or (v3429.Name == "EggESPAttach") or (v3429.Name == "EggESPBeam")) then
+                        v3429:Destroy()
+                    end
+                end
+                local v3344 = v2493.Character
+                local v3345 =
+                    v3344 and v3344:FindFirstChild("HumanoidRootPart") and
+                    v3344.HumanoidRootPart:FindFirstChild("PlayerESPAttach")
+                if v3345 then
+                    v3345:Destroy()
+                end
+            end
+        end
+    )
+end
+task.spawn(v1721)
+local function v1722()
+    local v2495 = v0["b5"]
+    local v2496 = game:GetService("SoundService")
+    local v2497 = v2495.Parent
+    local v2498 = "rbxassetid://179235828"
+    local v2499 = Instance.new("Sound")
+    v2499.SoundId = v2498
+    v2499.Volume = 0.5
+    v2499.Parent = v2496
+    v2497.MouseEnter:Connect(
+        function()
+            if v2499.IsLoaded then
+                v2499:Play()
+            else
+                v2499.Loaded:Wait()
+                v2499:Play()
+            end
+        end
+    )
+end
+task.spawn(v1722)
+local function v1723()
+    local v2503 = v0["b6"]
+    local v2504 = game:GetService("SoundService")
+    local v2505 = v2503.Parent
+    local v2506 = "rbxassetid://140207837688369"
+    local v2507 = Instance.new("Sound")
+    v2507.SoundId = v2506
+    v2507.Volume = 0.8
+    v2507.Parent = v2504
+    v2505.MouseButton1Click:Connect(
+        function()
+            if v2507.IsLoaded then
+                v2507:Play()
+            else
+                v2507.Loaded:Wait()
+                v2507:Play()
+            end
+        end
+    )
+end
+task.spawn(v1723)
+local function v1724()
+    local v2511 = v0["b8"]
+    local v2512 = game:GetService("Players")
+    local v2513 = v2512.LocalPlayer
+    local v2514 = false
+    local v2515 = v2511.Parent
+    v2515.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2515.Text = "Closed"
+    local function v2518(v3049)
+        for v3197, v3198 in ipairs(v2512:GetPlayers()) do
+            if (v3198 ~= v2513) then
+                local v3430 = v3198.Character
+                local v3431 = v3430 and v3430:FindFirstChild("HumanoidRootPart")
+                local v3432 = v3430 and v3430:FindFirstChildOfClass("Humanoid")
+                local v3433 = false
+                if (v3430 and v3431 and v3432 and (v3432.Health > 0)) then
+                    v3433 = true
+                end
+                if v3433 then
+                    local v3518 = v3430:FindFirstChild("PlayerESP")
+                    local v3519 = v3431:FindFirstChild("PlayerESPBeam")
+                    local v3520 = v3430:FindFirstChild("PlayerESPName")
+                    if not v3518 then
+                        local v3579 = Instance.new("Highlight", v3430)
+                        v3579.Name = "PlayerESP"
+                        v3579.FillColor = Color3.fromRGB(0, 120, 255)
+                        v3579.OutlineColor = Color3.fromRGB(255, 255, 255)
+                        v3579.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                        local v3585 = Instance.new("Attachment", v3431)
+                        v3585.Name = "PlayerESPAttach"
+                        local v3587 = Instance.new("Beam", v3431)
+                        v3587.Name = "PlayerESPBeam"
+                        v3587.Color = ColorSequence.new(Color3.fromRGB(0, 120, 255))
+                        v3587.Width0, v3587.Width1 = 0.1, 0.1
+                        v3587.FaceCamera = true
+                        v3587.Attachment0 = v3049
+                        v3587.Attachment1 = v3585
+                    else
+                        v3518.Enabled = true
+                        if v3519 then
+                            v3519.Enabled = true
+                            if (v3519.Attachment0 ~= v3049) then
+                                v3519.Attachment0 = v3049
+                            end
+                        end
+                    end
+                    if not v3520 then
+                        local v3596 = Instance.new("BillboardGui", v3430)
+                        v3596.Name = "PlayerESPName"
+                        v3596.Size = UDim2.new(0, 200, 0, 50)
+                        v3596.StudsOffset = Vector3.new(0, 3, 0)
+                        v3596.AlwaysOnTop = true
+                        v3596.Adornee = v3431
+                        local v3602 = Instance.new("TextLabel", v3596)
+                        v3602.Size = UDim2.new(1, 0, 1, 0)
+                        v3602.BackgroundTransparency = 1
+                        v3602.Text = v3198.Name
+                        v3602.TextColor3 = Color3.fromRGB(255, 255, 255)
+                        v3602.TextStrokeTransparency = 0
+                        v3602.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+                        v3602.Font = Enum.Font.SourceSansBold
+                        v3602.TextSize = 14
+                    else
+                        v3520.Enabled = true
+                    end
+                else
+                    if v3430 then
+                        local v3614 = v3430:FindFirstChild("PlayerESP")
+                        local v3615 = v3430:FindFirstChild("PlayerESPName")
+                        if v3614 then
+                            v3614:Destroy()
+                        end
+                        if v3615 then
+                            v3615:Destroy()
+                        end
+                    end
+                    if v3431 then
+                        local v3616 = v3431:FindFirstChild("PlayerESPBeam")
+                        local v3617 = v3431:FindFirstChild("PlayerESPAttach")
+                        if v3616 then
+                            v3616:Destroy()
+                        end
+                        if v3617 then
+                            v3617:Destroy()
+                        end
+                    end
+                end
+            end
+        end
+    end
+    local function v2519()
+        for v3199, v3200 in ipairs(v2512:GetPlayers()) do
+            local v3201 = v3200.Character
+            if v3201 then
+                local v3434 = v3201:FindFirstChild("PlayerESP")
+                local v3435 = v3201:FindFirstChild("PlayerESPName")
+                if v3434 then
+                    v3434:Destroy()
+                end
+                if v3435 then
+                    v3435:Destroy()
+                end
+                local v3436 = v3201:FindFirstChild("HumanoidRootPart")
+                if v3436 then
+                    local v3521 = v3436:FindFirstChild("PlayerESPBeam")
+                    local v3522 = v3436:FindFirstChild("PlayerESPAttach")
+                    if v3521 then
+                        v3521:Destroy()
+                    end
+                    if v3522 then
+                        v3522:Destroy()
+                    end
+                end
+            end
+        end
+        local v3050 = v2513.Character
+        local v3051 = v3050 and v3050:FindFirstChild("HumanoidRootPart")
+        local v3052 = v3051 and v3051:FindFirstChild("PlayerESPAttach")
+        if v3052 then
+            v3052:Destroy()
+        end
+    end
+    local function v2520()
+        task.spawn(
+            function()
+                while v2514 do
+                    local v3346 = v2513.Character
+                    local v3347 = v3346 and v3346:FindFirstChild("HumanoidRootPart")
+                    if v3347 then
+                        local v3477 = v3347:FindFirstChild("PlayerESPAttach") or Instance.new("Attachment", v3347)
+                        v3477.Name = "PlayerESPAttach"
+                        v2518(v3477)
+                    end
+                    task.wait(0.1)
+                end
+                v2519()
+            end
+        )
+    end
+    v2515.MouseButton1Click:Connect(
+        function()
+            v2514 = not v2514
+            if v2514 then
+                v2515.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2515.Text = "Open"
+                v2520()
+            else
+                v2515.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2515.Text = "Closed"
+            end
+        end
+    )
+end
+task.spawn(v1724)
+local function v1725()
+    local v2521 = v0["b9"]
+    local v2522 = game:GetService("SoundService")
+    local v2523 = v2521.Parent
+    local v2524 = "rbxassetid://179235828"
+    local v2525 = Instance.new("Sound")
+    v2525.SoundId = v2524
+    v2525.Volume = 0.5
+    v2525.Parent = v2522
+    v2523.MouseEnter:Connect(
+        function()
+            if v2525.IsLoaded then
+                v2525:Play()
+            else
+                v2525.Loaded:Wait()
+                v2525:Play()
+            end
+        end
+    )
+end
+task.spawn(v1725)
+local function v1726()
+    local v2529 = v0["ba"]
+    local v2530 = game:GetService("SoundService")
+    local v2531 = v2529.Parent
+    local v2532 = "rbxassetid://140207837688369"
+    local v2533 = Instance.new("Sound")
+    v2533.SoundId = v2532
+    v2533.Volume = 0.8
+    v2533.Parent = v2530
+    v2531.MouseButton1Click:Connect(
+        function()
+            if v2533.IsLoaded then
+                v2533:Play()
+            else
+                v2533.Loaded:Wait()
+                v2533:Play()
+            end
+        end
+    )
+end
+task.spawn(v1726)
+local function v1727()
+    local v2537 = v0["bc"]
+    local v2538 = game:GetService("SoundService")
+    local v2539 = v2537.Parent
+    local v2540 = "rbxassetid://140207837688369"
+    local v2541 = Instance.new("Sound")
+    v2541.SoundId = v2540
+    v2541.Volume = 0.8
+    v2541.Parent = v2538
+    v2539.MouseButton1Click:Connect(
+        function()
+            if v2541.IsLoaded then
+                v2541:Play()
+            else
+                v2541.Loaded:Wait()
+                v2541:Play()
+            end
+        end
+    )
+end
+task.spawn(v1727)
+local function v1728()
+    local v2545 = v0["bd"]
+    local v2546 = game:GetService("SoundService")
+    local v2547 = v2545.Parent
+    local v2548 = "rbxassetid://179235828"
+    local v2549 = Instance.new("Sound")
+    v2549.SoundId = v2548
+    v2549.Volume = 0.5
+    v2549.Parent = v2546
+    v2547.MouseEnter:Connect(
+        function()
+            if v2549.IsLoaded then
+                v2549:Play()
+            else
+                v2549.Loaded:Wait()
+                v2549:Play()
+            end
+        end
+    )
+end
+task.spawn(v1728)
+local function v1729()
+    local v2553 = v0["be"]
+    local v2554 = game:GetService("Players")
+    local v2555 = v2554.LocalPlayer
+    local v2556 = false
+    local v2557 = "7036884767"
+    local v2558 = v2553.Parent
+    v2558.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2558.Text = "Closed"
+    local function v2561(v3053)
+        if not v3053 then
+            return nil
+        end
+        if (v3053:IsA("MeshPart") and string.find(v3053.MeshId, v2557)) then
+            return v3053
+        end
+        local v3054 = v3053:FindFirstChildOfClass("SpecialMesh")
+        if (v3054 and string.find(v3054.MeshId, v2557)) then
+            return v3053
+        end
+        for v3202, v3203 in ipairs(v3053:GetDescendants()) do
+            if (v3203:IsA("MeshPart") and string.find(v3203.MeshId, v2557)) then
+                return v3203
+            elseif (v3203:IsA("SpecialMesh") and string.find(v3203.MeshId, v2557)) then
+                return v3203.Parent
+            end
+        end
+        return nil
+    end
+    local function v2562(v3055)
+        local v3056 = workspace:FindFirstChild("Scene")
+        local v3057 = v3056 and v3056:FindFirstChild("ResourceNodes1")
+        if not v3057 then
+            return
+        end
+        for v3204, v3205 in ipairs(v3057:GetChildren()) do
+            if ((v3205.Name == "ResourceNode") and v3205:IsA("BasePart")) then
+                local v3437 = v3205:FindFirstChild("Prefab")
+                local v3438 = v2561(v3437)
+                local v3439 = false
+                if (v3438 and (v3438.Transparency < 1)) then
+                    v3439 = true
+                end
+                local v3440 = v3205:FindFirstChild("NodeESP")
+                local v3441 = v3205:FindFirstChild("NodeESPBeam")
+                if v3439 then
+                    if not v3440 then
+                        local v3618 = Instance.new("Highlight", v3205)
+                        v3618.Name = "NodeESP"
+                        v3618.FillColor = Color3.fromRGB(255, 0, 0)
+                        v3618.OutlineColor = Color3.fromRGB(255, 255, 255)
+                        v3618.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                        local v3624 = Instance.new("Attachment", v3205)
+                        v3624.Name = "NodeESPAttach"
+                        local v3626 = Instance.new("Beam", v3205)
+                        v3626.Name = "NodeESPBeam"
+                        v3626.Color = ColorSequence.new(Color3.fromRGB(255, 0, 0))
+                        v3626.Width0, v3626.Width1 = 0.1, 0.1
+                        v3626.FaceCamera = true
+                        v3626.Attachment0 = v3055
+                        v3626.Attachment1 = v3624
+                    else
+                        v3440.Enabled = true
+                        if v3441 then
+                            v3441.Enabled = true
+                            if (v3441.Attachment0 ~= v3055) then
+                                v3441.Attachment0 = v3055
+                            end
+                        end
+                    end
+                else
+                    if v3440 then
+                        v3440:Destroy()
+                    end
+                    if v3441 then
+                        v3441:Destroy()
+                    end
+                    local v3523 = v3205:FindFirstChild("NodeESPAttach")
+                    if v3523 then
+                        v3523:Destroy()
+                    end
+                end
+            end
+        end
+    end
+    local function v2563()
+        local v3058 = workspace:FindFirstChild("Scene")
+        local v3059 = v3058 and v3058:FindFirstChild("ResourceNodes1")
+        if v3059 then
+            for v3442, v3443 in ipairs(v3059:GetChildren()) do
+                for v3479, v3480 in ipairs(v3443:GetChildren()) do
+                    if ((v3480.Name == "NodeESP") or (v3480.Name == "NodeESPAttach") or (v3480.Name == "NodeESPBeam")) then
+                        v3480:Destroy()
+                    end
+                end
+            end
+        end
+        local v3060 = v2555.Character
+        local v3061 = v3060 and v3060:FindFirstChild("HumanoidRootPart")
+        local v3062 = v3061 and v3061:FindFirstChild("PlayerESPAttach")
+        if v3062 then
+            v3062:Destroy()
+        end
+    end
+    local function v2564()
+        task.spawn(
+            function()
+                while v2556 do
+                    local v3352 = v2555.Character
+                    local v3353 = v3352 and v3352:FindFirstChild("HumanoidRootPart")
+                    if v3353 then
+                        local v3481 = v3353:FindFirstChild("PlayerESPAttach") or Instance.new("Attachment", v3353)
+                        v3481.Name = "PlayerESPAttach"
+                        v2562(v3481)
+                    end
+                    task.wait(0.1)
+                end
+                v2563()
+            end
+        )
+    end
+    v2558.MouseButton1Click:Connect(
+        function()
+            v2556 = not v2556
+            if v2556 then
+                v2558.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2558.Text = "Open"
+                v2564()
+            else
+                v2558.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2558.Text = "Closed"
+            end
+        end
+    )
+end
+task.spawn(v1729)
+local function v1730()
+    local v2565 = v0["c1"]
+    local v2566 = game:GetService("SoundService")
+    local v2567 = v2565.Parent
+    local v2568 = "rbxassetid://179235828"
+    local v2569 = Instance.new("Sound")
+    v2569.SoundId = v2568
+    v2569.Volume = 0.5
+    v2569.Parent = v2566
+    v2567.MouseEnter:Connect(
+        function()
+            if v2569.IsLoaded then
+                v2569:Play()
+            else
+                v2569.Loaded:Wait()
+                v2569:Play()
+            end
+        end
+    )
+end
+task.spawn(v1730)
+local function v1731()
+    local v2573 = v0["c2"]
+    local v2574 = game:GetService("SoundService")
+    local v2575 = v2573.Parent
+    local v2576 = "rbxassetid://140207837688369"
+    local v2577 = Instance.new("Sound")
+    v2577.SoundId = v2576
+    v2577.Volume = 0.8
+    v2577.Parent = v2574
+    v2575.MouseButton1Click:Connect(
+        function()
+            if v2577.IsLoaded then
+                v2577:Play()
+            else
+                v2577.Loaded:Wait()
+                v2577:Play()
+            end
+        end
+    )
+end
+task.spawn(v1731)
+local function v1732()
+    local v2581 = v0["c3"]
+    local v2582 = v2581.Parent
+    local v2583 = game.Players.LocalPlayer
+    local v2584 = workspace.CurrentCamera
+    local v2585 = game:GetService("RunService")
+    local v2586 = false
+    local v2587 = nil
+    local v2588 = v2584.FieldOfView
+    v2582.Text = "Closed"
+    v2582.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2582.MouseButton1Click:Connect(
+        function()
+            if v2586 then
+                v2586 = false
+                v2582.Text = "Closed"
+                v2582.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                if v2587 then
+                    v2587:Disconnect()
+                    v2587 = nil
+                end
+                v2584.CameraType = Enum.CameraType.Custom
+                v2584.FieldOfView = v2588
+                return
+            end
+            v2586 = true
+            v2582.Text = "Open"
+            v2582.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+            v2588 = v2584.FieldOfView
+            v2584.CameraType = Enum.CameraType.Scriptable
+            v2584.FieldOfView = 120
+            local v3068 = Vector3.new(0, 12, 12)
+            v2587 =
+                v2585.RenderStepped:Connect(
+                function()
+                    local v3206 = v2583.Character
+                    if v3206 then
+                        local v3444 = v3206:FindFirstChild("HumanoidRootPart")
+                        if v3444 then
+                            local v3524 = v3444.Position + v3068
+                            v2584.CFrame = CFrame.new(v3524, v3444.Position)
+                        end
+                    end
+                end
+            )
+        end
+    )
+end
+task.spawn(v1732)
+local function v1733()
+    local v2591 = v0["c5"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v2592 = game:GetService("Players")
+    local v2593 = v2592.LocalPlayer
+    local function v2594(v3069)
+        local v3070 = v2593.Character
+        if not v3070 then
+            return
+        end
+        for v3207, v3208 in ipairs(v3070:GetDescendants()) do
+            if v3208:IsA("BasePart") then
+                v3208.CanCollide = v3069
+            end
+        end
+    end
+    task.spawn(
+        function()
+            while true do
+                v2594(false)
+                task.wait(0.1)
+            end
+        end
+    )
+end
+task.spawn(v1733)
+local function v1734()
+    local v2595 = v0["c9"]
+    local v2596 = game:GetService("SoundService")
+    local v2597 = v2595.Parent
+    local v2598 = "rbxassetid://179235828"
+    local v2599 = Instance.new("Sound")
+    v2599.SoundId = v2598
+    v2599.Volume = 0.5
+    v2599.Parent = v2596
+    v2597.MouseEnter:Connect(
+        function()
+            if v2599.IsLoaded then
+                v2599:Play()
+            else
+                v2599.Loaded:Wait()
+                v2599:Play()
+            end
+        end
+    )
+end
+task.spawn(v1734)
+local function v1735()
+    local v2603 = v0["ca"]
+    local v2604 = game:GetService("SoundService")
+    local v2605 = v2603.Parent
+    local v2606 = "rbxassetid://140207837688369"
+    local v2607 = Instance.new("Sound")
+    v2607.SoundId = v2606
+    v2607.Volume = 0.8
+    v2607.Parent = v2604
+    v2605.MouseButton1Click:Connect(
+        function()
+            if v2607.IsLoaded then
+                v2607:Play()
+            else
+                v2607.Loaded:Wait()
+                v2607:Play()
+            end
+        end
+    )
+end
+task.spawn(v1735)
+local function v1736()
+    local v2611 = v0["cb"]
+    local v2612 = game:GetService("RunService")
+    local v2613 = game:GetService("Players")
+    local v2614 = v2611.Parent
+    local v2615 = v2613.LocalPlayer
+    local v2616 = v2611.Parent.Parent:WaitForChild("wsp2")
+    local v2617 = 50
+    local v2618 = false
+    local function v2619()
+        local v3071 = tonumber(v2616.Text)
+        if not v3071 then
+            return 50
+        end
+        return v3071
+    end
+    local function v2620()
+        local v3072 = v2615.Character
+        if not v3072 then
+            return
+        end
+        local v3073 = v3072:FindFirstChildOfClass("Humanoid")
+        if v3073 then
+            v3073.UseJumpPower = true
+            local v3364 = v2619()
+            if (v3073.JumpPower ~= v3364) then
+                v3073.JumpPower = v3364
+            end
+        end
+    end
+    local function v2621()
+        task.spawn(
+            function()
+                while v2618 do
+                    v2620()
+                    task.wait(0.1)
+                end
+                local v3209 = v2615.Character
+                local v3210 = v3209 and v3209:FindFirstChildOfClass("Humanoid")
+                if v3210 then
+                    v3210.JumpPower = v2617
+                end
+            end
+        )
+    end
+    v2616:GetPropertyChangedSignal("Text"):Connect(
+        function()
+            if v2618 then
+                v2620()
+            end
+        end
+    )
+    v2614.MouseButton1Click:Connect(
+        function()
+            v2618 = not v2618
+            if v2618 then
+                v2614.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2614.Text = "Open"
+                local v3367 = v2615.Character
+                local v3368 = v3367 and v3367:FindFirstChildOfClass("Humanoid")
+                if v3368 then
+                    v2617 = v3368.JumpPower
+                else
+                    v2617 = 50
+                end
+                v2621()
+            else
+                v2614.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2614.Text = "Closed"
+            end
+        end
+    )
+end
+task.spawn(v1736)
+local function v1737()
+    local v2622 = v0["cd"]
+    local v2623 = game:GetService("SoundService")
+    local v2624 = v2622.Parent
+    local v2625 = "rbxassetid://179235828"
+    local v2626 = Instance.new("Sound")
+    v2626.SoundId = v2625
+    v2626.Volume = 0.5
+    v2626.Parent = v2623
+    v2624.MouseEnter:Connect(
+        function()
+            if v2626.IsLoaded then
+                v2626:Play()
+            else
+                v2626.Loaded:Wait()
+                v2626:Play()
+            end
+        end
+    )
+end
+task.spawn(v1737)
+local function v1738()
+    local v2630 = v0["ce"]
+    local v2631 = game:GetService("SoundService")
+    local v2632 = v2630.Parent
+    local v2633 = "rbxassetid://140207837688369"
+    local v2634 = Instance.new("Sound")
+    v2634.SoundId = v2633
+    v2634.Volume = 0.8
+    v2634.Parent = v2631
+    v2632.MouseButton1Click:Connect(
+        function()
+            if v2634.IsLoaded then
+                v2634:Play()
+            else
+                v2634.Loaded:Wait()
+                v2634:Play()
+            end
+        end
+    )
+end
+task.spawn(v1738)
+local function v1739()
+    local v2638 = v0["cf"]
+    local v2639 = game:GetService("RunService")
+    local v2640 = game:GetService("Players")
+    local v2641 = v2638.Parent
+    local v2642 = v2640.LocalPlayer
+    local v2643 = v2638.Parent.Parent:WaitForChild("wsp")
+    local v2644 = 16
+    local v2645 = false
+    local function v2646()
+        local v3074 = tonumber(v2643.Text)
+        if not v3074 then
+            return 16
+        end
+        return v3074
+    end
+    local function v2647()
+        local v3075 = v2642.Character
+        if not v3075 then
+            return
+        end
+        local v3076 = v3075:FindFirstChildOfClass("Humanoid")
+        if v3076 then
+            local v3371 = v2646()
+            if (v3076.WalkSpeed ~= v3371) then
+                v3076.WalkSpeed = v3371
+            end
+        end
+    end
+    local function v2648()
+        task.spawn(
+            function()
+                while v2645 do
+                    v2647()
+                    task.wait(0.1)
+                end
+                local v3211 = v2642.Character
+                local v3212 = v3211 and v3211:FindFirstChildOfClass("Humanoid")
+                if v3212 then
+                    v3212.WalkSpeed = v2644
+                end
+            end
+        )
+    end
+    v2643:GetPropertyChangedSignal("Text"):Connect(
+        function()
+            if v2645 then
+                v2647()
+            end
+        end
+    )
+    v2641.MouseButton1Click:Connect(
+        function()
+            v2645 = not v2645
+            if v2645 then
+                v2641.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2641.Text = "Open"
+                local v3374 = v2642.Character
+                local v3375 = v3374 and v3374:FindFirstChildOfClass("Humanoid")
+                if v3375 then
+                    v2644 = v3375.WalkSpeed
+                else
+                    v2644 = 16
+                end
+                v2648()
+            else
+                v2641.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2641.Text = "Closed"
+            end
+        end
+    )
+end
+task.spawn(v1739)
+local function v1740()
+    local v2649 = v0["d3"]
+    local v2650 = game:GetService("SoundService")
+    local v2651 = v2649.Parent
+    local v2652 = "rbxassetid://179235828"
+    local v2653 = Instance.new("Sound")
+    v2653.SoundId = v2652
+    v2653.Volume = 0.5
+    v2653.Parent = v2650
+    v2651.MouseEnter:Connect(
+        function()
+            if v2653.IsLoaded then
+                v2653:Play()
+            else
+                v2653.Loaded:Wait()
+                v2653:Play()
+            end
+        end
+    )
+end
+task.spawn(v1740)
+local function v1741()
+    local v2657 = v0["d4"]
+    local v2658 = game:GetService("SoundService")
+    local v2659 = v2657.Parent
+    local v2660 = "rbxassetid://140207837688369"
+    local v2661 = Instance.new("Sound")
+    v2661.SoundId = v2660
+    v2661.Volume = 0.8
+    v2661.Parent = v2658
+    v2659.MouseButton1Click:Connect(
+        function()
+            if v2661.IsLoaded then
+                v2661:Play()
+            else
+                v2661.Loaded:Wait()
+                v2661:Play()
+            end
+        end
+    )
+end
+task.spawn(v1741)
+local function v1742()
+    local v2665 = v0["d5"]
+    local v2666 = v2665.Parent
+    local v2667 = v2666.Parent:WaitForChild("aaaaa")
+    local v2668 = game.Players.LocalPlayer
+    local v2669 = false
+    v2666.Text = "Closed"
+    v2666.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2666.MouseButton1Click:Connect(
+        function()
+            if v2669 then
+                v2669 = false
+                v2666.Text = "Closed"
+                v2666.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                return
+            end
+            v2669 = true
+            v2666.Text = "Open"
+            v2666.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+            local v3079 = v2667.Text
+            local v3080 = v2668.Character
+            if v3080 then
+                local v3380 = v3080:FindFirstChild("Head")
+                if v3380 then
+                    local v3487 = v3380:FindFirstChild("PlayerNameplate")
+                    if v3487 then
+                        local v3556 = v3487:FindFirstChild("Frame")
+                        if v3556 then
+                            local v3649 = v3556:FindFirstChild("PlayerName")
+                            if v3649 then
+                                v3649.Text = v3079
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    )
+end
+task.spawn(v1742)
+local function v1743()
+    local v2672 = v0["d8"]
+    local v2673 = game:GetService("SoundService")
+    local v2674 = v2672.Parent
+    local v2675 = "rbxassetid://179235828"
+    local v2676 = Instance.new("Sound")
+    v2676.SoundId = v2675
+    v2676.Volume = 0.5
+    v2676.Parent = v2673
+    v2674.MouseEnter:Connect(
+        function()
+            if v2676.IsLoaded then
+                v2676:Play()
+            else
+                v2676.Loaded:Wait()
+                v2676:Play()
+            end
+        end
+    )
+end
+task.spawn(v1743)
+local function v1744()
+    local v2680 = v0["d9"]
+    local v2681 = game:GetService("SoundService")
+    local v2682 = v2680.Parent
+    local v2683 = "rbxassetid://140207837688369"
+    local v2684 = Instance.new("Sound")
+    v2684.SoundId = v2683
+    v2684.Volume = 0.8
+    v2684.Parent = v2681
+    v2682.MouseButton1Click:Connect(
+        function()
+            if v2684.IsLoaded then
+                v2684:Play()
+            else
+                v2684.Loaded:Wait()
+                v2684:Play()
+            end
+        end
+    )
+end
+task.spawn(v1744)
+local function v1745()
+    local v2688 = v0["da"]
+    local v2689 = v2688.Parent
+    local v2690 = game.Players.LocalPlayer
+    local v2691 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    local v2692 = false
+    local function v2693(v3081)
+        local v3082 = {}
+        for v3213 = 1, v3081 do
+            local v3214 = math.random(1, #v2691)
+            table.insert(v3082, string.sub(v2691, v3214, v3214))
+        end
+        return table.concat(v3082)
+    end
+    v2689.Text = "Closed"
+    v2689.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2689.MouseButton1Click:Connect(
+        function()
+            if v2692 then
+                v2692 = false
+                v2689.Text = "Closed"
+                v2689.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                return
+            end
+            v2692 = true
+            v2689.Text = "Open"
+            v2689.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+            while v2692 do
+                local v3215 = v2690.Character
+                if v3215 then
+                    local v3448 = v3215:FindFirstChild("Head")
+                    if v3448 then
+                        local v3526 = v3448:FindFirstChild("PlayerNameplate")
+                        if v3526 then
+                            local v3635 = v3526:FindFirstChild("Frame")
+                            if v3635 then
+                                local v3664 = v3635:FindFirstChild("PlayerName")
+                                if v3664 then
+                                    v3664.Text = v2693(20)
+                                end
+                            end
+                        end
+                    end
+                end
+                task.wait(0.02)
+            end
+        end
+    )
+end
+task.spawn(v1745)
+local function v1746()
+    local v2696 = v0["dd"]
+    local v2697 = game:GetService("SoundService")
+    local v2698 = v2696.Parent
+    local v2699 = "rbxassetid://179235828"
+    local v2700 = Instance.new("Sound")
+    v2700.SoundId = v2699
+    v2700.Volume = 0.5
+    v2700.Parent = v2697
+    v2698.MouseEnter:Connect(
+        function()
+            if v2700.IsLoaded then
+                v2700:Play()
+            else
+                v2700.Loaded:Wait()
+                v2700:Play()
+            end
+        end
+    )
+end
+task.spawn(v1746)
+local function v1747()
+    local v2704 = v0["de"]
+    local v2705 = game:GetService("SoundService")
+    local v2706 = v2704.Parent
+    local v2707 = "rbxassetid://140207837688369"
+    local v2708 = Instance.new("Sound")
+    v2708.SoundId = v2707
+    v2708.Volume = 0.8
+    v2708.Parent = v2705
+    v2706.MouseButton1Click:Connect(
+        function()
+            if v2708.IsLoaded then
+                v2708:Play()
+            else
+                v2708.Loaded:Wait()
+                v2708:Play()
+            end
+        end
+    )
+end
+task.spawn(v1747)
+local function v1748()
+    local v2712 = v0["df"]
+    local v2713 = v2712.Parent
+    local v2714 = game.Players.LocalPlayer
+    local v2715 = false
+    v2713.Text = "Closed"
+    v2713.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2713.MouseButton1Click:Connect(
+        function()
+            if v2715 then
+                v2715 = false
+                v2713.Text = "Closed"
+                v2713.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                return
+            end
+            v2715 = true
+            v2713.Text = "Open"
+            v2713.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+            while v2715 do
+                local v3216 = v2714.Character
+                if v3216 then
+                    local v3449 = v3216:FindFirstChild("Head")
+                    if v3449 then
+                        local v3527 = v3449:FindFirstChild("PlayerNameplate")
+                        if v3527 then
+                            local v3636 = v3527:FindFirstChild("Frame")
+                            if v3636 then
+                                local v3665 = v3636:FindFirstChild("HealthFrame")
+                                if v3665 then
+                                    local v3692 = v3665:FindFirstChild("BG")
+                                    local v3693 = v3665:FindFirstChild("FG")
+                                    local v3694 = (tick() % 2) / 2
+                                    local v3695 = Color3.fromHSV(v3694, 1, 1)
+                                    if v3692 then
+                                        v3692.ImageColor3 = v3695
+                                    end
+                                    if v3693 then
+                                        v3693.ImageColor3 = v3695
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+                task.wait()
+            end
+        end
+    )
+end
+task.spawn(v1748)
+local function v1749()
+    local v2718 = v0["e2"]
+    local v2719 = game:GetService("SoundService")
+    local v2720 = v2718.Parent
+    local v2721 = "rbxassetid://179235828"
+    local v2722 = Instance.new("Sound")
+    v2722.SoundId = v2721
+    v2722.Volume = 0.5
+    v2722.Parent = v2719
+    v2720.MouseEnter:Connect(
+        function()
+            if v2722.IsLoaded then
+                v2722:Play()
+            else
+                v2722.Loaded:Wait()
+                v2722:Play()
+            end
+        end
+    )
+end
+task.spawn(v1749)
+local function v1750()
+    local v2726 = v0["e3"]
+    local v2727 = game:GetService("SoundService")
+    local v2728 = v2726.Parent
+    local v2729 = "rbxassetid://140207837688369"
+    local v2730 = Instance.new("Sound")
+    v2730.SoundId = v2729
+    v2730.Volume = 0.8
+    v2730.Parent = v2727
+    v2728.MouseButton1Click:Connect(
+        function()
+            if v2730.IsLoaded then
+                v2730:Play()
+            else
+                v2730.Loaded:Wait()
+                v2730:Play()
+            end
+        end
+    )
+end
+task.spawn(v1750)
+local function v1751()
+    local v2734 = v0["e4"]
+    local v2735 = v2734.Parent
+    local v2736 = game.Players.LocalPlayer
+    local v2737 = false
+    v2735.Text = "Closed"
+    v2735.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2735.MouseButton1Click:Connect(
+        function()
+            if v2737 then
+                v2737 = false
+                v2735.Text = "Closed"
+                v2735.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                return
+            end
+            v2737 = true
+            v2735.Text = "Open"
+            v2735.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+            while v2737 do
+                local v3217 = v2736.Character
+                if v3217 then
+                    local v3450 = v3217:FindFirstChild("Body Colors")
+                    if v3450 then
+                        v3450:Destroy()
+                    end
+                    local v3451 = (tick() % 3) / 3
+                    local v3452 = Color3.fromHSV(v3451, 1, 1)
+                    for v3488, v3489 in ipairs(v3217:GetChildren()) do
+                        if (v3489:IsA("BasePart") and (v3489.Name ~= "Lol") and (v3489.Name ~= "HumanoidRootPart")) then
+                            if (v3489:IsA("MeshPart") and (v3489.TextureID ~= "")) then
+                                v3489.TextureID = ""
+                            end
+                            v3489.Color = v3452
+                            v3489.BrickColor = BrickColor.new(v3452)
+                        end
+                    end
+                end
+                task.wait(0.05)
+            end
+        end
+    )
+end
+task.spawn(v1751)
+local function v1752()
+    local v2740 = v0["e7"]
+    local v2741 = game:GetService("SoundService")
+    local v2742 = v2740.Parent
+    local v2743 = "rbxassetid://179235828"
+    local v2744 = Instance.new("Sound")
+    v2744.SoundId = v2743
+    v2744.Volume = 0.5
+    v2744.Parent = v2741
+    v2742.MouseEnter:Connect(
+        function()
+            if v2744.IsLoaded then
+                v2744:Play()
+            else
+                v2744.Loaded:Wait()
+                v2744:Play()
+            end
+        end
+    )
+end
+task.spawn(v1752)
+local function v1753()
+    local v2748 = v0["e8"]
+    local v2749 = game:GetService("SoundService")
+    local v2750 = v2748.Parent
+    local v2751 = "rbxassetid://140207837688369"
+    local v2752 = Instance.new("Sound")
+    v2752.SoundId = v2751
+    v2752.Volume = 0.8
+    v2752.Parent = v2749
+    v2750.MouseButton1Click:Connect(
+        function()
+            if v2752.IsLoaded then
+                v2752:Play()
+            else
+                v2752.Loaded:Wait()
+                v2752:Play()
+            end
+        end
+    )
+end
+task.spawn(v1753)
+local function v1754()
+    local v2756 = v0["e9"]
+    local v2757 = v2756.Parent
+    local v2758 = game.Players.LocalPlayer
+    local v2759 = false
+    local v2760 = nil
+    v2757.Text = "Closed"
+    v2757.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2757.MouseButton1Click:Connect(
+        function()
+            if v2759 then
+                v2759 = false
+                v2757.Text = "Closed"
+                v2757.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                if v2760 then
+                    v2760:Destroy()
+                    v2760 = nil
+                end
+                return
+            end
+            v2759 = true
+            v2757.Text = "Open"
+            v2757.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+            local v3091 = v2758.Character
+            if v3091 then
+                local v3389 = v3091:FindFirstChild("HumanoidRootPart")
+                if v3389 then
+                    v2760 = Instance.new("BodyAngularVelocity")
+                    v2760.AngularVelocity = Vector3.new(0, 50, 0)
+                    v2760.MaxTorque = Vector3.new(0, math.huge, 0)
+                    v2760.Parent = v3389
+                end
+            end
+            v2758.CharacterAdded:Connect(
+                function(v3218)
+                    if v2759 then
+                        local v3453 = v3218:WaitForChild("HumanoidRootPart", 5)
+                        if v3453 then
+                            if v2760 then
+                                v2760:Destroy()
+                            end
+                            v2760 = Instance.new("BodyAngularVelocity")
+                            v2760.AngularVelocity = Vector3.new(0, 50, 0)
+                            v2760.MaxTorque = Vector3.new(0, math.huge, 0)
+                            v2760.Parent = v3453
+                        end
+                    end
+                end
+            )
+        end
+    )
+end
+task.spawn(v1754)
+local function v1755()
+    local v2763 = v0["eb"]
+    local v2764 = game:GetService("TweenService")
+    local v2765 = v2763.Parent
+    local v2766 = v2765.Parent
+    local v2767 = 40
+    local v2768 = {"Key", "Main", "lol", "pages", "pl", "vis", "mis"}
+    local v2769 = false
+    local v2770 = {}
+    local v2771 = {}
+    local v2772 = TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+    v2765.MouseButton1Click:Connect(
+        function()
+            if not v2769 then
+                v2769 = true
+                v2770 = {}
+                for v3454, v3455 in ipairs(v2768) do
+                    local v3456 = v2766:FindFirstChild(v3455)
+                    if (v3456 and v3456:IsA("GuiObject") and v3456.Visible) then
+                        table.insert(v2770, v3456)
+                        if not v2771[v3456] then
+                            v2771[v3456] = {Size = v3456.Size, Position = v3456.Position}
+                        end
+                        v3456.ClipsDescendants = true
+                        local v3532 = UDim2.new(v3456.Size.X.Scale, v3456.Size.X.Offset, 0, 0)
+                        local v3533 = UDim2.new(v3456.Position.X.Scale, v3456.Position.X.Offset, 0, v2767)
+                        local v3534 = v2764:Create(v3456, v2772, {Size = v3532, Position = v3533})
+                        v3534:Play()
+                        v3534.Completed:Connect(
+                            function()
+                                if v2769 then
+                                    v3456.Visible = false
+                                end
+                            end
+                        )
+                    end
+                end
+            else
+                v2769 = false
+                for v3457, v3458 in ipairs(v2770) do
+                    if v2771[v3458] then
+                        v3458.Visible = true
+                        v3458.ClipsDescendants = true
+                        local v3537 =
+                            v2764:Create(v3458, v2772, {Size = v2771[v3458].Size, Position = v2771[v3458].Position})
+                        v3537:Play()
+                    end
+                end
+            end
+        end
+    )
+end
+task.spawn(v1755)
+local function v1756()
+    local v2773 = v0["ec"]
+    local v2774 = game:GetService("SoundService")
+    local v2775 = v2773.Parent
+    local v2776 = "rbxassetid://179235828"
+    local v2777 = Instance.new("Sound")
+    v2777.SoundId = v2776
+    v2777.Volume = 0.5
+    v2777.Parent = v2774
+    v2775.MouseEnter:Connect(
+        function()
+            if v2777.IsLoaded then
+                v2777:Play()
+            else
+                v2777.Loaded:Wait()
+                v2777:Play()
+            end
+        end
+    )
+end
+task.spawn(v1756)
+local function v1757()
+    local v2781 = v0["ed"]
+    local v2782 = game:GetService("SoundService")
+    local v2783 = v2781.Parent
+    local v2784 = "rbxassetid://140207837688369"
+    local v2785 = Instance.new("Sound")
+    v2785.SoundId = v2784
+    v2785.Volume = 0.8
+    v2785.Parent = v2782
+    v2783.MouseButton1Click:Connect(
+        function()
+            if v2785.IsLoaded then
+                v2785:Play()
+            else
+                v2785.Loaded:Wait()
+                v2785:Play()
+            end
+        end
+    )
+end
+task.spawn(v1757)
+local function v1758()
+    local v2789 = v0["ef"]
+    local v2790 = game:GetService("SoundService")
+    local v2791 = v2789.Parent
+    local v2792 = "rbxassetid://179235828"
+    local v2793 = Instance.new("Sound")
+    v2793.SoundId = v2792
+    v2793.Volume = 0.5
+    v2793.Parent = v2790
+    v2791.MouseEnter:Connect(
+        function()
+            if v2793.IsLoaded then
+                v2793:Play()
+            else
+                v2793.Loaded:Wait()
+                v2793:Play()
+            end
+        end
+    )
+end
+task.spawn(v1758)
+local function v1759()
+    local v2797 = v0["f0"]
+    local v2798 = game:GetService("SoundService")
+    local v2799 = v2797.Parent
+    local v2800 = "rbxassetid://140207837688369"
+    local v2801 = Instance.new("Sound")
+    v2801.SoundId = v2800
+    v2801.Volume = 0.8
+    v2801.Parent = v2798
+    v2799.MouseButton1Click:Connect(
+        function()
+            if v2801.IsLoaded then
+                v2801:Play()
+            else
+                v2801.Loaded:Wait()
+                v2801:Play()
+            end
+        end
+    )
+end
+task.spawn(v1759)
+local function v1760()
+    local v2805 = v0["f1"]
+    local v2806 = v2805.Parent
+    local v2807 = v2806.Parent
+    local v2808 = v2805.Parent.Parent.Parent:FindFirstChild("opeb")
+    v2806.MouseButton1Click:Connect(
+        function()
+            v2807.Visible = false
+            v2808.Visible = true
+        end
+    )
+end
+task.spawn(v1760)
+local function v1761()
+    local v2809 = v0["f3"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v2810 = game:GetService("Players")
+    local v2811 = v2810.LocalPlayer
+    local function v2812(v3094)
+        local v3095 = v2811.Character
+        if not v3095 then
+            return
+        end
+        for v3219, v3220 in ipairs(v3095:GetDescendants()) do
+            if v3220:IsA("BasePart") then
+                v3220.CanCollide = v3094
+            end
+        end
+    end
+    task.spawn(
+        function()
+            while true do
+                v2812(false)
+                task.wait(0.1)
+            end
+        end
+    )
+end
+task.spawn(v1761)
+local function v1762()
+    local v2813 = v0["f4"]
+    local v2814 = game:GetService("Players")
+    local v2815 = v2814.LocalPlayer
+    local function v2816()
+        local v3096 = v2815.Character or v2815.CharacterAdded:Wait()
+        local v3097 = v3096:WaitForChild("Humanoid")
+        local v3098 = v3097:WaitForChild("Animator")
+        local v3099 = Instance.new("Animation")
+        v3099.AnimationId = "rbxassetid://313131"
+        local v3101 = v3098:LoadAnimation(v3099)
+        v3101.Looped = true
+        v3101:Play()
+    end
+    v2815.CharacterAdded:Connect(v2816)
+    if v2815.Character then
+        v2816()
+    end
+end
+task.spawn(v1762)
+local function v1763()
+    local v2817 = v0["f7"]
+    local v2818 = game:GetService("VirtualUser")
+    local v2819 = game:GetService("Players")
+    local v2820 = v2819.LocalPlayer
+    local v2821 = v2817.Parent
+    local v2822 = false
+    v2821.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2821.Text = "Closed"
+    v2821.MouseButton1Click:Connect(
+        function()
+            v2822 = not v2822
+            if v2822 then
+                v2821.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2821.Text = "Open"
+            else
+                v2821.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2821.Text = "Closed"
+            end
+        end
+    )
+    v2820.Idled:Connect(
+        function()
+            if v2822 then
+                v2818:CaptureController()
+                v2818:ClickButton2(Vector2.new())
+            end
+        end
+    )
+    task.spawn(
+        function()
+            while task.wait(300) do
+                if v2822 then
+                    v2818:CaptureController()
+                    v2818:ClickButton2(Vector2.new())
+                end
+            end
+        end
+    )
+end
+task.spawn(v1763)
+local function v1764()
+    local v2825 = v0["f8"]
+    local v2826 = game:GetService("SoundService")
+    local v2827 = v2825.Parent
+    local v2828 = "rbxassetid://179235828"
+    local v2829 = Instance.new("Sound")
+    v2829.SoundId = v2828
+    v2829.Volume = 0.5
+    v2829.Parent = v2826
+    v2827.MouseEnter:Connect(
+        function()
+            if v2829.IsLoaded then
+                v2829:Play()
+            else
+                v2829.Loaded:Wait()
+                v2829:Play()
+            end
+        end
+    )
+end
+task.spawn(v1764)
+local function v1765()
+    local v2833 = v0["f9"]
+    local v2834 = game:GetService("SoundService")
+    local v2835 = v2833.Parent
+    local v2836 = "rbxassetid://140207837688369"
+    local v2837 = Instance.new("Sound")
+    v2837.SoundId = v2836
+    v2837.Volume = 0.8
+    v2837.Parent = v2834
+    v2835.MouseButton1Click:Connect(
+        function()
+            if v2837.IsLoaded then
+                v2837:Play()
+            else
+                v2837.Loaded:Wait()
+                v2837:Play()
+            end
+        end
+    )
+end
+task.spawn(v1765)
+local function v1766()
+    local v2841 = v0["fd"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v2842 = game:GetService("Workspace")
+    local v2843 = game:GetService("Lighting")
+    local v2844 = false
+    local v2845 = v2841.Parent
+    v2845.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2845.Text = "Closed"
+    local v2848 = {}
+    local function v2849()
+        v2848 = {}
+        v2848[v2843] = {GlobalShadows = v2843.GlobalShadows}
+        v2843.GlobalShadows = false
+        for v3221, v3222 in ipairs(v2842:GetDescendants()) do
+            if v3222:IsA("BasePart") then
+                v2848[v3222] = {Material = v3222.Material, CastShadow = v3222.CastShadow}
+                v3222.Material = Enum.Material.Plastic
+                v3222.CastShadow = false
+            elseif (v3222:IsA("Decal") or v3222:IsA("Texture")) then
+                v2848[v3222] = {Transparency = v3222.Transparency}
+                v3222.Transparency = 1
+            elseif
+                (v3222:IsA("ParticleEmitter") or v3222:IsA("Trail") or v3222:IsA("Beam") or v3222:IsA("Fire") or
+                    v3222:IsA("Smoke") or
+                    v3222:IsA("Sparkles"))
+             then
+                v2848[v3222] = {Enabled = v3222.Enabled}
+                v3222.Enabled = false
+            end
+        end
+        for v3223, v3224 in ipairs(v2843:GetChildren()) do
+            if
+                (v3224:IsA("PostEffect") or v3224:IsA("BloomEffect") or v3224:IsA("BlurEffect") or
+                    v3224:IsA("ColorCorrectionEffect") or
+                    v3224:IsA("SunRaysEffect"))
+             then
+                v2848[v3224] = {Enabled = v3224.Enabled}
+                v3224.Enabled = false
+            end
+        end
+    end
+    local function v2850()
+        for v3225, v3226 in pairs(v2848) do
+            if (v3225 and v3225.Parent) then
+                for v3493, v3494 in pairs(v3226) do
+                    pcall(
+                        function()
+                            v3225[v3493] = v3494
+                        end
+                    )
+                end
+            end
+        end
+        v2848 = {}
+    end
+    v2845.MouseButton1Click:Connect(
+        function()
+            v2844 = not v2844
+            if v2844 then
+                v2845.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2845.Text = "Open"
+                v2849()
+            else
+                v2845.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2845.Text = "Closed"
+                v2850()
+            end
+        end
+    )
+end
+task.spawn(v1766)
+local function v1767()
+    local v2851 = v0["fe"]
+    local v2852 = game:GetService("SoundService")
+    local v2853 = v2851.Parent
+    local v2854 = "rbxassetid://179235828"
+    local v2855 = Instance.new("Sound")
+    v2855.SoundId = v2854
+    v2855.Volume = 0.5
+    v2855.Parent = v2852
+    v2853.MouseEnter:Connect(
+        function()
+            if v2855.IsLoaded then
+                v2855:Play()
+            else
+                v2855.Loaded:Wait()
+                v2855:Play()
+            end
+        end
+    )
+end
+task.spawn(v1767)
+local function v1768()
+    local v2859 = v0["ff"]
+    local v2860 = game:GetService("SoundService")
+    local v2861 = v2859.Parent
+    local v2862 = "rbxassetid://140207837688369"
+    local v2863 = Instance.new("Sound")
+    v2863.SoundId = v2862
+    v2863.Volume = 0.8
+    v2863.Parent = v2860
+    v2861.MouseButton1Click:Connect(
+        function()
+            if v2863.IsLoaded then
+                v2863:Play()
+            else
+                v2863.Loaded:Wait()
+                v2863:Play()
+            end
+        end
+    )
+end
+task.spawn(v1768)
+local function v1769()
+    local v2867 = v0["102"]
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+    local v2868 = game:GetService("Players")
+    local v2869 = v2868.LocalPlayer
+    local v2870 = false
+    local v2871 = v2867.Parent
+    local v2872 = "rbxassetid://313131"
+    local v2873 = {}
+    v2871.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    v2871.Text = "Closed"
+    local function v2876(v3105)
+        local v3106 = v2873[v3105]
+        if v3106 then
+            if v3106.Highlight then
+                v3106.Highlight:Destroy()
+            end
+            if v3106.Beam then
+                v3106.Beam:Destroy()
+            end
+            if v3106.Att0 then
+                v3106.Att0:Destroy()
+            end
+            if v3106.Att1 then
+                v3106.Att1:Destroy()
+            end
+            v2873[v3105] = nil
+        end
+    end
+    local function v2877()
+        for v3227, v3228 in pairs(v2873) do
+            v2876(v3227)
+        end
+        table.clear(v2873)
+    end
+    local function v2878(v3107)
+        local v3108 = v2869.Character
+        local v3109 = v3108 and v3108:FindFirstChild("HumanoidRootPart")
+        local v3110 = v3107.Character
+        local v3111 = v3110 and v3110:FindFirstChild("HumanoidRootPart")
+        local v3112 = v2873[v3107]
+        if v3112 then
+            if (v3109 and (not v3112.Att0 or (v3112.Att0.Parent ~= v3109))) then
+                if v3112.Att0 then
+                    v3112.Att0:Destroy()
+                end
+                local v3495 = Instance.new("Attachment")
+                v3495.Name = "BeamAtt0_" .. v3107.Name
+                v3495.Parent = v3109
+                v3112.Att0 = v3495
+                if v3112.Beam then
+                    v3112.Beam.Attachment0 = v3495
+                end
+            end
+            return
+        end
+        if (not v3109 or not v3111) then
+            return
+        end
+        local v3113 = Instance.new("Highlight")
+        v3113.FillColor = Color3.fromRGB(43, 43, 43)
+        v3113.OutlineColor = Color3.fromRGB(255, 255, 255)
+        v3113.FillTransparency = 0.5
+        v3113.Parent = v3110
+        local v3118 = Instance.new("Attachment")
+        v3118.Name = "BeamAtt0_" .. v3107.Name
+        v3118.Parent = v3109
+        local v3121 = Instance.new("Attachment")
+        v3121.Name = "BeamAtt1_" .. v3107.Name
+        v3121.Parent = v3111
+        local v3124 = Instance.new("Beam")
+        v3124.Attachment0 = v3118
+        v3124.Attachment1 = v3121
+        v3124.FaceCamera = true
+        v3124.Color = ColorSequence.new(Color3.fromRGB(255, 0, 0))
+        v3124.Width0 = 0.2
+        v3124.Width1 = 0.2
+        v3124.Parent = v3110
+        v2873[v3107] = {Highlight = v3113, Beam = v3124, Att0 = v3118, Att1 = v3121}
+    end
+    local function v2879()
+        task.spawn(
+            function()
+                while v2870 do
+                    for v3466, v3467 in ipairs(v2868:GetPlayers()) do
+                        if ((v3467 ~= v2869) and v3467.Character) then
+                            local v3541 = v3467.Character:FindFirstChildOfClass("Humanoid")
+                            if v3541 then
+                                local v3640 = v3541:FindFirstChildOfClass("Animator") or v3541
+                                local v3641 = v3640:GetPlayingAnimationTracks()
+                                local v3642 = false
+                                for v3652, v3653 in ipairs(v3641) do
+                                    if (v3653.Animation and (v3653.Animation.AnimationId == v2872)) then
+                                        v3642 = true
+                                        break
+                                    end
+                                end
+                                if v3642 then
+                                    v2878(v3467)
+                                else
+                                    v2876(v3467)
+                                end
+                            end
+                        end
+                    end
+                    task.wait(1)
+                end
+            end
+        )
+    end
+    v2871.MouseButton1Click:Connect(
+        function()
+            v2870 = not v2870
+            if v2870 then
+                v2871.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+                v2871.Text = "Open"
+                v2879()
+            else
+                v2871.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+                v2871.Text = "Closed"
+                v2877()
+            end
+        end
+    )
+end
+task.spawn(v1769)
+local function v1770()
+    local v2880 = v0["103"]
+    local v2881 = game:GetService("SoundService")
+    local v2882 = v2880.Parent
+    local v2883 = "rbxassetid://179235828"
+    local v2884 = Instance.new("Sound")
+    v2884.SoundId = v2883
+    v2884.Volume = 0.5
+    v2884.Parent = v2881
+    v2882.MouseEnter:Connect(
+        function()
+            if v2884.IsLoaded then
+                v2884:Play()
+            else
+                v2884.Loaded:Wait()
+                v2884:Play()
+            end
+        end
+    )
+end
+task.spawn(v1770)
+local function v1771()
+    local v2888 = v0["104"]
+    local v2889 = game:GetService("SoundService")
+    local v2890 = v2888.Parent
+    local v2891 = "rbxassetid://140207837688369"
+    local v2892 = Instance.new("Sound")
+    v2892.SoundId = v2891
+    v2892.Volume = 0.8
+    v2892.Parent = v2889
+    v2890.MouseButton1Click:Connect(
+        function()
+            if v2892.IsLoaded then
+                v2892:Play()
+            else
+                v2892.Loaded:Wait()
+                v2892:Play()
+            end
+        end
+    )
+end
+task.spawn(v1771)
+local function v1772()
+    local v2896 = v0["106"]
+    a = v2896.Parent.Parent:FindFirstChild("Frame")
+    v2896.Parent.MouseButton1Down:Connect(
+        function()
+            a.Visible = true
+            v2896.Parent.Visible = false
+        end
+    )
+end
+task.spawn(v1772)
+local function v1773()
+    local v2897 = v0["107"]
+    local v2898 = game:GetService("SoundService")
+    local v2899 = v2897.Parent
+    local v2900 = "rbxassetid://179235828"
+    local v2901 = Instance.new("Sound")
+    v2901.SoundId = v2900
+    v2901.Volume = 0.5
+    v2901.Parent = v2898
+    v2899.MouseEnter:Connect(
+        function()
+            if v2901.IsLoaded then
+                v2901:Play()
+            else
+                v2901.Loaded:Wait()
+                v2901:Play()
+            end
+        end
+    )
+end
+task.spawn(v1773)
+local function v1774()
+    local v2905 = v0["108"]
+    local v2906 = game:GetService("SoundService")
+    local v2907 = v2905.Parent
+    local v2908 = "rbxassetid://140207837688369"
+    local v2909 = Instance.new("Sound")
+    v2909.SoundId = v2908
+    v2909.Volume = 0.8
+    v2909.Parent = v2906
+    v2907.MouseButton1Click:Connect(
+        function()
+            if v2909.IsLoaded then
+                v2909:Play()
+            else
+                v2909.Loaded:Wait()
+                v2909:Play()
+            end
+        end
+    )
+end
+task.spawn(v1774)
+local function v1775()
+    local v2913 = v0["10c"]
+    local v2914 = game:GetService("TweenService")
+    local v2915 = v2913.Parent
+    local v2916 = v2915.Position
+    v2915.Position = UDim2.new(1.5, 0, v2916.Y.Scale, v2916.Y.Offset)
+    local v2918 = TweenInfo.new(1, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+    local v2919 = {Position = v2916}
+    local v2920 = v2914:Create(v2915, v2918, v2919)
+    task.wait(0.5)
+    v2920:Play()
+end
+task.spawn(v1775)
+local function v1776()
+    local v2921 = v0["10d"]
+    s = Instance.new("Sound")
+    wait(0.2)
+    s.Parent = v2921.Parent
+    s.SoundId = "rbxassetid://136994329700115"
+    s.Playing = true
+    s.Volume = 1
+    wait(4.3)
+    v2921.Parent:Destroy()
+end
+task.spawn(v1776)
+return v0["1"], require

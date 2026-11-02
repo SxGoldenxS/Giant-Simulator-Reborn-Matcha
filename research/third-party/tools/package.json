@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@johnnymorganz/stylua-bin": "^2.6.0",
+    "lua-fmt": "^2.6.0",
+    "luaparse": "^0.3.1"
+  }
+}

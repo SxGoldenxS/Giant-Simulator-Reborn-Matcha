@@ -1,0 +1,12 @@
+{
+  "name": "giant-simulator-reborn-matcha",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Giant Simulator Reborn hub for Matcha Hybrid with REM UI and research evidence",
+  "scripts": {
+    "test": "node verification/run.cjs"
+  },
+  "devDependencies": {
+    "fengari": "0.1.4"
+  }
+}
